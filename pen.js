@@ -1,10 +1,14 @@
 $(document).ready(function() {
 	run();
-	$('#run').click(run);
+	$('#input').bind('input change', run);
+
+	$('#save').click(function() { download('pencode.txt', $('#input').val()) });
 });
 
 function run() {
 	$('#output').html(processText($('#input').val()));
+	$('#output span.startLarge').nextUntil('#output span.endLarge').addBack().css('font-size', '21');
+	$('#output span.startSmall').nextUntil('#output span.endSmall').addBack().css('font-size', '11');
 }
 
 String.prototype.replaceAll = function(strReplace, strWith) {
@@ -27,8 +31,8 @@ function processText(str) {
 	.replaceAll('[/u]', '</U>')
 	.replaceAll('[time]', getTimeString())
 	.replaceAll('[date]', getDateString())
-	.replaceAll('[large]', '<font size="4">')
-	.replaceAll('[/large]', '</font>')
+	.replaceAll('[large]', '<span class="startLarge"></span><span>')
+	.replaceAll('[/large]', '</span><span class="endLarge"></span>')
 	.replaceAll('[field]', '<span class="paper_field"></span>')
 	.replaceAll('[h1]', '<H1>')
 	.replaceAll('[/h1]', '</H1>')
@@ -38,8 +42,8 @@ function processText(str) {
 	.replaceAll('[/h3]', '</H3>')
 	.replaceAll('[*]', '<li>')
 	.replaceAll('[hr]', '<HR>')
-	.replaceAll('[small]', '<font size = "1">')
-	.replaceAll('[/small]', '</font>')
+	.replaceAll('[small]', '<span class="startSmall"></span><span>')
+	.replaceAll('[/small]', '</span><span class="endSmall"></span>')
 	.replaceAll('[list]', '<ul>')
 	.replaceAll('[/list]', '</ul>')
 	.replaceAll('[table]', '<table border=1 cellspacing=0 cellpadding=3 style="border: 1px solid black;">')
@@ -66,7 +70,20 @@ function getDateString() {
 
 function getTimeString() {
 	var date = new Date();
-	var hh = date.getHours() < 10 ? "0" + date.getHours() : date.getHours();
-	var mm = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
+	var hh = (date.getHours() < 10 ? "0" : "") + date.getHours();
+	var mm = (date.getMinutes() < 10 ? "0" : "") + date.getMinutes();
 	return hh + ":" + mm;
+}
+
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
 }
