@@ -25,8 +25,8 @@ function processText(str) {
 	.replaceAll('[/i]', '</I>')
 	.replaceAll('[u]', '<U>')
 	.replaceAll('[/u]', '</U>')
-	.replaceAll('[time]', '[stationtime2text()]')
-	.replaceAll('[date]', '[stationdate2text()]')
+	.replaceAll('[time]', getTimeString())
+	.replaceAll('[date]', getDateString())
 	.replaceAll('[large]', '<font size="4">')
 	.replaceAll('[/large]', '</font>')
 	.replaceAll('[field]', '<span class="paper_field"></span>')
@@ -54,4 +54,19 @@ function processText(str) {
 	.replaceAll('[terraseal]', '<img src = terralogo.png>')
 	.replaceAll('[editorbr]', ''))
 	return str;
+}
+
+function getDateString() {
+	var date = new Date();
+	var yyyy = date.getFullYear() + 544;
+	var mm = date.getMonth() < 10 ? "0" + date.getMonth() : date.getMonth();
+	var dd = date.getDate();
+	return yyyy + "-" + mm + "-" + dd;
+}
+
+function getTimeString() {
+	var date = new Date();
+	var hh = date.getHours() < 10 ? "0" + date.getHours() : date.getHours();
+	var mm = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
+	return hh + ":" + mm;
 }
