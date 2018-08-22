@@ -2,11 +2,11 @@ $(document).ready(function() {
 	run();
 	$('#input').bind('input change', run);
 
-	$('#save').click(function() { download('pencode.txt', $('#input').val() + '[field]') });
+	$('#save').click(function() { download('pencode.txt', $('#input').val()) });
 });
 
 function run() {
-	$('#output').html(processText($('#input').val()));
+	$('#output').html(processText($('#input').val() + '[field]'));
 	$('#output span.startLarge').nextUntil('#output span.endLarge').addBack().css('font-size', '21');
 	$('#output span.startSmall').nextUntil('#output span.endSmall').addBack().css('font-size', '11');
 	$('#output span.sig').css('font-style', 'italic');
