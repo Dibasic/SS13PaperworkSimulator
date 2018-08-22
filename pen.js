@@ -52,10 +52,10 @@ function processText(str) {
 	.replaceAll('[/grid]', '</td></tr></table>')
 	.replaceAll('[row]', '</td><tr>')
 	.replaceAll('[cell]', '<td>')
-	.replaceAll('[logo]', '<img src = ntlogo.png>')
-	.replaceAll('[bluelogo]', '<img src = bluentlogo.png>')
-	.replaceAll('[solcrest]', '<img src = sollogo.png>')
-	.replaceAll('[terraseal]', '<img src = terralogo.png>')
+	.replaceAll('[logo]', '<img src = https://raw.githubusercontent.com/baystation12/baystation12/dev/html/images/ntlogo.png>')
+	.replaceAll('[bluelogo]', '<img src = https://raw.githubusercontent.com/baystation12/baystation12/dev/html/images/bluentlogo.png>')
+	.replaceAll('[solcrest]', '<img src = https://raw.githubusercontent.com/baystation12/baystation12/dev/html/images/sollogo.png>')
+	.replaceAll('[terraseal]', '<img src = https://raw.githubusercontent.com/baystation12/baystation12/dev/html/images/terralogo.png>')
 	.replaceAll('[editorbr]', ''))
 	return str;
 }
