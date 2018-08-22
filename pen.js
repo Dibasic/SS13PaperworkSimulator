@@ -2,13 +2,14 @@ $(document).ready(function() {
 	run();
 	$('#input').bind('input change', run);
 
-	$('#save').click(function() { download('pencode.txt', $('#input').val()) });
+	$('#save').click(function() { download('pencode.txt', $('#input').val() + '[field]') });
 });
 
 function run() {
 	$('#output').html(processText($('#input').val()));
 	$('#output span.startLarge').nextUntil('#output span.endLarge').addBack().css('font-size', '21');
 	$('#output span.startSmall').nextUntil('#output span.endSmall').addBack().css('font-size', '11');
+	$('#output span.sig').css('font-style', 'italic');
 }
 
 String.prototype.replaceAll = function(strReplace, strWith) {
@@ -31,6 +32,8 @@ function processText(str) {
 	.replaceAll('[/u]', '</U>')
 	.replaceAll('[time]', getTimeString())
 	.replaceAll('[date]', getDateString())
+	.replaceAll('[large]', '<span class="startLarge"></span><span>')
+	.replaceAll('[/large]', '</span><span class="endLarge"></span>')
 	.replaceAll('[large]', '<span class="startLarge"></span><span>')
 	.replaceAll('[/large]', '</span><span class="endLarge"></span>')
 	.replaceAll('[field]', '<span class="paper_field"></span>')
@@ -57,6 +60,7 @@ function processText(str) {
 	.replaceAll('[solcrest]', '<img src = ./img/sollogo.png>')
 	.replaceAll('[terraseal]', '<img src = ./img/terralogo.png>')
 	.replaceAll('[editorbr]', ''))
+	.replaceAll('[sign]', '<span class="sig">John Doe</span>')
 	return str;
 }
 
