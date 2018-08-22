@@ -1,0 +1,62 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.paper_field::before {
+	color: blue;
+
+	font-style: italic;
+	text-decoration: underline;
+	
+	content: "write...";
+}
+
+#wrapper {
+	margin: 0 auto;
+	height: 94%;
+	width: 100%;
+
+	display: table;
+	table-layout: fixed;
+}
+
+header footer {
+	height: 5%;
+	padding: 0 8;
+}
+
+.content {
+	padding: 8 4;
+	margin: 0 auto;
+
+	box-sizing: border-box;
+
+	display: table-cell;
+
+	vertical-align: top;
+}
+
+#output {
+	padding: 2 0 0 2;
+	border: 1px solid gray;
+
+	width: 100%;
+	height: 100%;
+
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+textarea {
+	width: 100%;
+	height: 100%;
+
+	resize: none;
+}
+
+#run {
+	box-sizing: border-box;
+	margin: 0 auto;
+
+	width: 100%;
+}
