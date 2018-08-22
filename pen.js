@@ -1,9 +1,11 @@
 $(document).ready(function() {
-	$('#run').click(function() {
-		//$('#output').text(processText($('#input').val()));
-		$('#output').html(processText($('#input').val()));
-	});
+	run();
+	$('#run').click(run);
 });
+
+function run() {
+	$('#output').html(processText($('#input').val()));
+}
 
 String.prototype.replaceAll = function(strReplace, strWith) {
     // See http://stackoverflow.com/a/3561711/556609
