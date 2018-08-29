@@ -67,7 +67,8 @@ function processText(str) {
 function getDateString() {
 	var date = new Date();
 	var yyyy = date.getFullYear() + 544;
-	var mm = date.getMonth() < 10 ? "0" + date.getMonth() : date.getMonth();
+	var mm = date.getMonth() + 1;
+	mm = mm < 10 ? "0" + mm : mm;
 	var dd = date.getDate();
 	return yyyy + "-" + mm + "-" + dd;
 }
