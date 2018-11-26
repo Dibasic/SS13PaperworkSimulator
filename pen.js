@@ -107,3 +107,19 @@ function download(filename, text) {
 
   document.body.removeChild(element);
 }
+
+function loadFile(filename) {
+    // See https://stackoverflow.com/a/6470614
+
+    var fileContents = 'File not found!'
+
+    $.ajax({
+        url: 'records.txt',
+        dataType: "text",
+        success: function (data){
+            fileContents = data;
+        }
+    });
+
+    $('#input').val(fileContents)
+}
