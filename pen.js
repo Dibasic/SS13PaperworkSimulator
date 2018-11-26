@@ -110,6 +110,6 @@ function download(filename, text) {
 
 function loadFile(filename) {
     $.get('./templates/' + filename, function(data) {
-        $('#input').html(data);
+        $('#input').text(data);
     });
 }
