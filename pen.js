@@ -3,6 +3,8 @@ $(document).ready(function() {
     $('#input').bind('input change', run);
 
     $('#save').click(function() { download('pencode.txt', $('#input').val()) });
+
+    $('#load').click(function() { loadFile($('#template').val()) });
 });
 
 function run() {
