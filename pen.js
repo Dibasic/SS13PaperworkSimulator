@@ -113,4 +113,5 @@ function loadFile(filename) {
         alert(data);
         return data;
     });
+    return 'No data returned.'
 }
