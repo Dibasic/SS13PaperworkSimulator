@@ -121,5 +121,5 @@ function loadFile(filename) {
         }
     });
 
-    $('#input').val(fileContents)
+    return fileContents
 }
