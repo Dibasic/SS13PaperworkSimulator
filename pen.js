@@ -112,4 +112,5 @@ function loadFile(filename) {
     $.get('./templates/' + filename, function(data) {
         $('#input').val(data);
     });
+    run();
 }
