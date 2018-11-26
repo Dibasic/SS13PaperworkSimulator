@@ -109,6 +109,6 @@ function download(filename, text) {
 }
 
 function loadFile(filename) {
-    var response = $.get('./templates/' + filename);\
+    var response = $.get('./templates/' + filename);
     return response.responseText;
 }
