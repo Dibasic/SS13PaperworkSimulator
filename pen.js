@@ -109,14 +109,7 @@ function download(filename, text) {
 }
 
 function loadFile(filename) {
-
-    var fileContents = 'No data returned.'
-
     $.get('./templates/' + filename, function(data) {
-        alert(data);
-        fileContents = data;
         $('#input').html(data);
-        return data;
     });
-    return fileContents;
 }
