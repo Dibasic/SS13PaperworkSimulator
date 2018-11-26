@@ -109,17 +109,6 @@ function download(filename, text) {
 }
 
 function loadFile(filename) {
-    // See https://stackoverflow.com/a/6470614
-
-    var fileContents = 'File not found!'
-
-    $.ajax({
-        url: filename,
-        dataType: 'text',
-        success: function (data){
-            fileContents = data;
-        }
-    });
-
-    return fileContents
+    var response = $.get('./templates/' + filename);\
+    return response.responseText;
 }
