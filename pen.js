@@ -114,8 +114,8 @@ function loadFile(filename) {
     var fileContents = 'File not found!'
 
     $.ajax({
-        url: 'records.txt',
-        dataType: "text",
+        url: filename,
+        dataType: 'text',
         success: function (data){
             fileContents = data;
         }
