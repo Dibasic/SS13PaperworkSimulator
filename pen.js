@@ -3,8 +3,7 @@ $(document).ready(function() {
     $('#save').click(function() { download('pencode.txt', $('#input').val()) });
     $('#load').click(function() { loadFile($('#template').val()) });
 
-    loadFile('_instructions.txt');
-    run();
+    setTimeout(function() {loadFile('instructions.txt')}, 100); 
 });
 
 function run() {
@@ -12,7 +11,6 @@ function run() {
     $('#output span.startLarge').nextUntil('#output span.endLarge').addBack().css('font-size', '21');
     $('#output span.startSmall').nextUntil('#output span.endSmall').addBack().css('font-size', '11');
     $('#output span.sig').css('font-style', 'italic');
-    console.log('running');
 }
 
 String.prototype.replaceAll = function(strReplace, strWith) {
