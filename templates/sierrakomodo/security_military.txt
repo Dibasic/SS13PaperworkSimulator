@@ -1,0 +1,10 @@
+[b]Arrest/Criminal Record[/b]:
+ - Dated notes on public civilian arrest records
+ - YYYY - Charge. Precinct/Location. Sentencing.
+
+[b]SCUJ Record[/b]:
+ - Dated notes on SCUJ/military violations
+ - YYYY - Charge. Precinct/Location. Sentencing.
+
+[b]Security Notes[/b]:
+ - Summarized list of anything security personnel should probably be aware of, that isn't included above

@@ -1,0 +1,6 @@
+[b]Arrest/Criminal Record[/b]:
+ - Dated notes on public civilian arrest records
+ - YYYY - Charge. Precinct/Location. Sentencing.
+
+[b]Security Notes[/b]:
+ - Summarized list of anything security personnel should probably be aware of, that isn't included above

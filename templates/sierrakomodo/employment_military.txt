@@ -1,0 +1,20 @@
+[b]Experience[/b]:
+ - General notes on industry and years of experience in each industry - Ordered by longest experience to shortest
+ - Field/Area - Y year(s)
+
+[b]Current Certifications[/b]:
+ - Summarized list of current valid, non-expired certifications (I.e. piloting, EMT, etc)
+ - Certification (Exp. YYYY-MM-DD) [i](Notes)[/i]
+
+[b]Education History[/b]:
+ - Dated notes on post-high school enrollment, graduation, acquired degrees, etc
+ - YYYY - School/Institution. Field/Degree. Enrollment/Graduation Status.
+
+[b]Civilian Employment History[/b]:
+ - Dated notes on employment - Hired, fired, laid off, quit, notable promotions, etc
+ - YYYY - Company Name. Job Title. Employment Status.
+
+[b]Military Service Record[/b]:
+ - Dated notes on military service history - Date of enlistment, promotions, transfers, demotions, etc
+ - YYYY - Promotion/Demotion to RANK. Assigned Facility/Vessel. Promoting Officer.
+ - YYYY - Transfer/Assignment to JOB. New assigned Facility/Vessel. New direct superior.
