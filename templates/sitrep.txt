@@ -1,0 +1,39 @@
+[center][solcrest]
+[h1]SCGEC SITREP[/h1][/center][hr]
+[b]SITREP no.[/b][field]
+[b]DATE:[/b] [date]
+[b]TIME:[/b] [time]
+
+[b]REMOTE ASSET:[/b] EXPEDITIONARY COMMAND
+[b]ONSITE ASSET:[/b] SEV Torch
+
+[hr]
+[b]1.0 SITUATION TO DATE[/b]
+[field]
+
+[b]2.0 ACTIONS TO DATE[/b]
+[field]
+
+[b]3.0 ACTIONS TO BE COMPLETED[/b]
+[field]
+
+[b]4.0 ISSUES OUTSTANDING[/b]
+[field]
+
+[b]5.0 ESCALATION ACTIONS/DETAILS REQUIRED[/b]
+[field]
+
+[hr]
+[grid][row][cell][b]FROM:[/b][cell][field]
+[row][cell][b]RANK:[/b][cell][field]
+[row][cell][b]ROLE: [/b][cell][field]
+[row][cell][b]SIGN:[/b][cell][field][/grid]
+[grid][row][cell][b]VIA:[/b][cell][field]
+[row][cell][b]RANK:[/b][cell][field]
+[row][cell][b]ROLE: [/b][cell][field]
+[row][cell][b]SIGN:[/b][cell][field][/grid]
+[hr]
+
+[small][i]Information in a SITREP should be factual and largely without interpretation and conjecture. Information in a SITREP should cover the period between the last SITREP and the next SITREP. A SITREP should be brief and not a narrative (reading time 3-5 minutes); a report should be used for the provision of more detailed information. A SITREP should be specific for a given functional area and not present information that is outside the specific functional area. It is acceptable for a SITREP to be issued that states no change since previous SITREP, in which case the recipient should be directed to see the previous SITREP for information. A photograph or other graphic can be part of a SITREP; ensure date and time are present on the graphic and there is a reference between the graphic and the SITREP. A SITREP and an Incident Action Plan (IAP) are not interchangeable. The first part of an IAP, the Situation, is likely to contain much of the content in a SITREP assuming their time period and functional area are the same. Each electronically produced SITREP should be saved as a separate document and saved to the same directory or archive for transmission.[/i][/small]
+
+[small][i]Only a commissioned Expeditionary Corps or Fleet line officer, an acting line officer, or the resident officer in charge of the relevant command ("ONSITE ASSET") may authorize this SITREP. This SITREP is authorized if it is signed or stamped by an approving officer ("FROM") who may authorize it or if its transmission has been requested by an authorized officer of the recipient ("REMOTE ASSET") and it is signed or stamped by the approving officer. This SITREP is void unless authorized. By authorizing the transmission of this SITREP, the approving officer and preparing officer ("VIA") both verify its contents are true and correct to the best of their knowledge, and that no relevant detail has been knowingly and purposely omitted.[/i][/small]
