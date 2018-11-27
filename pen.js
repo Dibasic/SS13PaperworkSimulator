@@ -1,10 +1,10 @@
 $(document).ready(function() {
-    run();
     $('#input').bind('input change', run);
-
     $('#save').click(function() { download('pencode.txt', $('#input').val()) });
-
     $('#load').click(function() { loadFile($('#template').val()) });
+
+    loadFile('_instructions.txt');
+    run();
 });
 
 function run() {
@@ -12,6 +12,7 @@ function run() {
     $('#output span.startLarge').nextUntil('#output span.endLarge').addBack().css('font-size', '21');
     $('#output span.startSmall').nextUntil('#output span.endSmall').addBack().css('font-size', '11');
     $('#output span.sig').css('font-style', 'italic');
+    console.log('running');
 }
 
 String.prototype.replaceAll = function(strReplace, strWith) {
@@ -114,5 +115,6 @@ function loadFile(filename) {
     $.get('./templates/' + filename, function(data) {
         $('#input').val(data);
     });
-    run();
+
+    setTimeout(run, 100);
 }

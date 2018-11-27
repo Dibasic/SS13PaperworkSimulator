@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
 	<title>Paperwork Simulator 2562</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -11,28 +12,15 @@
     <header>PAPERWORK SIMULATOR 2562 (by Persona E)</header>
     <div id="wrapper">
         <main class="content">
-            <textarea id="input" autofocus>[h1]Instructions[/h1][br][list][*]Put your paperwork entry in the box on the left[*]See the incredible result in the box on the right[/list]
-
-[h2]Things to try[/h2]
-[grid][row][cell]Headers[cell]Formatting[cell]Replacement[cell]Font
-[row][cell]h1[cell]table[cell]date ([date])[cell]b ([b]bold[/b])
-[row][cell]h2[cell]grid[cell]time ([time])[cell]i ([i]italic[/i])
-[row][cell]h3[cell]list and *[cell]sign[cell]u ([u]underline[/u])
-[row][cell][cell]center[cell]solcrest,[br]logo/bluelogo,[br]terraseal[cell]large ([large]large[/large])
-[row][cell][cell][cell][cell]small ([small]small[/small])
-[/grid]
-
-[h3]Known Issues[/h3]
-[list][*]The large and small tags, and other tags that should bleed over into subsequent elements (grids, tables, lists) may not work properly. You can work around this by putting the tag inside the element.[/list]</textarea>
+            <textarea id="input" autofocus></textarea>
         </main>
-        <main class="content">
+        <main>
             <div id="output"></div>
         </main>
     </div>
     <footer>
-        <button id="save">Save Pen Code</button>
-        <button id="load">Load a Template</button>
-        <select id="template">
+        <select class="control" id="template">
+            <option value="_instructions.txt">Instructions</option>
             <optgroup label="Command">
                 <option value="sitrep.txt">SITREP</option>
             </optgroup>
@@ -51,5 +39,7 @@
                 <option value="sierrakomodo/security_military.txt">Security (Military)</option>
             </optgroup>
         </select>
+        <button class="control" id="load">Load Template</button>
+        <button class="control" id="save">Save Pen Code</button>
     </footer>
 </body>
