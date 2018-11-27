@@ -1,0 +1,26 @@
+[b][u]SOLGOV CIVILIAN CONTRACTOR PERSONNEL FILE[/u][/b]
+[b]Date of Birth[/b]: YYYY-MM-DD
+[b]Citizenship[/b]: Nation [i](Home)[/i]
+[b]Known Languages[/b]:
+ - Language (Fluency)
+
+[b]Contracted From[/b]: Company Name/Independent Contractor
+[b]Contract Start Date[/b]: YYYY-MM-DD
+[b]Contract End Date[/b]: YYYY-MM-DD
+[b]Assignment(s)[/b]:
+ - Job Title [i](Notes)[/i]
+
+[b]Height[/b]: 000cm (0'00")
+[b]Weight[/b]: 000kg (000lb)
+[b]Identifying Features[/b]: Skin/fur/scale/chassis color. Hair color. Eye color. Other distinguishing features.
+[b]Photo[/b]: link-to-image.jpeg
+[i](Credit: Artwork by artist-name-here)[/i]
+
+[b]General Notes[/b]:
+ - Public employment notes that appear on medical and security records
+
+[b]Security Notes[/b]:
+ - Public security notes that appear on medical and employment records
+
+[b]Medical Notes[/b]:
+ - Public medical notes that appear on employment and security records

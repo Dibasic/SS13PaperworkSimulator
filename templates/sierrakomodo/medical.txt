@@ -1,0 +1,30 @@
+[b]DO NOT XYZ (Prosthetics, borgification, resuscitation, etc)[/b]
+
+[b]Physical Status[/b]: Simple note on results from latest physical
+[b]Mental Status[/b]: Simple note on results from latest psych eval
+
+[b]Current Prescriptions[/b]:
+ - Medication. Dosage. Date Prescribed - End Date. Prescribing Doctor. [i](Notes)[/i]
+
+[b]Previous Prescriptions[/b]:
+ - Medication. Dosage. Date Prescribed - Date Ended. Prescribing Doctor. [i](Notes)[/i]
+
+[b]Next of Kin[/b]:
+ - Name. Relation. [i](Notes)[/i]
+
+[b]Medical History[/b]:
+ - Notes regarding dated medical procedure, surgery, physicals, checkups, diagnosis, medical leave, prescription start/stop dates, etc
+ - YYYY - Procedure/Surgery/Physical/etc. Facility/Location. Doctor. Summary of results.
+
+[b]Medical Notes[/b]:
+ - Summarized notes of non-dated information - Allergens, current illnesses, disabilities, etc
+
+[b]Psychiatric History[/b]:
+ - Notes regarding dated psychiatric evaluations, diagnosis, prescription start/stop dates, etc
+ - YYYY - Procedure/Surgery/Physical/etc. Facility/Location. Doctor. Summary of results.
+
+[b]Psychiatric Notes[/b]:
+ - Summarized notes of non-dated information - Mental illnesses, disabilities, risks of stress-induced issues, etc
+
+[b]Post-Mortem Instructions[/b]:
+ - What to do on death.
