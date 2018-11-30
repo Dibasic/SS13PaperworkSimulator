@@ -1,0 +1,20 @@
+[center][solcrest][h1]Patrol Designations[/h1][i]Revision [date] - [time][/i]
+
+[table][row][cell][b]Callsign[/b][cell][b]Rank[/b][cell][b]Name[/b][cell][b]Assignment[/b]
+[row][cell][b]SECCOM[/b][cell][field][cell][field][cell]Bridge Duty
+[row][cell][b]BRIG[/b][cell][field][cell][field][cell]Patrol Overwatch
+[row][cell][b]FORS[/b][cell][field][cell][field][cell]Forensics
+[row][cell][b]P1[/b][cell][field][cell][field][cell]Bridge Deck
+[row][cell][b]P2[/b][cell][field][cell][field][cell]Operations Deck
+[row][cell][b]P3[/b][cell][field][cell][field][cell]Habitation Deck
+[row][cell][b]P4[/b][cell][field][cell][field][cell]Hangar Deck
+[/table]
+[hr][h3]Emergency Pairings[/h3][small][i]For code blue and above[/i][/small]
+[table][row][cell][b]Callsign[/b][cell][b]Composition[/b][cell][b]Rally Point[/b]
+[row][cell][b]QRF (Quick Response Force)[/b][cell]BRIG, FORS[cell]Brig Lobby
+[row][cell][b]ODDS (Even Patrols)[/b][cell]P1, P3[cell]Deck 1 Checkpoint
+[row][cell][b]EVENS (Odd Patrols)[/b][cell]P2, P4[cell]Deck 3 Checkpoint
+[/table]
+[hr][h3]Initial orders[/h3][small][i]For patrol commencement[/i][/small]
+Complete a full patrol sweep of your deck, searching through maintenance at your discretion. Maintain your position within your assigned decks and only respond to calls on other decks when patrol overwatch tells you to. [b]You are responsible for the overseeing of your own assigned decks.[/b]
+[sign]
