@@ -1,0 +1,21 @@
+[small][center][Logo]
+Corporate Complaint Form C-2202[/center]
+
+[b]EXO Personnel Complaint Form[/b]
+Vessel: SEV Torch
+DTG: [date], [time]
+
+[b]Complainant:[/b] [field]
+[b]Complainee(s):[/b] [field]
+
+Complaint Overview:
+[field]
+
+Complaint Details:
+[field]
+
+[hr]
+Complainant's Signature: [field]
+Witness Signature: [field]
+
+[center]Stamp below if Approved[/center][hr]
