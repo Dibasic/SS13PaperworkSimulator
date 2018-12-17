@@ -15,7 +15,7 @@ Complaint Details:
 [field]
 
 [hr]
-Complainant's Signature: [field]
+Complainant Signature: [field]
 Witness Signature: [field]
 
 [center]Stamp below if Approved[/center][hr]
