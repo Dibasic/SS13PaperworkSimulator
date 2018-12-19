@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
-	<title>Paperwork Simulator 2562</title>
+    <title>Paperwork Simulator 2562</title>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
-	<link rel="shortcut icon" href="favicon.png" />
+    <link rel="shortcut icon" href="favicon.png" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
@@ -21,33 +21,33 @@
     <footer>
         <select class="control" id="template">
             <option value="instructions.txt">Instructions</option>
-			<optgroup label="Security">
-                <option value="security/incident_report.txt">Incident Report</option>
-                <option value="security/patrol_assignment.txt">Patrol Assignment</option>
-                <option value="security/personnel_watchlist.txt">POI Watchlist</option>
-            </optgroup>
             <optgroup label="Command">
                 <option value="command/sitrep.txt">SITREP</option>
                 <option value="command/incident.txt">Incident Report</option>
+                <optgroup label="Command (EXO)">
+                    <option value="command/exo/EXO_complaint.txt">EXO Personnel Complaint</option>
+                    <option value="command/exo/nEXO_complaint.txt">Non-EXO Personnel Complaint</option>
+                </optgroup>
+            </optgroup>
+            <optgroup label="Security">
+                <option value="security/incident_report.txt">Incident Report</option>
+                <option value="security/patrol_assignment.txt">Patrol Assignment</option>
+                <option value="security/personnel_watchlist.txt">POI Watchlist</option>
             </optgroup>
             <optgroup label="Records">
                 <option value="records/employment_fleet.txt">Employment (Fleet)</option>
                 <option value="records/medical.txt">Medical</option>
                 <option value="records/security.txt">Security</option>
+                <optgroup label="Records (SierraKomodo)">
+                    <option value="records/sierrakomodo/public_contractor.txt">Public/Header (Contractor)</option>
+                    <option value="records/sierrakomodo/public_military.txt">Public/Header (Military)</option>
+                    <option value="records/sierrakomodo/employment_contractor.txt">Employment (Contractor)</option>
+                    <option value="records/sierrakomodo/employment_military.txt">Employment (Military)</option>
+                    <option value="records/sierrakomodo/medical.txt">Medical (Common)</option>
+                    <option value="records/sierrakomodo/security_contractor.txt">Security (Contractor)</option>
+                    <option value="records/sierrakomodo/security_military.txt">Security (Military)</option>
+                </optgroup>
             </optgroup>
-            <optgroup label="Records (SierraKomodo)">
-                <option value="sierrakomodo/public_contractor.txt">Public/Header (Contractor)</option>
-                <option value="sierrakomodo/public_military.txt">Public/Header (Military)</option>
-                <option value="sierrakomodo/employment_contractor.txt">Employment (Contractor)</option>
-                <option value="sierrakomodo/employment_military.txt">Employment (Military)</option>
-                <option value="sierrakomodo/medical.txt">Medical (Common)</option>
-                <option value="sierrakomodo/security_contractor.txt">Security (Contractor)</option>
-                <option value="sierrakomodo/security_military.txt">Security (Military)</option>
-            </optgroup>
-	    <optgroup label="Corporate Forms (Boznar)">
-		<option value="boznar/nEXO_complaint.txt">Non-EXO Personnel Complaint</option>
-		<option value="boznar/EXO_complaint.txt">EXO Personnel Complaint</option>
-	    </optgroup>
         </select>
         <button class="control" id="load">Load Template</button>
         <button class="control" id="save">Save Pen Code</button>
