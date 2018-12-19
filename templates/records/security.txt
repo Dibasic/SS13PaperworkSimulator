@@ -1,12 +1,4 @@
-[b]NAME:[/b] Reynolds, Allison Preston
-[b]DOB:[/b] 2521-08-20
- 
-[b]LAST UPDATE:[/b] 2562-03-14
- 
-[b]SPECIES:[/b] Human
-[b]ETHNICITY:[/b] Martian-Samoan
- 
-[b]HUMAN IDENTIFYING FEATURES[/b]
+[b]HUMAN IDENTIFYING FEATURES[/b] (Adjust for non-humans, color/patterning, chassis make/model, etc.)
 [b]HEIGHT:[/b] 185 cm (6' 1")
 [b]WEIGHT:[/b] 79 kg (174 lbs.)
 [b]SKIN COLOR:[/b] Brown
