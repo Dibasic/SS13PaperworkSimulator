@@ -1,13 +1,103 @@
-[h1]Instructions[/h1][br][list][*]Put your paperwork entry in the box on the left[*]See the incredible result in the box on the right[/list]
+[h1]Instructions[/h1][br][list][*]Put your paperwork entry in the box on the left
+[*]See the incredible result in the box on the right
+[*]Select a template from the dropdown at the bottom of the page, then click 'Load Template' to load it into the input area
+[*]Click 'Save Pen Code' to save your work as pencode.txt in your default download location
+[/list]
 
-    [h2]Things to try[/h2]
-    [grid][row][cell]Headers[cell]Formatting[cell]Replacement[cell]Font
-    [row][cell]h1[cell]table[cell]date ([date])[cell]b ([b]bold[/b])
-    [row][cell]h2[cell]grid[cell]time ([time])[cell]i ([i]italic[/i])
-    [row][cell]h3[cell]list and *[cell]sign[cell]u ([u]underline[/u])
-    [row][cell][cell]center[cell]solcrest,[br]logo/bluelogo,[br]terraseal[cell]large ([large]large[/large])
-    [row][cell][cell][cell][cell]small ([small]small[/small])
-    [/grid]
+[hr]
 
-    [h3]Known Issues[/h3]
-    [list][*]The large and small tags, and other tags that should bleed over into subsequent elements (grids, tables, lists) may not work properly. You can work around this by putting the tag inside the element.[/list]
+[h2]How to Contribute[/h2]If you want to contribute and are not sure how to do something with git or GitHub, please contact me! I may be able to do it for you or help show you how to do it yourself.
+
+Repository on GitHub: https://github.com/Dibasic/SS13PaperworkSimulator/
+
+Want to request a template? Found a bug? Please create an issue on the tracker.
+
+Want to add a template? If the template is your own work and you are willing to license it under Creative Commons, please make a pull request.
+
+[list][h3]How to Add a New Template[/h3][*]Place your templates in the [b]templates[/b] directory in the most relevant folder. The subdirectory you choose is up to you. No good match? Add your own subfolder and put it in there.
+[*]In [b]index.html[/b], find the [b]select[/b] tag in the footer. Inside it, find the [b]optgroup[/b] your template best fits under. No good match? Add your own [b]optgroup[/b] with a descriptive [b]label[/b] attribute.
+[*]Add a new [b]option[/b] element. The [b]value[/b] attribute is the relative path to your template, including its file name. Between the opening and closing [b]option[/b] tags, give your template a good name.[/list]
+
+[hr]
+
+[center][h1]Pencode Cheat Sheet[/h1][/center]
+
+[center][h2]Headers[/h2][/center]
+[h1]h1[/h1]
+[h2]h2[/h2]
+[h3]h3[/h3]
+
+[center][h2]Formatting:[/h2][/center]
+
+table - for arranging tabular data, checklists, or other forms
+
+[table][row][cell][cell]B1[cell]C1
+[row][cell]A2[cell][cell]C2
+[row][cell]A3[cell]B3[cell]
+[/table]
+
+grid - just a table without borders, useful for columns or less cluttered forms
+
+[grid][row][cell][cell]B1[cell]C1
+[row][cell]A2[cell][cell]C2
+[row][cell]A3[cell]B3[cell]
+[/grid]
+
+list - does what it says on the tin. You can also use it for its header element if you really need an indent, I guess.
+[list]List header line
+[*]1
+[*]2
+[*]3
+[/list]
+
+[list]example of using list as an indent.[/list]
+
+center - nice for headers
+[center]centered text[/center]
+
+br
+you[br]don't[br]need[br]to[br]use[br]these[br]anymore,[br]line[br]breaks[br]work[br]just[br]fine by themselves, but paperwork sure was hellish back when you needed one of these on every line break.
+
+hr - makes a pretty line at the tag and leaves a space underneath, so you probably want an extra line break above one to make it look balanced:
+.
+ .
+  .
+[hr]
+    .
+[center][h2]Font[/h2][/center]
+
+b - [b]bold[/b]
+i - [i]italic[/i]
+u - [u]underline[/u]
+small - [small]great for fine print, not always visible on the simulator, sorry[/small]
+large - [large]just the opposite[/large]
+
+[center][h2]Replacements - date/time, signatures, fields, logos[/h2][/center]
+
+date
+[date]
+
+time
+[time]
+
+sign - be careful, if you want a place on your form for someone to sign, you probably want to use a field instead
+[sign]
+
+field - [b]critical[/b] for forms
+[field]
+
+images:
+
+solcrest
+[solcrest]
+
+logo
+[logo]
+
+bluelogo
+[bluelogo]
+
+terraseal
+[terraseal]
+
+[hr]
