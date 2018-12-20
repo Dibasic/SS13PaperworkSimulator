@@ -1,0 +1,70 @@
+[center][solcrest][/center][hr][hr][h3]SCGEC FORM UF102b: SPECIAL REQUISITION[/h3][/center][hr][hr][grid][row][cell][b]REQUEST DATE[/b][cell]: [date]
+[row][cell][b]LOCAL TIME[/b][cell]: [time] 
+[row][cell][b]ONSITE ASSET[/b][cell]: SEV TORCH
+[row][cell][b]REMOTE ASSET[/b][cell]: SCGECO COMSUP
+[row][cell]
+[row][cell][b]PURPOSE OF REQUEST[/b][cell]: [field]
+[row][cell][b]PREFERRED SUPPLIER[/b][cell]: [field]
+[row][/grid][hr][hr][h3]ITEM OR ITEMS REQUESTED[/h3][hr][hr]
+[table][row][cell][b]ITEM[/b][cell][b]AMOUNT/QUANTITY[/b][cell][b]REASON FOR REQUEST[/b]
+[row][cell][field][cell][field][cell][field]
+[row][cell][field][cell][field][cell][field]
+[row][cell][field][cell][field][cell][field]
+[row][cell][field][cell][field][cell][field]
+[row][cell][field][cell][field][cell][field][/table][small][b]IMPORTANT: DO NOT LEAVE ANY ROWS BLANK. FILL ALL UNUSED ROWS WITH "N/A" TO PREVENT FRAUDULENT USE OF THIS FORM. FRAUDULENT USE AND NEGLIGENT PREPARATION OF THIS FORM ARE PUNISHABLE BY CRIMINAL LAW AND THE SCUJ.[/b][/small]
+
+[hr][hr][h3]AUTHORIZATION *[/h3][hr][hr]
+[b]REQUESTING[/b] party
+
+[small][i]I take responsibility for any fraudulent use of this form. I verify to the best of my knowledge that all reasons I have provided above are true and correct, that I have permission from all required authorities, and that I make my request with no illegal intent.[/i][/small]
+[grid]
+[row][cell][b]RANK / RATE[/b][cell]: [field]
+[row][cell][b]FULL NAME[/b][cell]: [field]
+[row][cell][b]ASSIGNMENT[/b][cell]: [field]
+[row][cell][b]SIGN[/b][cell]: [field]
+[row][cell][b]DATE[/b][cell]: [field][/grid]
+[hr]
+[b]PREPARING[/b] technician or assistant, if applicable
+
+[small][i]I verify to the best of my knowledge that the above form has been completed fully and that I have instructed all parties to its correct use.[/i][/small]
+[grid]
+[row][cell][b]RANK / RATE[/b][cell]: [field]
+[row][cell][b]FULL NAME[/b][cell]: [field]
+[row][cell][b]SIGN[/b][cell]: [field]
+[row][cell][b]DATE[/b][cell]: [field][/grid]
+[hr]
+[b]AUTHORIZING[/b] Deck Chief or Deck Officer [b]**[/b]
+
+[small][i]I authorize the transmission of this form to the REMOTE ASSET. I take responsibility for any negligent use of this form. I verify to the best of my knowledge that I have supervised the correct use of this form and that the reasons listed are reasonable and valid and that no party authorizing this request has done so under undue duress or influence.[/i][/small]
+[grid]
+[row][cell][b]RANK / RATE[/b][cell]: [field]
+[row][cell][b]FULL NAME[/b][cell]: [field]
+[row][cell][b]SIGN[/b][cell]: [field]
+[row][cell][b]DATE[/b][cell]: [field][/grid]
+[hr]
+[b]IMMEDIATE COMMAND[/b] of requesting party [b]***[/b]
+
+[small][i]I authorize the requesting party to request the above item or items. I verify to the best of my knowledge that the requesting party is my subordinate and that the reasons listed are plausible and relevant to their duties.[/i][/small]
+[grid]
+[row][cell][b]RANK / RATE[/b][cell]: [field]
+[row][cell][b]FULL NAME[/b][cell]: [field]
+[row][cell][b]ASSIGNMENT[/b][cell]: [field]
+[row][cell][b]SIGN[/b][cell]: [field]
+[row][cell][b]DATE[/b][cell]: [field][/grid]
+[hr]
+[b]RELEVANT AUTHORITY[/b], if necessary [b]****[/b]
+
+[small][i]I authorize the requesting party to possess, handle, and/or operate the item or items listed above. I verify that the reasons listed above are valid to the best of my professional judgement.[/i][/small]
+[grid]
+[row][cell][b]RANK / RATE[/b][cell]: [field]
+[row][cell][b]FULL NAME[/b][cell]: [field]
+[row][cell][b]ASSIGNMENT[/b][cell]: [field]
+[row][cell][b]SIGN[/b][cell]: [field]
+[row][cell][b]DATE[/b][cell]: [field][/grid]
+[hr]
+[small][i]* The components necessary to authorize this requisition are: the requesting party; the preparing party; command authority of supply department (DC, DO, XO, CO, ROIC); authorization to send subspace transmission (DC, DO, any LO); authorization to possess or operate all requested items (SNCO or LO relevant to item or items); acknowledgement of one or more superiors of the requesting party (SNCO or LO in COC). The necessary parties are those minimum necessary parties to fulfill all authorization components. All necessary parties to authorize this requisition must complete the one relevant section, unless one party fulfills the necessary authorization component or components of more than one section, in which case that party may instead complete the first or most relevant section and sign the signature ("SIGN") fields of each additional section. All necessary parties must stamp this document below to complete authorization.
+** If no Deck Chief or Deck Officer authorizes this form, this section must instead be completed by the XO, CO or ROIC of the ONSITE ASSET.
+*** The line officer, CXPL, or CPO in command of the requesting party is required to authorize requisitions to which the requesting party is not intended usual access. If such an individual is making this request on behalf of another party, this section is not required.
+**** The requisition of secured, controlled or restricted items must be authorized by a party authorized to possess or operate such items. The ratings of Senior Engineer, Brig Officer, Chief Medical Officer, Deck Chief, and Pathfinder, or any member of the chain of command in place above one or more such rating, may authorize secured, controlled or restricted items relevant to their positions. If no item or items requested are secured, controlled or restricted, then this section may be left blank. If multiple items are requested whose relevant controlling authorities differ, an officer in the chain of command above both authorities must instead authorize this requisition, those items must be requested in multiple forms UF102b, or the requisition must be made using forms UF102c or UF602b.[/i][/small]
+
+[hr][hr][h3]ALL PARTIES STAMP BELOW TO AUTHORIZE.[/h3][hr]
