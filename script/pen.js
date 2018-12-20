@@ -8,8 +8,6 @@ $(document).ready(function() {
 
 function run() {
     $('#output').html(processText($('#input').val() + '[field]'));
-    $('#output span.startLarge').nextUntil('#output span.endLarge').addBack().css('font-size', '21');
-    $('#output span.startSmall').nextUntil('#output span.endSmall').addBack().css('font-size', '11');
     $('#output span.sig').css('font-style', 'italic');
 }
 
@@ -45,10 +43,10 @@ function processText(str) {
         .replaceAll('[date]', getDateString())
         .replaceAll('[sign]', '<span class="sig">John Doe</span>')
 
-        .replaceAll('[large]', '<span class="startLarge"></span><span>')
-        .replaceAll('[/large]', '</span><span class="endLarge"></span>')
-        .replaceAll('[small]', '<span class="startSmall"></span><span>')
-        .replaceAll('[/small]', '</span><span class="endSmall"></span>')
+        .replaceAll('[large]', '<large>')
+        .replaceAll('[/large]', '</large>')
+        .replaceAll('[small]', '<small>')
+        .replaceAll('[/small]', '</small>')
 
         .replaceAll('[field]', '<span class="paper_field"></span>')
         .replaceAll('[h1]', '<H1>')
