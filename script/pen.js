@@ -67,10 +67,14 @@ function processText(str) {
         .replaceAll('[row]', '</td><tr>')
         .replaceAll('[cell]', '<td>')
 
-        .replaceAll('[logo]', '<img src = ./img/ntlogo.png>')
+        .replaceAll('[ntlogo]', '<img src = ./img/ntlogo.png>')
         .replaceAll('[bluelogo]', '<img src = ./img/bluentlogo.png>')
         .replaceAll('[solcrest]', '<img src = ./img/sollogo.png>')
-        .replaceAll('[terraseal]', '<img src = ./img/terralogo.png>')
+        .replaceAll('[iccgseal]', '<img src = ./img/terralogo.png>')
+        .replaceAll('[logo]', '<img src = ./img/torchltd.png>')
+        .replaceAll('[eclogo]', '<img src = ./img/eclogo.png>')
+        .replaceAll('[daislogo]', '<img src = ./img/daislogo.png>')
+        .replaceAll('[xynlogo]', '<img src = ./img/xynlogo.png>')
 
         .replaceAll('[editorbr]', '')
     )

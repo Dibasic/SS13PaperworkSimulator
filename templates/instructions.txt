@@ -91,13 +91,25 @@ images:
 solcrest
 [solcrest]
 
+eclogo
+[eclogo]
+
 logo
 [logo]
+
+ntlogo
+[ntlogo]
 
 bluelogo
 [bluelogo]
 
-terraseal
-[terraseal]
+daislogo
+[daislogo]
+
+xynlogo
+[xynlogo]
+
+iccgseal
+[iccgseal]
 
 [hr]
