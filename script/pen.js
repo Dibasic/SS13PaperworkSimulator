@@ -4,6 +4,8 @@ $(document).ready(function() {
     $('#load').click(function() { loadFile($('#template').val()) });
 
     setTimeout(function() {loadFile('instructions.txt')}, 100); 
+
+    $('#year').html(new Date().getFullYear() + 544);
 });
 
 function run() {
