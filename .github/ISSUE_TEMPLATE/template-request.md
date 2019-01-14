@@ -1,6 +1,6 @@
 ---
 name: Template request
-about: Suggest a new template to add to this project
+about: Request a new paperwork template
 title: 'Template Request: '
 labels: content
 assignees: ''
