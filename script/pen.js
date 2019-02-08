@@ -1,11 +1,13 @@
+var yearmod = 288
+
 $(document).ready(function() {
+    $('#year').html(getYear());
+
     $('#input').bind('input change', run);
     $('#save').click(function() { download('pencode.txt', $('#input').val()) });
     $('#load').click(function() { loadFile($('#template').val()) });
 
     setTimeout(function() {loadFile('instructions.txt')}, 100); 
-
-    $('#year').html(new Date().getFullYear() + 544);
 });
 
 function run() {
@@ -86,11 +88,16 @@ function processText(str) {
 
 function getDateString() {
     var date = new Date();
-    var yyyy = date.getFullYear() + 544;
+    var yyyy = date.getFullYear() + yearmod;
     var mm = date.getMonth() + 1;
-    mm = mm < 10 ? "0" + mm : mm;
+    mm = mm < 10 ? '0' + mm : mm;
     var dd = date.getDate();
-    return yyyy + "-" + mm + "-" + dd;
+    dd = dd < 10 ? '0' + dd : dd;
+    return yyyy + '-' + mm + '-' + dd;
+}
+
+function getYear() {
+    return new Date().getFullYear() + yearmod;
 }
 
 function getTimeString() {
