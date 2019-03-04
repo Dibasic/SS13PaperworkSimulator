@@ -47,8 +47,8 @@ function processText(str) {
         .replaceAll('[date]', getDateString())
         .replaceAll('[sign]', '<span class="sig">John Doe</span>')
 
-        .replaceAll('[large]', '<large>')
-        .replaceAll('[/large]', '</large>')
+        .replaceAll('[large]', '<big>')
+        .replaceAll('[/large]', '</big>')
         .replaceAll('[small]', '<small>')
         .replaceAll('[/small]', '</small>')
 
