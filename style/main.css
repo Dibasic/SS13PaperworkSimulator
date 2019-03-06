@@ -92,4 +92,17 @@ fieldset > legend {
     .panel-right {
         height: 100vh;
     }
+
+    .controlgroup {
+        display: flex;
+        padding-right: 0.5em;
+    }
+
+    .controlgroup #template, .controlgroup .control {
+        flex-grow: 1;
+    }
+
+    .optionalContent {
+        display: none;
+    }
 }
