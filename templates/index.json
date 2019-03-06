@@ -6,32 +6,32 @@
         "Command (EXO)": {
             "EXO Personnel Complaint": "command/exo/EXO_complaint.txt",
             "Non-EXO Personnel Complaint": "command/exo/nEXO_complaint.txt"
-        },
-        "Engineering": {
-            "Area Inspection": "engineering/compliance.txt"
-        },
-        "Security": {
-            "Incident Report": "security/incident_report.txt",
-            "Patrol Assignment": "security/patrol_assignment.txt",
-            "POI Watchlist": "security/personnel_watchlist.txt"
-        },
-        "Supply": {
-            "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
-        },
-        "Records": {
-            "Public": "records/public.txt",
-            "Employment (Fleet)": "records/employment_fleet.txt",
-            "Medical": "records/medical.txt",
-            "Security": "records/security.txt",
-            "Records (SierraKomodo)": {
-                "Public/Header (Contractor)": "records/sierrakomodo/public_contractor.txt",
-                "Public/Header (Military)": "records/sierrakomodo/public_military.txt",
-                "Employment (Contractor)": "records/sierrakomodo/employment_contractor.txt",
-                "Employment (Military)": "records/sierrakomodo/employment_military.txt",
-                "Medical (Common)": "records/sierrakomodo/medical.txt",
-                "Security (Contractor)": "records/sierrakomodo/security_contractor.txt",
-                "Security (Military)": "records/sierrakomodo/security_military.txt"
-            }
+        }
+    },
+    "Engineering": {
+        "Area Inspection": "engineering/compliance.txt"
+    },
+    "Security": {
+        "Incident Report": "security/incident_report.txt",
+        "Patrol Assignment": "security/patrol_assignment.txt",
+        "POI Watchlist": "security/personnel_watchlist.txt"
+    },
+    "Supply": {
+        "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
+    },
+    "Records": {
+        "Public": "records/public.txt",
+        "Employment (Fleet)": "records/employment_fleet.txt",
+        "Medical": "records/medical.txt",
+        "Security": "records/security.txt",
+        "Records (SierraKomodo)": {
+            "Public/Header (Contractor)": "records/sierrakomodo/public_contractor.txt",
+            "Public/Header (Military)": "records/sierrakomodo/public_military.txt",
+            "Employment (Contractor)": "records/sierrakomodo/employment_contractor.txt",
+            "Employment (Military)": "records/sierrakomodo/employment_military.txt",
+            "Medical (Common)": "records/sierrakomodo/medical.txt",
+            "Security (Contractor)": "records/sierrakomodo/security_contractor.txt",
+            "Security (Military)": "records/sierrakomodo/security_military.txt"
         }
     }
 }
