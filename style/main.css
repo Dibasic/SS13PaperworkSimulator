@@ -81,3 +81,15 @@ fieldset > legend {
 #output {
     font-family: Verdana, sans-serif;
 }
+
+@media screen and (max-width: 852px) {
+    .panel {
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+
+    .panel-right {
+        height: 100vh;
+    }
+}
