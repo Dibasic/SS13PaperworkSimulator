@@ -15,8 +15,8 @@ Want to request a template? Found a bug? Please create an issue on the tracker.
 Want to add a template? If the template is your own work and you are willing to license it under Creative Commons, please make a pull request.
 
 [list][h3]How to Add a New Template[/h3][*]Place your templates in the [b]templates[/b] directory in the most relevant folder. The subdirectory you choose is up to you. No good match? Add your own subfolder and put it in there.
-[*]In [b]index.html[/b], find the [b]select[/b] tag in the footer. Inside it, find the [b]optgroup[/b] your template best fits under. No good match? Add your own [b]optgroup[/b] with a descriptive [b]label[/b] attribute.
-[*]Add a new [b]option[/b] element. The [b]value[/b] attribute is the relative path to your template, including its file name. Between the opening and closing [b]option[/b] tags, give your template a good name.[/list]
+[*]In [b]templates/index.json[/b], find the category your template best fits under, usually the department. If you're adding a set of record skeletons, put them under a group in "Records" with your name instead so that they're grouped with similar templates. Add a new element where it's most appropriate.
+[*]Make sure the new JSON is correct. You can test in Microsoft Edge (doesn't prevent you from accessing local files via AJAX) or just paste the contents into jsonlint.com to validate.
 
 [hr]
 
