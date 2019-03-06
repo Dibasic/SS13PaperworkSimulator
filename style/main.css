@@ -1,7 +1,7 @@
 /* Code to make input and output line up side by side */
 
 #menu {
-    width: 100%;
+    width: calc(100% - 3px);
     height: 5em;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
