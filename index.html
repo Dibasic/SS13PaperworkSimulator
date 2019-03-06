@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <head>
     <title>SS13 Paperwork Simulator</title>
-    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+    <meta charset="UTF-8"> 
     <link rel="shortcut icon" href="favicon.png" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
+    <script src="script/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
     <script type="text/javascript" src="script/pen.js"></script>
+    <link rel="stylesheet" type="text/css" href="script/jquery-ui-1.12.1.custom/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
 </head>
 <body>
-    <header>PAPERWORK SIMULATOR <span id="year">23XX</span> (by Persona E)</header>
+    <fieldset id="menu">
+        <legend>PAPERWORK SIMULATOR <span id="year">23XX</span> (by Persona E)</legend>
+        <div class="controlgroup">
+            <select class="control" id="template">
+                <option value="instructions.txt">Instructions</option>
+                <optgroup label="Command">
+                    <option value="command/sitrep.txt">SITREP</option>
+                    <option value="command/incident.txt">Incident Report</option>
+                    <optgroup label="Command (EXO)">
+                        <option value="command/exo/EXO_complaint.txt">EXO Personnel Complaint</option>
+                        <option value="command/exo/nEXO_complaint.txt">Non-EXO Personnel Complaint</option>
+                    </optgroup>
+                </optgroup>
+                <optgroup label="Engineering">
+                    <option value="engineering/compliance.txt">Area Inspection</option>
+                </optgroup>
+                <optgroup label="Security">
+                    <option value="security/incident_report.txt">Incident Report</option>
+                    <option value="security/patrol_assignment.txt">Patrol Assignment</option>
+                    <option value="security/personnel_watchlist.txt">POI Watchlist</option>
+                </optgroup>
+                <optgroup label="Supply">
+                    <option value="supply/uf102b_requisition_special.txt">Special Requisition/Command Supply</option>
+                </optgroup>
+                <optgroup label="Records">
+                    <option value="records/public.txt">Public</option>
+                    <option value="records/employment_fleet.txt">Employment (Fleet)</option>
+                    <option value="records/medical.txt">Medical</option>
+                    <option value="records/security.txt">Security</option>
+                    <optgroup label="Records (SierraKomodo)">
+                        <option value="records/sierrakomodo/public_contractor.txt">Public/Header (Contractor)</option>
+                        <option value="records/sierrakomodo/public_military.txt">Public/Header (Military)</option>
+                        <option value="records/sierrakomodo/employment_contractor.txt">Employment (Contractor)</option>
+                        <option value="records/sierrakomodo/employment_military.txt">Employment (Military)</option>
+                        <option value="records/sierrakomodo/medical.txt">Medical (Common)</option>
+                        <option value="records/sierrakomodo/security_contractor.txt">Security (Contractor)</option>
+                        <option value="records/sierrakomodo/security_military.txt">Security (Military)</option>
+                    </optgroup>
+                </optgroup>
+            </select>
+            <button class="control" id="load">Load Template</button>
+            <button class="control" id="save">Save Pen Code</button>
+        </div>
+    </fieldset>
     <div id="wrapper">
-        <main class="content">
-            <textarea id="input" autofocus></textarea>
-        </main>
-        <main>
+        <div class="panel panel-left">
+            <textarea id="input" autofocus spellcheck="false"></textarea>
+        </div>
+        <div class="panel panel-right">
             <div id="output"></div>
-        </main>
+        </div>
     </div>
-    <footer>
-        <select class="control" id="template">
-            <option value="instructions.txt">Instructions</option>
-            <optgroup label="Command">
-                <option value="command/sitrep.txt">SITREP</option>
-                <option value="command/incident.txt">Incident Report</option>
-                <optgroup label="Command (EXO)">
-                    <option value="command/exo/EXO_complaint.txt">EXO Personnel Complaint</option>
-                    <option value="command/exo/nEXO_complaint.txt">Non-EXO Personnel Complaint</option>
-                </optgroup>
-            </optgroup>
-            <optgroup label="Engineering">
-                <option value="engineering/compliance.txt">Area Inspection</option>
-            </optgroup>
-            <optgroup label="Security">
-                <option value="security/incident_report.txt">Incident Report</option>
-                <option value="security/patrol_assignment.txt">Patrol Assignment</option>
-                <option value="security/personnel_watchlist.txt">POI Watchlist</option>
-            </optgroup>
-            <optgroup label="Supply">
-                <option value="supply/uf102b_requisition_special.txt">Special Requisition/Command Supply</option>
-            </optgroup>
-            <optgroup label="Records">
-                <option value="records/public.txt">Public</option>
-                <option value="records/employment_fleet.txt">Employment (Fleet)</option>
-                <option value="records/medical.txt">Medical</option>
-                <option value="records/security.txt">Security</option>
-                <optgroup label="Records (SierraKomodo)">
-                    <option value="records/sierrakomodo/public_contractor.txt">Public/Header (Contractor)</option>
-                    <option value="records/sierrakomodo/public_military.txt">Public/Header (Military)</option>
-                    <option value="records/sierrakomodo/employment_contractor.txt">Employment (Contractor)</option>
-                    <option value="records/sierrakomodo/employment_military.txt">Employment (Military)</option>
-                    <option value="records/sierrakomodo/medical.txt">Medical (Common)</option>
-                    <option value="records/sierrakomodo/security_contractor.txt">Security (Contractor)</option>
-                    <option value="records/sierrakomodo/security_military.txt">Security (Military)</option>
-                </optgroup>
-            </optgroup>
-        </select>
-        <button class="control" id="load">Load Template</button>
-        <button class="control" id="save">Save Pen Code</button>
-    </footer>
 </body>

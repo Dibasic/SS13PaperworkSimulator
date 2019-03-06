@@ -8,6 +8,8 @@ $(document).ready(function() {
     $('#load').click(function() { loadFile($('#template').val()) });
 
     setTimeout(function() {loadFile('instructions.txt')}, 100); 
+
+    $('.controlgroup').controlgroup();
 });
 
 function run() {
