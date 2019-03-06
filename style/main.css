@@ -1,20 +1,32 @@
 /* Code to make input and output line up side by side */
 
+#menu {
+    height: 4em;
+}
+
 #wrapper {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    min-height: 300px;
-    max-height: 100%;
+    height: calc(100vh - 7em);
+    position: relative;
 }
 
 .panel {
-    flex-grow: 1;
-    flex-basis: 45%;
-
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
     padding: 2px;
-/*    width: 50%;
-    height: 100%;*/
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.panel-left {
+    left: 0;
+}
+
+.panel-right {
+    right: 0;
 }
 
 #input {
@@ -29,17 +41,18 @@
 }
 
 #output {
+    height: 100%;
     min-width: 100%;
     border-width: 1px;
     border-style: solid;
+    overflow-y: auto;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 #input, #output {
     padding: 4px;
-}
-
-/* Set border colors */
-#input, #output {
     border-color: #ccc;
     border-radius: 1px;
 }
