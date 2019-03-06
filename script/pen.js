@@ -27,9 +27,9 @@ String.prototype.replaceAll = function(strReplace, strWith) {
 function processText(str) {
     str = (
         str
+        .replaceAll('&', '&amp;') // Has to happen before other escaping, else it messes them up
         .replaceAll('<', '&lt;')
         .replaceAll('>', '&gt;')
-        .replaceAll('&', '&amp;')
         .replaceAll('\n', '<BR>')
         
         .replaceAll('[center]', '<center>')
