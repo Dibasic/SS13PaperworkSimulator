@@ -7,7 +7,10 @@ $(document).ready(function() {
     $('#save').click(function() { download('pencode.txt', $('#input').val()) });
     $('#load').click(function() { loadFile($('#template').val()) });
 
-    setTimeout(function() {loadFile('instructions.txt')}, 100); 
+    setTimeout(function() {
+        var hash = $(location).attr('hash');
+        loadFile(hash ? hash.substring(1) + '.txt' : 'instructions.txt')
+    }, 100); 
 
     $('.controlgroup').controlgroup();
 });
