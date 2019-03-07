@@ -4,4 +4,4 @@
 [b]LAST UPDATE:[/b] YYYY-MM-DD
 
 [b]SPECIES:[/b] Human
-[b]ETHNICITY:[/b] Martian-Samoan (Make something up if you want. Replace with 'subspecies', 'make/model', etc. for non-humans)
+[b]ETHNICITY/SUBSPECIES/MAKE/MODEL/COLORATION/GRADE/FLAVOR:[/b] (Make something up)

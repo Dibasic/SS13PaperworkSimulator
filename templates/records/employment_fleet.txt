@@ -1,74 +1,66 @@
-[b]MARITAL STATUS:[/b] Single (Single, married, widowed, think stuff you'd fill in on tax documents.)
+[b]MARITAL STATUS:[/b] (Single/Married/Widowed)
 
 [b]LEGALLY AUTHORIZED TO WORK IN SCG MEMBER STATES, TERRITORIES, AND OUTLYING AREAS:[/b] Yes
-[b]FLUENT LANGUAGES:[/b] Galactic Common; Sol Common; Sign Language
+[b]FLUENT LANGUAGES:[/b] Galactic Common; (Others)
 
-[hr](The idea of the below section is that the Torch has received a document detailing this person's prior experience, and it's been attached to their records. If you're repurposing this for civilian use, make it into a resume, CV, HR record, or something along those lines.)
+[hr]
 [h1]STATEMENT OF SERVICE[/h1]
 [i]This is to certify the following information is true and correct:[/i]
 
 [b]BRANCH:[/b] Fleet
-[b]OPERATING FORCE:[/b] 3rd Fleet, 3rd Flag Group (Check the wiki and pick something that looks cool.)
-[b]CURRENT COMMAND:[/b] 3rd Fleet Headquarters, SCGF Theia (Your character just got transferred here, so your 'current command' is probably going to be the name of the ship or military base they were on just before getting transferred.)
-[b]SERVICE NUMBER:[/b] 113491392 (Make up a number.)
+[b]OPERATING FORCE:[/b] (Nth Fleet), (Nth Group) (Find a unit here: https://wiki.baystation12.net/Defence_Forces/Fleet)
+[b]CURRENT COMMAND:[/b] (Make up the name of the ship or military base your character was on just before getting transferred. This paperwork probably comes from them to the Torch, so )
+[b]SERVICE NUMBER:[/b] 123456789 (Make up a number.)
 
 [b]STATUS:[/b] Active
-[b]RATING:[/b] CMDMC (Google 'navy ratings' for inspiration. It's a two letter code for your character's job, if they're a Petty Officer it'll be XX3, XX2, XX1, if they're a M/S/CPO it'll be XXC, XXCS, XXCM. If your character's a CA or CN, just put CA or CN. If you want to find something to put in for an officer character, look up navy specializations instead of ratings.)
-[b]PAY RATE:[/b] E-9 CMCPO (Rank and rank abbreviation.)
-[b]ACTIVE DUTY SERVICE:[/b] 2540-07-19 (When did your character begin serving in active duty?)
-[b]EXPIRATION OF SERVICE:[/b] None Listed (If your character isn't retiring, leave this alone.)
-[b]COMMAND CAREER COUNSELOR:[/b] Senior Enlisted Advisor, SEV Torch
+[b]RATING:[/b] (Google 'navy ratings'. For a theoretical master-at-arms, depending on rank, this would be CA, CN, MA3, MA2, MA1, MAC, MACS, or MACM. A Fleet brig officer is likely to have an MA1/MAC/MACS rating, a deck chief probably just a high deck technician rating. CMCPOs all have the rating CMDMC. This is US based and not official lore.)
+[b]PAY RATE:[/b] E-4 MA3 (Rank and rank abbreviation.)
+[b]ACTIVE DUTY SERVICE:[/b] YYYY-MM-DD (When did your character begin serving in active duty?)
+[b]EXPIRATION OF SERVICE:[/b] YYYY-MM-DD (Probably 2-8 years in the future, or at the 20 years' service mark for an officer.)
+[b]COMMAND CAREER COUNSELOR:[/b] SEV Torch CMC (For officers, change it to XO.)
 
 
-[b]CURRENT QUALIFICATIONS:[/b][small][list][*]Discrimination Training (exp. 2562-07-01) (If your character's military, there's probably a lot of routine trainings they need to get, so make some up and fill some room around the important ones like weapons, EVA and so on)
-[*]Extravehicular Activity (exp. 2567-03-01)
-[*]Physical Fitness (exp. 2563-03-01)
-[*]Psychological Evaluation (exp. 2567-03-01)
-[*]Sexual Assault Awareness (exp. 2562-07-01)
-[*]Weapons (exp. 2567-01-01)
+[b]CURRENT QUALIFICATIONS:[/b][small][list][*]Discrimination Training (exp. YYYY-MM-DD) (If your character's military, there's probably a lot of routine trainings they need to get, so make some up and fill some room around the important ones like weapons, EVA and so on)
+[*]Extravehicular Activity (exp. YYYY-MM-DD)
+[*]Physical Fitness (exp. YYYY-MM-DD)
+[*]Psychological Evaluation (exp. YYYY-MM-DD)
+[*]Sexual Assault Prevention (exp. YYYY-MM-DD)
+[*]Small Arms Handling (exp. YYYY-MM-DD)
 [/list][/small]
-[b]CURRENT CERTIFICATIONS:[/b][small][list][*]AECF Fire Control (These are some examples. I looked up what A-school a fire controlman would go to and put that here.)
-[*]Fire Control Master Chief (FCCM) (For a PO2, 'Job Name Second Class', etc.)
-[*]Fire Control - [i]Waterloo[/i] (Just some ships your character's certified to do their job on.)
-[*]Fire Control - [i]Midway[/i]
-[*]Fire Control - [i]Resolution[/i]
-[*]Fire Control - [i]Mako[/i]
+[b]CURRENT CERTIFICATIONS:[/b][small][list][*]AECF Fire Control (Just come up with a real or imagined advanced training school your character would go to and put that here, or don't if you have a simpler job.)
+[*]Master-at-Arms 3rd Class
+[*]More stuff related to your job
+[*]More stuff related to your job
+[*]More stuff related to your job
 [*]General Radio Operator (One I sometimes put in for NCOs or command characters.)
-[*]CPO Selection Board (If your character's a chief, they might be on the selection boards for chief petty officers.)
-[*]SCPO Selection Board
-[*]MCPO Selection Board
-[*]Command Master Chief (CMDMC) Program
-[*]Command Career Counselor Program (If you're repurposing these for civvies, look at trade certifications, or certifications by companies like Cisco or Oracle to work with their products.)
+[*](If you're repurposing these for civvies, look at trade certifications, or certifications by companies like Cisco or Oracle to work with their products.)
 [/list][/small]
-[b]CHRONOLOGICAL RECORD OF MILITARY SERVICE[/b] (Just make up some dates, leave a few days in between when your character might have been in transit before reporting to a new command. Basic is on Mars, AIT is Mars, that Fleet's headquarters, or somewhere else in SCG space. After that, they'll be on bases or ships belonging to the operating force listed earlier.)
+[b]CHRONOLOGICAL RECORD OF MILITARY SERVICE[/b] (Just make up some dates, leave a few days in between when your character might have been in transit before reporting to a new command. Basic is on Mars; AIT is Mars, wherever that Fleet's headquarters is, or somewhere else in SCG space. After that, they'll be on bases or ships belonging to the operating force listed earlier. Leave some breaks between ranks, a few weeks long most likely. Put some time into reading about the fleet your character is in, if they've been in a while, it's something you can bring up in conversation.)
 [small]
 [grid][row][cell]FROM[cell]TO[cell]STATUS[cell]PAY RATE[cell]UNIT OR ORGANIZATION
-[row][cell]2540-07-19[cell]2540-09-30[cell]Basic Training[cell]E-1 CR[cell]SCGF Mars
-[row][cell]2540-10-03[cell]2541-02-17[cell]AIT (AECF)[cell]E-2 CA[cell]SCGF Theia
-[row][cell]2541-02-20[cell]2541-08-22[cell]Active[cell]E-3 CN[cell]SFV Rocquencourt ([i]Waterloo[/i]-class)
-[row][cell]2541-08-23[cell]2544-04-08[cell]Active[cell]E-4 FC3[cell]SFV Rocquencourt ([i]Waterloo[/i]-class)
-[row][cell]2544-04-09[cell]2547-07-12[cell]Active[cell]E-5 FC2[cell]SFV Peter Romanov ([i]Midway[/i]-class)
-[row][cell]2547-07-13[cell]2549-09-30[cell]Active[cell]E-6 FC1[cell]SFV Peter Romanov ([i]Midway[/i]-class)
-[row][cell]2549-10-01[cell]2553-09-30[cell]Active[cell]E-7 FCC[cell]SFV Warspite ([i]Resolution[/i]-class)
-[row][cell]2553-10-01[cell]2557-09-30[cell]Active[cell]E-8 FCCS[cell]SFV Warspite ([i]Resolution[/i]-class)
-[row][cell]2557-10-01[cell]2562-12-31[cell]Active[cell]E-9 FCCM[cell]SFV Warspite ([i]Resolution[/i]-class)
-[row][cell]2562-01-01[cell]2562-03-14[cell]CMDMC Program[cell]E-9 FCCM[cell]SCGF Theia
-[row][cell]2562-03-15[cell]PRESENT[cell]Active[cell]E-9 CMDMC[cell]SEV Torch[/grid]
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Basic Training[cell]E-1 CR[cell]SCGF Mars
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]AIT (AECF)[cell]E-2 CA[cell]SCGF Theia
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Active[cell]E-3 CN[cell]SFV Rocquencourt ([i]Waterloo[/i]-class)
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Active[cell]E-4 MA3[cell]SFV Rocquencourt ([i]Waterloo[/i]-class)
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Active[cell]E-5 MA2[cell]SFV Peter Romanov ([i]Midway[/i]-class)
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Active[cell]E-6 MA1[cell]SFV Peter Romanov ([i]Midway[/i]-class)
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Active[cell]E-7 MAC[cell]SFV Warspite ([i]Resolution[/i]-class)
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Active[cell]E-8 MACS[cell]SFV Warspite ([i]Resolution[/i]-class)
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]Active[cell]E-9 MACM[cell]SFV Warspite ([i]Resolution[/i]-class)
+[row][cell]YYYY-MM-DD[cell]YYYY-MM-DD[cell]CMDMC Program[cell]E-9 FCCM[cell]SCGF Theia
+[row][cell]YYYY-MM-DD[cell]PRESENT[cell]Active[cell]E-9 CMDMC[cell]SEV Torch[/grid]
 [/small]
-[b]AWARDS AND HONORS[/b][small][list] (The ribbons you picked, plus anything else you want to put in. Letters of recommendation can be listed here and 'attached' below.
-[*]Frontier Ribbon awarded 2542, for continued service in good standing during frontier operations
-[*]Silver Sword awarded 2549, for meritorious service including service under fire in the Galile system
-[*]FY2550 CPO Selectee
-[*]FY2554 SCPO Selectee
-[*]FY2558 MCPO Selectee
+[b]AWARDS AND HONORS[/b][small][list] (The ribbons you picked, plus anything else you want to put in. Letters of recommendation can be listed here and 'attached' below.)
+[*]Frontier Ribbon awarded YYYY, for continued service in good standing during frontier operations
+[*]Silver Sword awarded YYYY, for meritorious service including service under fire in PlaceName
 [/list]
 [/small]
-[b]OVERALL NOTES:[/b] (Write some stuff here from a senior enlisted or your character's commanding officer, with the importance of that person proportional to your character's rank. If your character's a CA or CN, you're probably getting a note from a CPO, if they're a PO or CPO probably a CMCPO, if they're an officer probably an XO or CO is writing this, if they're a CMCPO, XO or CO then a flag officer might write this.)
-[i]In my career I've had the pleasure of meeting all of the Third Fleet's Command Master Chief candidates, and all of them have impressed me -- even those whom I did not select to pass the CMDMC program. MCPO Reynolds is no exception. She is a brilliant mentor for our junior officers and I only reluctantly give her up to the Torch mission.[/i]
+[b]OVERALL NOTES:[/b]
+[i]Write some stuff here from a senior enlisted or your character's commanding officer, with the importance of that person proportional to your character's rank. If your character's a CA or CN, you're probably getting a note from a CPO, if they're a PO or CPO probably a CMCPO, if they're an officer probably an XO or CO is writing this, if they're a CMCPO, XO or CO then a flag officer might write this.[/i]
 
-[i]The point of contact for this matter will be LCDR Robert Dahl at the 3rd Fleet headquarters in Theia.[/i]
+[i]The point of contact for this matter will be Rank First Last at the CurrentCommand in WhateverSystem.[/i]
 
-[b]FROM:[/b] VADM Rebecca Mountbatten [i]via LCDR Robert Dahl[/i], 3rd Fleet, SFV Warspite (If the person writing this is important enough, they're going to have someone else send it for them ('via'). Think a CEO sending something via an executive assistant, for example.)
-[b]DATE:[/b] 2562-03-14
+[b]FROM:[/b] Rank WhoeverWroteTheAboveNote [i]via LowerRank LessImportantGuy[/i], Nth Fleet, SFV Whatever (If the person writing this is important enough, they're going to have someone else send it for them.)
+[b]DATE:[/b] YYYY-MM-DD
 
 [hr]
