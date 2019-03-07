@@ -1,4 +1,4 @@
-[center][solcrest][/center][hr][hr][h3]SCGEC FORM UF102b: SPECIAL REQUISITION[/h3][/center][hr][hr][grid][row][cell][b]REQUEST DATE[/b][cell]: [date]
+[center][eclogo][/center][hr][hr][h3]SCGEC FORM UF102b: SPECIAL REQUISITION[/h3][/center][hr][hr][grid][row][cell][b]REQUEST DATE[/b][cell]: [date]
 [row][cell][b]LOCAL TIME[/b][cell]: [time] 
 [row][cell][b]ONSITE ASSET[/b][cell]: SEV TORCH
 [row][cell][b]REMOTE ASSET[/b][cell]: SCGECO COMSUP
