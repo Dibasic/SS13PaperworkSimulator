@@ -12,6 +12,7 @@
     <script type="text/javascript" src="script/templates.js"></script>
     <link rel="stylesheet" type="text/css" href="script/jquery-ui-1.12.1.custom/jquery-ui.min.css"/>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
     <fieldset id="menu">
@@ -21,6 +22,78 @@
             <button class="control" id="load">Load Template</button>
             <button class="control" id="copy" data-clipboard-text="instructions">Copy Link to Template</button>
             <button class="control" id="save">Save Code to File</button>
+        </div>
+        <div class="controlgroup">
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('b')"
+                title="Bold"
+            >
+                <i class="fa fa-bold"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('i')"
+                title="Italic"
+            >
+                <i class="fa fa-italic"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('u')"
+                title="Underline"
+            >
+                <i class="fa fa-underline"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('center')"
+                title="Center"
+            >
+                <i class="fa fa-align-center"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('list')"
+                title="List"
+            >
+                <i class="fa fa-list-ul"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('table')"
+                title="Table"
+            >
+                <i class="fa fa-table"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('time')"
+                title="Time"
+            >
+                <i class="fa fa-clock"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('date')"
+                title="Date"
+            >
+                <i class="fa fa-calendar"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('small')"
+                title="Small"
+            >
+                <i class="fa fa-compress"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('large')"
+                title="Large"
+            >
+                <i class="fa fa-expand"></i>
+            </button>
         </div>
     </fieldset>
     <div id="wrapper">
