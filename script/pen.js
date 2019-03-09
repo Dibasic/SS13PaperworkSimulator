@@ -34,6 +34,34 @@ $(document).ready(function () {
     }, 100);
 
     $('.has-tooltip').tooltip();
+
+    var justAdded = false;
+    $(document).keyup(function(e) {
+        if (e.ctrlKey) {
+            switch (e.key) {
+                case('b'):
+                case('i'):
+                case('u'):
+                    justAdded = false;
+                    break;
+            }
+        }
+    });
+    $(document).keydown(function(e) {
+        if (e.ctrlKey) {
+            switch (e.key) {
+                case('b'):
+                case('i'):
+                case('u'):
+                    e.preventDefault();
+                    if(!justAdded) {
+                        addBlock(e.key);
+                        justAdded = true;
+                    }
+                    break;
+            }
+        }
+    });
 });
 
 function run() {
