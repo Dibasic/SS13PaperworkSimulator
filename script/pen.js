@@ -33,6 +33,35 @@ $(document).ready(function () {
         loadFile(hash ? hash.substring(1) + '.txt' : 'instructions.txt');
     }, 100);
 
+    $('.has-tooltip').tooltip();
+
+    var justAdded = false;
+    $(document).keyup(function(e) {
+        if (e.ctrlKey) {
+            switch (e.key) {
+                case('b'):
+                case('i'):
+                case('u'):
+                    justAdded = false;
+                    break;
+            }
+        }
+    });
+    $(document).keydown(function(e) {
+        if (e.ctrlKey) {
+            switch (e.key) {
+                case('b'):
+                case('i'):
+                case('u'):
+                    e.preventDefault();
+                    if(!justAdded) {
+                        addBlock(e.key);
+                        justAdded = true;
+                    }
+                    break;
+            }
+        }
+    });
 });
 
 function run() {
@@ -153,4 +182,68 @@ function loadFile(filename) {
     });
 
     setTimeout(run, 100);
+}
+
+function addBlock(type) {
+    var currentCaretPos = getCaretPos();
+
+    if (type === 'list') {
+        addAtCaret('[list][*][/list]');
+        setCaretToPos(currentCaretPos + '[list][*]'.length);
+
+    } else if (type === 'table') {
+        addAtCaret('[table][row][cell][/table]');
+        setCaretToPos(currentCaretPos + '[table][row][cell]'.length);
+
+    } else {
+        if(isSelfClosingBlock(type)) {
+            addAtCaret('[' + type + ']');
+            setCaretToPos(currentCaretPos + ('[' + type + ']').length);
+
+        } else {
+            addAtCaret('[' + type + '][/' + type + ']');
+            setCaretToPos(currentCaretPos + ('[' + type + ']').length);
+        }
+    }
+
+    function isSelfClosingBlock(type) {
+        return type === 'time' || type === 'date';
+    }
+
+    function getCaretPos() {
+        var txt = $("#input");
+        var caretPos = txt[0].selectionStart;
+        return caretPos;
+    }
+
+    function addAtCaret(txtToAdd) {
+        // https://stackoverflow.com/a/15977052/6517320
+        var txt = $("#input");
+        var caretPos = txt[0].selectionStart;
+        var textAreaTxt = txt.val();
+        txt.val(textAreaTxt.substring(0, caretPos) + txtToAdd + textAreaTxt.substring(caretPos) );
+    }
+
+    function setCaretToPos(pos) {
+        // https://stackoverflow.com/a/499158/6517320
+        var input = document.getElementById('input');
+        setSelectionRange(input, pos, pos);
+
+        function setSelectionRange(input, selectionStart, selectionEnd) {
+            input.focus();
+            if (input.setSelectionRange) {
+                input.setSelectionRange(selectionStart, selectionEnd);
+
+            } else if (input.createTextRange) {
+                var range = input.createTextRange();
+                range.collapse(true);
+                range.moveEnd('character', selectionEnd);
+                range.moveStart('character', selectionStart);
+                range.select();
+
+            } else {
+                console.warn('Could not setCaretToPos, unsupported browser!');
+            }
+        }
+    }
 }
