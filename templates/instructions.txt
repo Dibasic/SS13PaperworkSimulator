@@ -9,6 +9,8 @@
 [h2]How to Contribute[/h2]If you want to contribute and are not sure how to do something with git or GitHub, please contact me! I may be able to do it for you or help show you how to do it yourself.
 
 Repository on GitHub: https://github.com/Dibasic/SS13PaperworkSimulator/
+Baystation12 Forums thread: https://forums.baystation12.net/threads/paperwork-simulator-2307.6877/
+Baystation12 Wiki resources: https://wiki.baystation12.net/Guide_to_Paperwork, https://wiki.baystation12.net/Example_Paperwork
 
 Want to request a template? Found a bug? Please create an issue on the tracker.
 
