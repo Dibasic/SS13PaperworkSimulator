@@ -179,9 +179,8 @@ function download(filename, text) {
 function loadFile(filename) {
     $.get('./templates/' + filename, function(data) {
         $('#input').val(data);
-    });
-
-    setTimeout(run, 100);
+        run();
+    });   
 }
 
 function addBlock(type) {
