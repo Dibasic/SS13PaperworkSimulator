@@ -3,5 +3,10 @@
 
 [b]LAST UPDATE:[/b] YYYY-MM-DD
 
-[b]SPECIES:[/b] Human
+[b]SPECIES:[/b] 
 [b]ETHNICITY/SUBSPECIES/MAKE/MODEL/COLORATION/GRADE/FLAVOR:[/b] (Make something up)
+
+[b]BRANCH:[/b] (Remove for civilians)
+[b]DIVISION:[/b] (Remove for civilians; UNIT: for Fleet; Field Operations for EC; Territory Support for OCIE)
+
+[b]ASSIGNMENT:[/b] (Whatever job title)
