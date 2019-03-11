@@ -12,9 +12,15 @@
         "Area Inspection": "engineering/compliance.txt"
     },
     "Security": {
-        "Incident Report": "security/incident_report.txt",
+        "Arrest Report": "security/arrest_report.txt",
+		"Hot Sheet": "security/hot_sheet.txt",
+		"Incident Report": "security/incident_report.txt",
         "Patrol Assignment": "security/patrol_assignment.txt",
-        "POI Watchlist": "security/personnel_watchlist.txt"
+		"Patrol Assignment (Alternate)": "security/patrol_assignment2.txt",
+        "POI Watchlist": "security/personnel_watchlist.txt",
+		"POI Watchlist (Alternate)": "security/personnel_watchlist2.txt",
+		"SECARM Inventory": "security/secarm_inventory.txt",
+		"POI Watchlist": "security/shift_report.txt"
     },
     "Supply": {
         "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
