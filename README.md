@@ -11,4 +11,4 @@ Baystation12 Wiki resources: [Guide to Paperwork](https://wiki.baystation12.net/
 Please feel free to submit your own work if you are willing to have it available under CC BY-NC-SA 3.0.
 
 # Attribution
-All included images have been copied from the Baystation12/Baystation12 repository and are attributed to their respective original authors. Any characters, settings, and events referred to as part of the Baystation12 story and lore are attributed to their respective original authors.
+All included images have been sourced from the Baystation12/Baystation12 repository and are attributed to their respective original authors. All included templates, whether sourced from the Baystation12 Wiki or committed by or on behalf of their original authors, are attributed to their respective original authors. Any characters, settings, and events referred to as part of the Baystation12 story and lore are attributed to their respective original authors.
