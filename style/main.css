@@ -3,9 +3,13 @@
 #menu {
     width: calc(100% - 3px);
     min-height: 5em;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 #wrapper {
@@ -20,9 +24,11 @@
     width: 50%;
     height: 100%;
     padding: 2px;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .panel-left {
@@ -36,41 +42,61 @@
 #input {
     margin-top: 0px;
     margin-bottom: 2px;
-    border-width: 1px;
     width: 100%;
-    height: 100%;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 #output {
-    height: 100%;
     min-width: 100%;
-    border-width: 1px;
     border-style: solid;
     overflow-y: auto;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 #input, #output {
+    height: 100%;
     padding: 4px;
     border-color: #ccc;
-    border-radius: 1px;
+    border-radius: 3px;
+    background-color: white;
+    border-width: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-/* Arrange controlgroup */
 fieldset {
     margin-right: -8px;
     padding-right: 0px;
 }
 
-/* Fonts */
+.controlgroup .control {
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+#template-button {
+    border: none;
+    background-color: white;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.controlgroup .control:hover, #template-button:hover {
+    background-color: #fafafa;
+}
+
 
 body {
     font-family: Trebuchet MS, sans-serif;
+    background-color: #f1f1f1;
 }
 
 fieldset > legend {
@@ -98,7 +124,7 @@ fieldset > legend {
         padding-right: 0.5em;
     }
 
-    .controlgroup #template, .controlgroup .control {
+    .controlgroup .control {
         flex-grow: 1;
     }
 
