@@ -42,7 +42,14 @@ $(document).ready(function () {
                 case('b'):
                 case('i'):
                 case('u'):
+                case('e'):
                     justAdded = false;
+                    break;
+                case('>'):
+                case('<'):
+                    if (e.shiftKey) {
+                        justAdded = false;
+                    }
                     break;
             }
         }
@@ -53,12 +60,29 @@ $(document).ready(function () {
                 case('b'):
                 case('i'):
                 case('u'):
-                    e.preventDefault();
-                    if(!justAdded) {
-                        addBlock(e.key);
-                        justAdded = true;
-                    }
+                    handleAddition(e.key);
                     break;
+                case('e'):
+                    handleAddition('center');
+                    break;
+            }
+            if (e.shiftKey) {
+                switch (e.key) {
+                    case('>'):
+                        handleAddition('large');
+                        break;
+                    case('<'):
+                        handleAddition('small');
+                        break;
+                }
+            }
+        }
+
+        function handleAddition(type) {
+            e.preventDefault();
+            if(!justAdded) {
+                addBlock(type);
+                justAdded = true;
             }
         }
     });
