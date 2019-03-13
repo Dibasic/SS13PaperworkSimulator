@@ -1,3 +1,6 @@
+/* jshint browser: true, jquery: true, devel: true */
+'use strict';
+
 $(document).ready(function() {
     $.getJSON('./templates/index.json', null, function(data) {
         var html = constructHtml(data);
