@@ -1,4 +1,4 @@
-/* jshint browser: true, jquery: true */
+/* jshint browser: true, jquery: true, devel: true */
 /* global ClipboardJS */
 'use strict';
 
