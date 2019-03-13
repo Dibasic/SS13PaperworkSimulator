@@ -132,3 +132,10 @@ fieldset > legend {
         display: none;
     }
 }
+
+.paper_field::before {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    content: "write...";
+}
