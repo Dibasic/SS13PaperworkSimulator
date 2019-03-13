@@ -19,9 +19,28 @@
         <legend>PAPERWORK SIMULATOR <span id="year">23XX</span> <span class="optionalContent">(by Persona E)</span></legend>
         <div class="controlgroup">
             <select class="control" id="template"></select>
-            <button class="control" id="load">Load Template</button>
-            <button class="control" id="copy" data-clipboard-text="instructions">Copy Link to Template</button>
-            <button class="control" id="save">Save Code to File</button>
+            <button
+                class="control has-tooltip"
+                id="load"
+                title="Load Template"
+            >
+                <i class="fa fa-folder-open"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                id="copy"
+                data-clipboard-text="instructions"
+                title="Copy Link"
+            >
+                <i class="fa fa-copy"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                id="save"
+                title="Save As File"
+            >
+                <i class="fa fa-save"></i>
+            </button>
         </div>
         <div class="controlgroup">
             <button
