@@ -11,6 +11,9 @@
     "Engineering": {
         "Area Inspection": "engineering/compliance.txt"
     },
+    "Medical": {
+        "Autopsy Report": "medical/autopsy.txt"
+    },
     "Security": {
         "Incident Report": "security/incident_report.txt",
         "Patrol Assignment": "security/patrol_assignment.txt",
