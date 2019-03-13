@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-    <fieldset id="menu">
+    <div id="menu">
         <legend>PAPERWORK SIMULATOR <span id="year">23XX</span> <span class="optionalContent">(by Persona E)</span></legend>
         <div class="controlgroup">
             <select class="control" id="template"></select>
@@ -95,7 +95,16 @@
                 <i class="fa fa-expand"></i>
             </button>
         </div>
-    </fieldset>
+        <div class="controlgroup settings-container">
+            <button
+                class="control has-tooltip"
+                onclick=""
+                title="Preview Customization"
+            >
+                <i class="fa fa-cog"></i>
+            </button>
+        </div>
+    </div>
     <div id="wrapper">
         <div class="panel panel-left">
             <textarea id="input" autofocus spellcheck="false"></textarea>
