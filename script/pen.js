@@ -208,65 +208,60 @@ function loadFile(filename) {
 }
 
 function addBlock(type) {
-    var currentCaretPos = getCaretPos();
-
     if (type === 'list') {
-        addAtCaret('[list][*][/list]');
-        setCaretToPos(currentCaretPos + '[list][*]'.length);
+        addAtSelectionStart('[list][*]');
+        addAtSelectionEnd('[/list]');
 
     } else if (type === 'table') {
-        addAtCaret('[table][row][cell][/table]');
-        setCaretToPos(currentCaretPos + '[table][row][cell]'.length);
+        addAtSelectionStart('[table][row][cell]');
+        addAtSelectionEnd('[/table]');
 
     } else {
-        if(isSelfClosingBlock(type)) {
-            addAtCaret('[' + type + ']');
-            setCaretToPos(currentCaretPos + ('[' + type + ']').length);
-
-        } else {
-            addAtCaret('[' + type + '][/' + type + ']');
-            setCaretToPos(currentCaretPos + ('[' + type + ']').length);
+        addAtSelectionStart('[' + type + ']');
+        if (!isSelfClosingBlock(type)) {
+            addAtSelectionEnd('[/' + type + ']');
         }
     }
+
+    run();
 
     function isSelfClosingBlock(type) {
         return type === 'time' || type === 'date';
     }
 
-    function getCaretPos() {
-        var txt = $("#input");
-        var caretPos = txt[0].selectionStart;
-        return caretPos;
-    }
-
-    function addAtCaret(txtToAdd) {
-        // https://stackoverflow.com/a/15977052/6517320
-        var txt = $("#input");
-        var caretPos = txt[0].selectionStart;
+    function addAtSelectionStart(txtToAdd) {
+        var txt = $('#input');
+        var selectionStart = txt.prop('selectionStart');
+        var selectionEnd = txt.prop('selectionEnd');
         var textAreaTxt = txt.val();
-        txt.val(textAreaTxt.substring(0, caretPos) + txtToAdd + textAreaTxt.substring(caretPos) );
+        txt.val(textAreaTxt.substring(0, selectionStart) + txtToAdd + textAreaTxt.substring(selectionStart));
+        setSelectionRange(selectionStart + txtToAdd.length, selectionEnd + txtToAdd.length);
     }
 
-    function setCaretToPos(pos) {
-        // https://stackoverflow.com/a/499158/6517320
-        var input = document.getElementById('input');
-        setSelectionRange(input, pos, pos);
+    function addAtSelectionEnd(txtToAdd) {
+        var txt = $('#input');
+        var selectionStart = txt.prop('selectionStart');
+        var selectionEnd = txt.prop('selectionEnd');
+        var textAreaTxt = txt.val();
+        txt.val(textAreaTxt.substring(0, selectionEnd) + txtToAdd + textAreaTxt.substring(selectionEnd));
+        setSelectionRange(selectionStart, selectionEnd);
+    }
 
-        function setSelectionRange(input, selectionStart, selectionEnd) {
-            input.focus();
-            if (input.setSelectionRange) {
-                input.setSelectionRange(selectionStart, selectionEnd);
+    function setSelectionRange(selectionStart, selectionEnd) {
+        var input = $('#input')[0];
+        input.focus();
+        if (input.setSelectionRange) {
+            input.setSelectionRange(selectionStart, selectionEnd);
 
-            } else if (input.createTextRange) {
-                var range = input.createTextRange();
-                range.collapse(true);
-                range.moveEnd('character', selectionEnd);
-                range.moveStart('character', selectionStart);
-                range.select();
+        } else if (input.createTextRange) {
+            var range = input.createTextRange();
+            range.collapse(true);
+            range.moveEnd('character', selectionEnd);
+            range.moveStart('character', selectionStart);
+            range.select();
 
-            } else {
-                console.warn('Could not setCaretToPos, unsupported browser!');
-            }
+        } else {
+            console.warn('Could not setCaretToPos, unsupported browser!');
         }
     }
 }
