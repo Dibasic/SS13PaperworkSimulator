@@ -1,29 +1,10 @@
 {
     "Instructions": "instructions.txt",
-    "Command": {
-        "SITREP": "command/sitrep.txt",
-        "Incident Report": "command/incident.txt",
-        "Command (EXO)": {
-            "EXO Personnel Complaint": "command/exo/EXO_complaint.txt",
-            "Non-EXO Personnel Complaint": "command/exo/nEXO_complaint.txt"
-        }
+    "General Templates": {
+        "Cover, First Page": "general/cover.txt",
+        "Cover, Last Page": "general/cover_end.txt"
     },
-    "Engineering": {
-        "Area Inspection": "engineering/compliance.txt"
-    },
-    "Medical": {
-        "Autopsy Report": "medical/autopsy.txt"
-    },
-    "Security": {
-        "Incident Report": "security/incident_report.txt",
-        "Patrol Assignment": "security/patrol_assignment.txt",
-        "POI Watchlist": "security/personnel_watchlist.txt",
-	"Armory Inventory": "security/armory_inventory.txt"
-    },
-    "Supply": {
-        "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
-    },
-    "Records": {
+    "Character Records": {
         "Public": "records/public.txt",
         "Employment (Fleet)": "records/employment_fleet.txt",
         "Medical": "records/medical.txt",
@@ -37,5 +18,54 @@
             "Security (Contractor)": "records/sierrakomodo/security_contractor.txt",
             "Security (Military)": "records/sierrakomodo/security_military.txt"
         }
+    },
+    "Command": {
+        "Access Modification": "command/access_mod.txt",
+        "Crew Job Transfer": "command/crew_transfer.txt",
+        "Departmental Audit": "command/department_audit.txt",
+        "Incident Report": "command/incident.txt",
+        "SITREP": "command/sitrep.txt",
+        "General Transmission": "command/transmission.txt",
+        "Visa Issuing Form": "command/visa.txt",
+        "Command (EXO)": {
+            "Complaint (EXO Personnel)": "command/exo/complaint_exo.txt",
+            "Complaint (Non-EXO Personnel)": "command/exo/complaint_next.txt",
+            "Memo (Internal)": "command/exo/memo.txt",
+            "Memo (Inter-department)": "command/exo/memo_ext.txt",
+            "Payable on Death": "command/exo/pod.txt",
+            "Sales Agreement": "command/exo/sales.txt",
+            "Termination": "command/exo/termination.txt",
+            "Test Subject Waiver": "command/exo/test_subject.txt",
+            "Test Subject Rejection": "command/exo/test_subject_no.txt",
+            "Visa Application": "command/exo/visa.txt"
+        }
+    },
+    "Engineering": {
+        "Area Inspection": "engineering/compliance.txt"
+    },
+    "Exploration": {
+        "Away Team Manifest": "exploration/away_manifest.txt",
+        "Exoplanet Report": "exploration/exoplanet.txt",
+        "Fauna Report": "exploration/fauna.txt",
+        "Preflight Checklist": "exploration/uf301a_preflight.txt"
+    },
+    "Medical": {
+        "Autopsy Report": "medical/autopsy.txt",
+        "Cyborgification Waiver": "medical/cyborgification.txt"
+    },
+    "Research": {
+        "Anomaly Report": "research/anomaly.txt",
+        "Xenoflora Report": "research/xenoflora.txt"
+    },
+    "Security": {
+        "Armory Inventory": "security/armory.txt",
+        "Incident Report": "security/incident_report.txt",
+        "Investigation Report": "security/investigation.txt",
+        "Patrol Assignments": "security/patrol_assignment.txt",
+        "POI Watchlist": "security/personnel_watchlist.txt"
+    },
+    "Supply": {
+        "Docked Vessel": "supply/docked_vessel.txt",
+        "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
     }
 }

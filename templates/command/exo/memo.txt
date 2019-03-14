@@ -1,0 +1,17 @@
+[small][center][logo]
+Department Memo HR-NTCO-03[/center]
+
+[b]Internal Memorandum[/b]
+Vessel: SEV Torch
+DTG: [date], [time]
+
+Subject: [field]
+Body:
+
+[field]
+
+[hr]
+Authorizing Signature:
+[field]
+
+[center]Stamp below if Approved[/center][hr]
