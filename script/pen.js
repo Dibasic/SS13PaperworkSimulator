@@ -23,7 +23,7 @@ $(document).ready(function () {
     
     setTimeout(function () {
         var hash = $(location).attr('hash');
-        loadFile((hash && hash.substring(1)) || 'instructions.txt');
+        loadFile((hash && hash.substring(1) + '.txt') || 'instructions.txt');
     }, 100);
 
     $('.has-tooltip').tooltip();

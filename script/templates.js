@@ -30,7 +30,7 @@ $(document).ready(function() {
                 var value = Object.values(data)[i];
                 str += '<li>';
                 if (jQuery.type(value) === 'string') {
-                    str += '<div onclick="loadFile(\'' + encodeURIComponent(value) + '\')">' + key + '</div>';
+                    str += '<div onclick="loadFile(\'' + value + '\')">' + key + '</div>';
 
                 } else if (jQuery.type(value) === 'object') {
                     str += '<div>' + key + '</div><ul>' + constructHtml(value) + '</ul>';
@@ -51,9 +51,9 @@ $(document).ready(function() {
 });
 
 function loadFile(filename) {
-    $('#copy').attr('data-clipboard-text', window.location.protocol + '//' + window.location.pathname + '#' + filename);
+    $('#copy').attr('data-clipboard-text', window.location.protocol + '//' + window.location.pathname + '#' + filename.substr(0, filename.indexOf('.txt')));
     
-    $.get('./templates/' + decodeURIComponent(filename), function(data) {
+    $.get('./templates/' + filename, function(data) {
         $('#input').val(data);
         run();
     }, 'text');
