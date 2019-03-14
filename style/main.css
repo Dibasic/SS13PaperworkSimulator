@@ -100,7 +100,7 @@
     margin-left: auto;
 }
 
-.control {
+.control, .control:focus {
     border: none;
     border-radius: 3px;
     background-color: #f1f1f1;
@@ -121,6 +121,11 @@
 }
 .control:hover, #template-button:hover {
     background-color: #fafafa;
+    border: none;
+}
+.control:active, #template-button:active {
+    background-color: #c1c1c1;
+    color: initial;
 }
 
 
