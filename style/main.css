@@ -11,7 +11,7 @@
     top: 0;
     width: 50%;
     height: 100%;
-    padding: 2px;
+    padding: 2px 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -55,13 +55,9 @@
 
 #menu {
     margin-top: 1em;
-    padding-top: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 2em 1em 0 1em;
     position: relative;
-    margin-right: -8px;
-    padding-right: 0px;
-    width: calc(100% - 3px);
+    width: 100%;
     min-height: 5em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
