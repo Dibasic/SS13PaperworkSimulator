@@ -9,6 +9,7 @@
     <script src="script/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
     <script src="script/clipboard.js-master/dist/clipboard.min.js"></script>
     <script type="text/javascript" src="script/pen.js"></script>
+    <script type="text/javascript" src="script/settings.js"></script>
     <script type="text/javascript" src="script/templates.js"></script>
     <link rel="stylesheet" type="text/css" href="script/jquery-ui-1.12.1.custom/jquery-ui.min.css"/>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
@@ -97,8 +98,8 @@
         </div>
         <div class="controlgroup settings-container">
             <button
+                id='settings-btn'
                 class="control has-tooltip"
-                onclick=""
                 title="Preview Customization"
             >
                 <i class="fa fa-cog"></i>
@@ -111,6 +112,19 @@
         </div>
         <div class="panel panel-right">
             <div id="output"></div>
+        </div>
+    </div>
+
+    <div id="settings-dialog" title="Preview Customization">
+        <div class="input-field">
+            <input id="pen-checkbox" type="checkbox"/>
+            <label for="pen-checkbox">Has pen?</label>
+            <i class="fa fa-question-circle has-tooltip" title="shows a 'write...' prompt where applicable"></i>
+        </div>
+        <div class="input-field">
+            <input id="filled-checkbox" type="checkbox"/>
+            <label for="filled-checkbox">Filled fields?</label>
+            <i class="fa fa-question-circle has-tooltip" title="shows sample text in all [field]s"></i>
         </div>
     </div>
 </body>

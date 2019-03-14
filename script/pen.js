@@ -89,8 +89,9 @@ $(document).ready(function () {
 });
 
 function run() {
-    $('#output').html(processText($('#input').val() + '[field]'));
+    $('#output').html(processText($('#input').val()));
     $('#output span.sig').css('font-style', 'italic');
+    updateFields();
 }
 
 String.prototype.replaceAll = function(strReplace, strWith) {
@@ -160,6 +161,7 @@ function processText(str) {
 
         .replaceAll('[editorbr]', '')
     );
+    str += '<span class="output-end"></span>';
 
     return str;
 }

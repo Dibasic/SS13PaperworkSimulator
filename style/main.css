@@ -133,6 +133,25 @@ body {
     font-family: Verdana, sans-serif;
 }
 
+.ui-dialog {
+    box-shadow: 2px 2px 8px gray;
+}
+
+#settings-dialog .input-field {
+    display: flex;
+}
+
+#settings-dialog .input-field label {
+    flex-grow: 1;
+}
+
+#settings-dialog input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
 @media screen and (max-width: 852px) {
     .panel {
         position: relative;
@@ -162,9 +181,13 @@ body {
     }
 }
 
-.paper_field::before {
+.write-prompt {
     color: blue;
     font-style: italic;
     text-decoration: underline;
-    content: "write...";
+    cursor: not-allowed;
+}
+
+.sample-text {
+    font-style: italic;
 }
