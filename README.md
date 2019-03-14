@@ -1,3 +1,5 @@
+[![License: CC BY-NC-SA 3.0](https://licensebuttons.net/l/by-nc-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode)
+
 # SS13PaperworkSimulator
 Renders SS13 (Baystation12) pencode into HTML.
 
