@@ -7,9 +7,15 @@ $(document).ready(function() {
         if ($('#template').css('display') === 'none') {
             $('#template').css('display', '');
         } else {
-            $('#template').css('display', 'none');
+            closeTemplateMenu();
         }
     });
+    $(document).keydown(function(e) {
+        if (e.key === 'Escape') {
+            closeTemplateMenu();
+        }
+    });
+    $('#input').click(closeTemplateMenu);
 
     $.getJSON('./templates/index.json', null, function(data) {
         var html = constructHtml(data);
@@ -37,6 +43,11 @@ $(document).ready(function() {
             return str;
         }
     });
+
+    function closeTemplateMenu() {
+        $('#template').css('display', 'none');
+        $('#template').menu('collapseAll');
+    }
 });
 
 function loadFile(filename) {
