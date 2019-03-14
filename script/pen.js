@@ -1,5 +1,4 @@
 /* jshint browser: true, jquery: true, devel: true */
-/* global ClipboardJS */
 'use strict';
 
 var yearmod = 288;
@@ -9,28 +8,12 @@ $(document).ready(function () {
 
     $('#input').bind('input change', run);
     $('#save').click(function () { download('pencode.txt', $('#input').val()); });
-    $('#load').click(function () { loadFile($('#template').val()); });
 
     $('.controlgroup').controlgroup();
 
-    // get clipboard.js set up
-    var clip = new ClipboardJS('#copy');
-    clip.on('success', function () {
-        alert('Copied to clipboard.');
-    });
-    clip.on('failure', function () {
-        alert('Failed to copy.');
-    });
-
-    // keep #copy loaded with the path currently on #template
-    $('#template').on('selectmenuchange', function () {
-        var temp = $('#template').val();
-        $('#copy').attr('data-clipboard-text','http://ps.ss13.net#' + temp.substring(0, temp.indexOf('.txt')));
-    });
-
     setTimeout(function () {
         var hash = $(location).attr('hash');
-        loadFile(hash ? hash.substring(1) + '.txt' : 'instructions.txt');
+        loadFile((hash && hash.substring(1) + '.txt') || 'instructions.txt');
     }, 100);
 
     $('.has-tooltip').tooltip();
@@ -200,13 +183,6 @@ function download(filename, text) {
   document.body.removeChild(element);
 
   alert('Document saved as ' + filename);
-}
-
-function loadFile(filename) {
-    $.get('./templates/' + filename, function(data) {
-        $('#input').val(data);
-        run();
-    });   
 }
 
 function addBlock(type) {
