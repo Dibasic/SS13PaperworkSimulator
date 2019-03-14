@@ -83,7 +83,7 @@
 }
 
 #template .ui-menu-item {
-    min-width: 8em;
+    white-space: nowrap;
 }
 
 #menu > legend {
