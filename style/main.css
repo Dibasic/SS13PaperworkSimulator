@@ -70,6 +70,12 @@ fieldset {
     padding-right: 0px;
 }
 
+#template {
+    position: absolute;
+    z-index: 1;
+    left: 5em;
+}
+
 .controlgroup .control {
     border: none;
     border-radius: 3px;
