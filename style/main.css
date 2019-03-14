@@ -115,20 +115,11 @@
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s;
 }
-#template-button {
-    border: none;
-    background-color: white;
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    -ms-transition: background-color 0.3s;
-    -o-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-}
-.control:hover, #template-button:hover {
+.control:hover {
     background-color: #fafafa;
     border: none;
 }
-.control:active, #template-button:active {
+.control:active {
     background-color: #c1c1c1;
     color: initial;
 }
