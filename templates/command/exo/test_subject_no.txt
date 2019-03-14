@@ -1,0 +1,23 @@
+[small][center][logo]
+Rejection Form HR-NTCO-02b-A[/center]
+
+[b]Rejection of Test Subject Volunteer Notice[/b]
+Vessel: SEV Torch
+DTG: [date], [time]
+Index: [field]
+
+[i]Dear Sir/Madam,
+
+We regret to inform you that your volunteer application for service as a test subject with the Expeditionary Corps Organisation has been rejected. We thank you for your interest in the progression of research. Attached, you will find a copy of your original volunteer form for your records. 
+
+Regards,[/i]
+
+[sign]
+[hr]
+Reason for Rejection:
+[[field]] Physically Unfit
+[[field]] Mentally Unfit
+[[field]] Project Cancellation
+[[field]] Other
+
+[center]Stamp below if Approved[/center][hr]

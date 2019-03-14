@@ -1,0 +1,30 @@
+[small][center][logo]
+Liability Form HR-NTCO-02b[/center]
+
+[b]Corporate Test Subject Volunteer Form[/b]
+Vessel: SEV Torch
+DTG: [date], [time]
+Index: [field]
+
+Name of Volunteer:
+[field]
+(Attach Crew Record)
+
+Intended Procedure(s):
+[field]
+
+Compensation for Volunteer: (if any)
+[field]
+
+Handling Researcher(s): (Name, Position)
+[field]
+[hr]
+[i]By signing, the "Volunteer" agrees to absolve the Expeditionary Corps Organisation, including partner corporations, and its employees, of any liability or responsibility for injuries, damages, property loss or side-effects that may result from the intended procedure. If signed by an authorized representative of the ECO, such as a Research Director or Corporate Executive - this form is deemed reviewed, but is only approved if stamped.[/i]
+
+Corporate Representative's Signature:
+[field]
+
+Volunteer's Signature:
+[field]
+
+[center]Stamp below if Approved[/center][hr]

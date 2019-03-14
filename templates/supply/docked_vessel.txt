@@ -1,0 +1,33 @@
+[center]
+[solcrest]
+
+[h3]SEV Torch[/h3][h2]Docked Vessel Report[/h2][hr][/center]
+[b]GENERAL INFO[/b]
+Date: [field]
+Vessel Name: [field]
+Vessel Pilot/Owner: [field]
+Vessel Intended Purpose: [field]
+Docking Authorized by: [field]
+
+[hr]
+[b]GENERAL CARGO INFO[/b]
+List the types of cargo onboard the vessel: [field]
+
+[hr]
+[b]HAZARDOUS CARGO INFO[/b]
+Weaponry? [field]
+Live cargo? [field]
+Biohazardous material? [field]
+Chemical or radiation hazard? [field]
+
+[hr]
+To indicate authorization for vessel entry, sign/stamp here: [field]
+-[small]Hangar Staff[/small]
+
+[hr]
+[b]UNDOCKING AND DEPARTURE[/b]
+Undocking Time: [field]
+Additional Undocking Comments: [field]
+
+[hr]
+[i]SEV Torch Supply and Hangar-Control Department[/i]
