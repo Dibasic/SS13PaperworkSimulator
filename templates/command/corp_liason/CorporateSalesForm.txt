@@ -1,0 +1,34 @@
+[center][logo]
+[small]SEV Torch - Expeditionary Corps Organisation[br]
+Corporate Sales Contract and Receipt HR-ECOCO-04[/center]
+[hr]
+[b]Product Information[/b]
+
+Product Name: [field]
+Product Type:
+[[field]] Weapon
+[[field]] Tool
+[[field]] Entertainment
+[[field]] Other: [u][field][/u]
+
+Product Unit Cost: T[field]
+Product Units Requested: x[field]
+Total Cost: T[field]
+
+[b]Terms and Conditions[/b]
+[i]The 'Purchaser' may not return any sold product units for re-compensation in thalers, but may return the item for an identical item, or item of equal material (not thaler) value. The 'Seller' agrees to make their best effort to repair, or replace any items that fail to accomplish their designed purpose, due to malfunction or manufacturing error - but not user-caused damage.
+[/i]
+
+[b]Purchaser Information[/b]
+
+Name: [field]
+Position: [field]
+Signature: [field]
+
+[b]Seller Information[/b]
+
+Name: [field]
+Position: [field]
+Signature: [field]
+
+[center]Stamp below if Approved[/center][hr]

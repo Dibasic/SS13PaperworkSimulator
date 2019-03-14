@@ -1,0 +1,14 @@
+[large][b][center]Expedition Manifest[/large][/b][/center] 
+Expedition Lead: [field]
+
+Attending Crew:
+- [field] Full Name, Rank
+
+Equipment Manifest:
+- [field] #, Item
+
+Time of Departure: [field]
+
+Authorized by: [field]
+
+Verified by: [field]

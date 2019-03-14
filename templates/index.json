@@ -5,11 +5,47 @@
         "Incident Report": "command/incident.txt",
         "Command (EXO)": {
             "EXO Personnel Complaint": "command/exo/EXO_complaint.txt",
-            "Non-EXO Personnel Complaint": "command/exo/nEXO_complaint.txt"
+            "Non-EXO Personnel Complaint": "command/exo/nEXO_complaint.txt",
+            "Access Modification Application Form": "command/exo/AccessModificationApplicationForm.txt",
+            "Crew Transfer Form": "command/exo/CrewTransferForm.txt",
+            "Cyborgification Form": "command/exo/CyborgificationForm.txt"
+        },
+        "Command (Corp Liason)": {
+            "Corporate Asset Incident Report": "command/corp_liason/CorporateAssetIncidentReport.txt",
+            "Corporate Personnel Incident Form": "command/corp_liason/CorporatePersonnelIncidentForm.txt",
+            "Corporate Sales Form": "command/corp_liason/CorporateSalesForm.txt",
+            "Deceased Salary Payout Form": "command/corp_liason/DeceasedSalaryPayoutForm.txt",
+            "Interdepartment Memorandum Form": "command/corp_liason/InterDepartmentMemorandumForm.txt",
+            "Internal Memorandum Form": "command/corp_liason/InternalMemorandumForm.txt",
+            "Nonhuman Without Work Visa Incident Form": "command/corp_liason/NonhumanWithoutWorkVisaIncidentForm.txt",
+            "Nonhuman With Work Visa Incident Form": "command/corp_liason/NonhumanWorkVisaIncidentForm.txt",
+            "Ship Crew - Corp Employee Incident Form": "command/corp_liason/ShipCrewCorpEmployeeIncidentReport.txt",
+            "Ship Incident Report": "command/corp_liason/ShipIncidentReport.txt",
+            "Synthetic Incident Report": "command/corp_liason/SynthIncidentReport.txt",
+            "Test Subject Volunteer Form": "command/corp_liason/TestSubjectVolunteerForm.txt",
+            "Work Visa Request Form": "command/corp_liason/WorkVisaRequestForm.txt"
+        },
+        "Command (SCGR)": {
+            "Crewman Incident Report": "command/scgr/CrewmanIncidentReport.txt",
+            "Department Audit": "command/scgr/DepartmentAudit.txt",
+            "End Cover for Multipage Report": "command/scgr/EndCoverMultipageReport.txt",
+            "Front Cover for Multipage Report": "command/scgr/FrontCoverMultipageReport.txt",
+            "Work Visa Issuing Form": "command/scgr/WorkVisaIssuingForm.txt"
         }
     },
     "Engineering": {
         "Area Inspection": "engineering/compliance.txt"
+    },
+    "Exploration": {
+        "Away Mission Manifest": "exploration/AwayMissionManifest.txt",
+        "Exoplanet Report": "exploration/ExoplanetReport.txt",
+        "Fauna Report": "exploration/FaunaReport.txt"
+    },
+    "Research": {
+        "Anomaly Report": "research/AnomalyReport.txt",
+        "Expedition Manifest": "research/ExpeditionManifest.txt",
+        "NT Employment Termination Form": "research/NT Employment Termination Form.txt",
+        "Xenoflora Genetics Form": "research/XenofloraGeneticsForm.txt"
     },
     "Medical": {
         "Autopsy Report": "medical/autopsy.txt"
@@ -17,10 +53,16 @@
     "Security": {
         "Incident Report": "security/incident_report.txt",
         "Patrol Assignment": "security/patrol_assignment.txt",
-        "POI Watchlist": "security/personnel_watchlist.txt"
+        "POI Watchlist": "security/personnel_watchlist.txt",
+        "Armory Inventory": "security/ArmoryInventory.txt",
+        "Incident Report (2)": "security/IncidentReport.txt",
+        "Investigation Report": "security/InvestigationReport.txt",
+        "Patrol Designations": "security/PatrolDesignations.txt"
     },
     "Supply": {
-        "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
+        "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt",
+        "Docked Vessel Report": "supply/DockedVesselReport.txt",
+        "Shuttle Pre-Flight Checklist": "supply/ShuttlePreflightChecklist.txt"
     },
     "Records": {
         "Public": "records/public.txt",
@@ -36,5 +78,9 @@
             "Security (Contractor)": "records/sierrakomodo/security_contractor.txt",
             "Security (Military)": "records/sierrakomodo/security_military.txt"
         }
+    },
+    "Other Paperwork": {
+        "SITREP": "other_paperwork/SITREP.txt",
+        "SolGov Transmission": "other_paperwork/SolGovTransmission.txt"
     }
 }

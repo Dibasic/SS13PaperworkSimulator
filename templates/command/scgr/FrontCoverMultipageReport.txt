@@ -1,0 +1,28 @@
+[center][b]Sol Central Goverment Internal Communication[/b]
+[i]SEV Torch[/i]
+
+[solcrest]
+
+[b][u]Fax Transmission[/u][/b]
+[/center]
+
+[b]From:[/b] [field]
+
+[b]To:[/b] [field]
+
+[b]Subject:[/b] [field]
+
+[hr]
+
+[b]Summary:[/b]
+[field]
+
+[b]Contents:[/b]
+[field]
+
+[b]Total Number of Pages:[/b] [field]
+[hr][small][i]
+This message, and the documents attached hereto, are intended only for the addressee and may contain confidential information. Any unauthorized disclosure is strictly prohibited.
+
+If this transmission is received in error, please notify both the sender and the office of Internal Affairs immediately so that corrective action may be taken. Failure to comply is a breach of government regulation and will be prosecuted to the fullest extent of the law, where applicable.
+[/i][/small]

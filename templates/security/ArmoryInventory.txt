@@ -1,0 +1,36 @@
+[center][solcrest][h1]Armory Inventory[/h1][i]Revision [date] - [time][/i][/center]
+[b]Equipment[/b]
+P.A.C.M.A.N. Generator: [field]
+Deployable Barriers: [field]
+Deployable Flashes: [field]
+Maintenance Jack: [field]
+Airlock Braces: [field]
+Flares: [field]
+Handcuffs: [field]
+Pepper Spray Grenades: [field]
+Flashbang Grenades: [field]
+Medical Supplies
+-[field]
+[field]
+
+[b]Armor[/b]
+Riot Armor: [field]
+Ballistics Armor: [field]
+Ablative Armor: [field]
+Riot Helmets: [field]
+Ballistics Helmets: [field]
+Ablative Helmets: [field]
+Riot Shields: [field]
+[field]
+
+[b]Weaponry[/b]
+Smart Guns: [field]
+Stun Rifles: [field]
+Grenade Launcher: [field]
+Ion Rifle: [field]
+[field]
+
+I hereby declare all inventory of the armory at [time].
+[sign]
+
+

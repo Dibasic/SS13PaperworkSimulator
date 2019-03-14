@@ -1,0 +1,22 @@
+[small][center][logo]
+Incident Form HR-NTCO-01d[/center]
+
+[b]Synthetic Employee Incident Report[/b]
+Vessel: SEV Torch
+DTG: [date], [time]
+Index: [field]
+
+Summary of Incident:
+[field]
+
+Synthetic Employee(s) Involved:
+[field]
+
+Details of Incident:
+[field]
+
+[hr]
+Signature: [field]
+Witness Signature: [field]
+
+[center]Stamp below if Approved[/center][hr]

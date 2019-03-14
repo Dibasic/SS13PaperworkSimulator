@@ -12,3 +12,5 @@ Please feel free to submit your own work if you are willing to have it available
 
 # Attribution
 All included images have been sourced from the Baystation12/Baystation12 repository and are attributed to their respective original authors. All included templates, whether sourced from the Baystation12 Wiki or committed by or on behalf of their original authors, are attributed to their respective original authors. Any characters, settings, and events referred to as part of the Baystation12 story and lore are attributed to their respective original authors.
+
+Thanks to sabiram, CrimsonShrike, Legodude9, Eonoc, ThatOneGuy, dryerlint, Atseuki, DisreputableSquid, Novus Luna, Persona E and XanderDox for their paperwork templates taken from the Baystation12 Wiki.

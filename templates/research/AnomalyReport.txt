@@ -1,0 +1,21 @@
+[i][b][center] Anomalistic Object Report [/i][/b][/center]
+
+[center][logo][/center]
+
+[center][b] AO Codename:[/b][field][/center]
+
+[center][b] Reporting Scientist: [field] [/center][/b]
+[br]
+[center][b] Overviewing Research Director: [field] [/center][/b]
+
+[center][b]Containment Procedures[/b][/center]
+
+[field]
+
+[center][b]Generalized Overview[/b][/center]
+
+[field]
+
+[b]Approximate Age of AO:[/b][field]
+
+[b]Threat Level of AO: [/b][field]
