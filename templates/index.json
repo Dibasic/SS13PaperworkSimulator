@@ -17,7 +17,8 @@
     "Security": {
         "Incident Report": "security/incident_report.txt",
         "Patrol Assignment": "security/patrol_assignment.txt",
-        "POI Watchlist": "security/personnel_watchlist.txt"
+        "POI Watchlist": "security/personnel_watchlist.txt",
+	"Armory Inventory": "security/armory_inventory.txt"
     },
     "Supply": {
         "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
