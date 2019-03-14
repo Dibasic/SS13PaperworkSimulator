@@ -43,11 +43,6 @@ $(document).ready(function() {
             return str;
         }
     });
-
-    function closeTemplateMenu() {
-        $('#template').css('display', 'none');
-        $('#template').menu('collapseAll');
-    }
 });
 
 function loadFile(filename) {
@@ -61,5 +56,10 @@ function loadFile(filename) {
         run();
     }, 'text');
 
+    closeTemplateMenu();
+}
+
+function closeTemplateMenu() {
     $('#template').css('display', 'none');
+    $('#template').menu('collapseAll');
 }
