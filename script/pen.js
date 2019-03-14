@@ -1,5 +1,4 @@
 /* jshint browser: true, jquery: true, devel: true */
-/* global ClipboardJS */
 'use strict';
 
 var yearmod = 288;
@@ -12,15 +11,6 @@ $(document).ready(function () {
 
     $('.controlgroup').controlgroup();
 
-    // get clipboard.js set up
-    var clip = new ClipboardJS('#copy');
-    clip.on('success', function () {
-        alert('Copied to clipboard.');
-    });
-    clip.on('failure', function () {
-        alert('Failed to copy.');
-    });
-    
     setTimeout(function () {
         var hash = $(location).attr('hash');
         loadFile((hash && hash.substring(1) + '.txt') || 'instructions.txt');

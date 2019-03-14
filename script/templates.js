@@ -47,8 +47,6 @@ $(document).ready(function() {
 
 function loadFile(filename) {
     var newHash = filename.substr(0, filename.indexOf('.txt'));
-    var newUrl = window.location.protocol + '//' + window.location.pathname + '#' + newHash;
-    $('#copy').attr('data-clipboard-text', newUrl);
     $(location).attr('hash', newHash);
     
     $.get('./templates/' + filename, function(data) {
