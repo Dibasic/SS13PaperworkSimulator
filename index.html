@@ -17,12 +17,31 @@
 </head>
 <body>
     <div id="menu">
-        <legend>PAPERWORK SIMULATOR <span id="year">23XX</span> <span class="optionalContent">(by Persona E)</span></legend>
+        <legend>PAPERWORK SIMULATOR <span id="year">23XX</span> <span class="optionalContent">(by Persona E & Climax708)</span></legend>
         <div class="controlgroup">
             <select class="control" id="template"></select>
-            <button class="control" id="load">Load Template</button>
-            <button class="control" id="copy" data-clipboard-text="instructions">Copy Link to Template</button>
-            <button class="control" id="save">Save Code to File</button>
+            <button
+                class="control has-tooltip"
+                id="load"
+                title="Load Template"
+            >
+                <i class="fa fa-folder-open"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                id="copy"
+                data-clipboard-text="instructions"
+                title="Copy Link"
+            >
+                <i class="fa fa-share-square"></i>
+            </button>
+            <button
+                class="control has-tooltip"
+                id="save"
+                title="Save As File"
+            >
+                <i class="fa fa-save"></i>
+            </button>
         </div>
         <div class="controlgroup">
             <button
@@ -83,17 +102,23 @@
             </button>
             <button
                 class="control has-tooltip"
-                onclick="addBlock('small')"
-                title="Small (Ctrl+Shift+&lt;)"
-            >
-                <i class="fa fa-compress"></i>
-            </button>
-            <button
-                class="control has-tooltip"
                 onclick="addBlock('large')"
                 title="Large (Ctrl+Shift+&gt;)"
             >
-                <i class="fa fa-expand"></i>
+                <span>
+                    <i class="fa fa-font"></i>
+                    <i class="fa fa-chevron-up fa-xs" style="position: absolute; top: 0.25em; left: 66%;"></i>
+                </span>
+            </button>
+            <button
+                class="control has-tooltip"
+                onclick="addBlock('small')"
+                title="Small (Ctrl+Shift+&lt;)"
+            >
+                <span>
+                    <i class="fa fa-font fa-xs"></i>
+                    <i class="fa fa-chevron-down fa-xs" style="position: absolute; top: 0.25em; left: 66%;"></i>
+                </span>
             </button>
         </div>
         <div class="controlgroup settings-container">
