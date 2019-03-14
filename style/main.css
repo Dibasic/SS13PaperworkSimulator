@@ -82,6 +82,10 @@
     left: 5em;
 }
 
+#template .ui-menu-item {
+    min-width: 8em;
+}
+
 #menu > legend {
     position: absolute;
     top: -0.58em;
