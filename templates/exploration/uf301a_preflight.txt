@@ -1,0 +1,84 @@
+[center][eclogo][/center][hr][hr][h3]SCGEC FORM UF301a: PREFLIGHT CHECKLIST - SINGLE-SEAT CRAFT, SMALL SPACECRAFT OR OTHER BOAT[/h3][/center][hr][hr][grid][row][cell][b]DATE[/b][cell]: [date]
+[row][cell][b]LOCAL TIME[/b][cell]: [time] 
+[row][cell][b]CRAFT[/b][cell]: [field]
+[row][cell][b]SHIP[/b][cell]: SEV TORCH
+[row][cell]
+[row][cell][b]DESTINATION[/b][cell]: [field]
+[row][cell][b]PURPOSE[/b][cell]: [field]
+[row][/grid][hr][hr][h3]CHECKLIST[/h3][hr][hr]
+[small][table][row][cell][b]#[/b][cell][b]INSTRUCTION OR CHECK[/b][cell][b]PASS/FAIL[/b][cell][b]AMT/QTY/NOTE[/b]
+[row][cell]1a[cell]Port side of hull shows no signs of damage or fatigue[cell][field][cell][field]
+[row][cell]1b[cell]Starboard side of hull shows no signs of damage or fatigue[cell][field][cell][field]
+[row][cell]1c[cell]Windows and glass panels have no visible cracks, loose
+or missing fastening screws, or loose or missing brackets[cell][field][cell][field]
+[row][cell]2a[cell]Engine nozzles show no damage or fatigue, debris, loose
+objects, or objects blocking nozzle exhaust[cell][field][cell][field]
+[row][cell]2b[cell]Area behind and below engine nozzles is free of spilled or
+leaking fluid, loose fastening screws, and other debris[cell][field][cell][field]
+[row][cell]3a[cell]Short-range or chemical fuel tank above 300 kPa*
+*[i]for 70L H2 at 293K; 8.62 mol H2 for other calculations[/i][cell][field][cell][field]
+[row][cell]3b[cell]Short-range fuel tank connected with no sign of leak[cell][field][cell][field]
+[row][cell]3c[cell]Short-range fuel access panel closed and latched[cell][field][cell][field]
+[row][cell]4a[cell]Long-range fuel pump or regulator state is ON or OPEN[cell][field][cell][field]
+[row][cell]4b[cell]Long-range fuel pump or regulator target pressure set to
+15MPa or applicable maximum[cell][field][cell][field]
+[row][cell]4c[cell]Long-range fuel pump or regulator flow rate set to 500L/s
+or applicable maximum[cell][field][cell][field]
+[row][cell]4d[cell]Long-range fuel tank connected to long-range fuel port[cell][field][cell][field]
+[row][cell]5a[cell]All area power controllers show GREEN (100% charge) or
+BLUE (<100% charge, increasing) status[cell][field][cell][field]
+[row][cell]5b[cell]SMES or PSU total charge is at or above 80% of maximum[cell][field][cell][field]
+[row][cell]5c[cell]SMES or PSU connected to terminal; no wires are missing,
+damaged, or disconnected[cell][field][cell][field]
+[row][cell]5d[cell]Visible power cables show no signs of damage[cell][field][cell][field]
+[row][cell]6a[cell]PACMAN, MRSPACMAN, SUPERPACMAN, or other electrical
+generator is fixed in place and connected to power cable[cell][field][cell][field]
+[row][cell]6b[cell]Generator power cable leads directly to SMES or PSU
+terminal and not to any other power draw[cell][field][cell][field]
+[row][cell]6c[cell]Generator solid fuel is present and loaded into generator
+unit or stored in fireproof locker or crate[cell][field][cell][field]
+[row][cell]6d[cell]Generator power setting is equal to or less than the
+maximum safe output listed on bottom or rear of unit[cell][field][cell][field]
+[row][cell]6e[cell]Generator setting is OFF if connected to ship powernet[cell][field][cell][field]
+[row][cell]7a[cell]All internal atmospheric vents and scrubbers are enabled
+and all environmental controls are set to 'Filtering' mode[cell][field][cell][field]
+[row][cell]7b[cell]Air distribution tank is full or above 4MPa and air scrubber
+tank is empty or below 100kPa[cell][field][cell][field]
+[row][cell]7c[cell]Airlock buffer tank is between 200kPa and 600kPa, or
+airlock pressure regulator or pump is ON or OPEN and set
+between 100 and 120kPa with 500L/s or maximum flow[cell][field][cell][field]
+[row][cell]8a[cell]Enough O2 or airmix tanks for mission and crew are on
+board and all are set to safe* distribution pressure
+*[i]see manufacturer for safe distribution pressures[cell][field][cell][field]
+[row][cell]8b[cell]Enough breath masks are on board for mission[cell][field][cell][field]
+[row][cell]8c[cell]Enough voidsuits or protective equipment for mission and
+crew are on board, all equipment is attached, and no suits
+show signs of punctures, melting, or tearing[cell][field][cell][field]
+[row][cell]8d[cell]Other mission-related cargo matches mission manifest*
+*[i]see form UF311[cell][field][cell][field]
+[row][cell]9a[cell]Sensors console shows status "VACUUM SEAL BROKEN"
+(if atmospheric) or "OK" (if in vacuum)[cell][field][cell][field]
+[row][cell]9b[cell]Engine control console shows all nozzles present and
+power is equal for all engines on the same line[cell][field][cell][field]
+[row][cell]9c[cell]Engines are all turned ON and throttled to ideal limit*
+*[i]see manual UF3-04-1134 for discussion of ideal limits[cell][field][cell][field]
+[row][cell]9d[cell]Helm console shows acceleration above 0.0 and within
+expected range[cell][field][cell][field]
+[row][cell]10a[cell]All mission crew are on board and match mission manifest
+*[i]see form UF312 or forms UF322a or UF322b[cell][field][cell][field]
+[row][cell]10b[cell]All external airlocks are sealed[cell][field][cell][field]
+[row][cell]10c[cell]Relevant manifests submitted and departure authorization
+received from hangar control or command if required[cell][field][cell][field][/table]
+[b]IMPORTANT: YOU MUST WRITE "PASS", "FAIL", OR "N/A" FOR EVERY CHECK. DO NOT IGNORE OR SKIP ANY APPLICABLE CHECKS. DO NOT COMPLETE THIS CHECKLIST OUT OF ORDER. DO NOT MEMORIZE THIS CHECKLIST. DO NOT COMPLETE THIS CHECKLIST AT ANY TIME OTHER THAN WHILE PERFORMING YOUR PREFLIGHT CHECK. NEGLIGENT OPERATION OF SPACECRAFT IS PUNISHABLE BY CRIMINAL LAW AND THE SCUJ.[/b][/small]
+
+[hr][hr][h3]VERIFICATION[/h3][hr][hr]
+[b]PREPARING[/b] pilot, technician or flight officer
+
+[small][i]I take responsibility for any negligent preparation of the craft listed above. I verify to the best of my knowledge that I have completed all checks listed above, that I have completed them fully and in their listed order, and that I am trained and authorized to operate this craft and its equipment.[/i][/small]
+[grid]
+[row][cell][b]RANK / RATE[/b][cell]: [field]
+[row][cell][b]FULL NAME[/b][cell]: [field]
+[row][cell][b]ASSIGNMENT[/b][cell]: [field]
+[row][cell][b]SIGN[/b][cell]: [field]
+[row][cell][b]DATE[/b][cell]: [field][/grid]
+[hr]

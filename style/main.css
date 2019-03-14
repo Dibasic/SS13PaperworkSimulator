@@ -1,17 +1,5 @@
 /* Code to make input and output line up side by side */
 
-#menu {
-    width: calc(100% - 3px);
-    min-height: 5em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
 #wrapper {
     width: 100%;
     height: calc(100vh - 7em);
@@ -65,9 +53,27 @@
     box-sizing: border-box;
 }
 
-fieldset {
+#menu {
+    margin-top: 1em;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
     margin-right: -8px;
     padding-right: 0px;
+    width: calc(100% - 3px);
+    min-height: 5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 #template {
@@ -76,7 +82,31 @@ fieldset {
     left: 5em;
 }
 
-.controlgroup .control {
+#menu > legend {
+    position: absolute;
+    top: -0.58em;
+    left: 0.5em;
+    font-weight: bold;
+    font-size: 24px;
+    z-index: 100;
+    background-color: #f1f1f1;
+}
+
+.controlgroup {
+    display: inline-block;
+}
+
+.settings-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.settings-container .control {
+    margin-left: auto;
+}
+
+.control, .control:focus {
     border: none;
     border-radius: 3px;
     background-color: #f1f1f1;
@@ -95,8 +125,13 @@ fieldset {
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s;
 }
-.controlgroup .control:hover, #template-button:hover {
+.control:hover, #template-button:hover {
     background-color: #fafafa;
+    border: none;
+}
+.control:active, #template-button:active {
+    background-color: #c1c1c1;
+    color: initial;
 }
 
 
@@ -105,13 +140,27 @@ body {
     background-color: #f1f1f1;
 }
 
-fieldset > legend {
-    font-weight: bold;
-    font-size: 24px;
-}
-
 #output {
     font-family: Verdana, sans-serif;
+}
+
+.ui-dialog {
+    box-shadow: 2px 2px 8px gray;
+}
+
+#settings-dialog .input-field {
+    display: flex;
+}
+
+#settings-dialog .input-field label {
+    flex-grow: 1;
+}
+
+#settings-dialog input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 852px) {
@@ -126,12 +175,16 @@ fieldset > legend {
     }
 
     .controlgroup {
+        flex-grow: 1;
         display: flex;
-        padding-right: 0.5em;
     }
 
-    .controlgroup .control {
+    .control {
         flex-grow: 1;
+    }
+
+    .settings-container .control {
+        flex-grow: 0;
     }
 
     .optionalContent {
@@ -139,9 +192,13 @@ fieldset > legend {
     }
 }
 
-.paper_field::before {
+.write-prompt {
     color: blue;
     font-style: italic;
     text-decoration: underline;
-    content: "write...";
+    cursor: not-allowed;
+}
+
+.sample-text {
+    font-style: italic;
 }

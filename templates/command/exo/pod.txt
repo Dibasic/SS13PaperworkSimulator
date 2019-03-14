@@ -1,0 +1,23 @@
+[small][center][logo]
+Request Form HR-NTCO-05a[/center]
+
+[b]Next of Kin Payout Authorization[/b]
+Vessel: SEV Torch
+DTG: [date], [time]
+Index: [field]
+
+This document hereby authorizes the payout of the remaining salary of:
+[field]
+
+As well as the net-worth of any remaining personal assets: (Asset, Thaler Amount)
+[field]
+
+Including personal effects:
+[field]
+
+To be shipped and delivered directly to the employee's next of kin without delay.
+
+[hr]
+Signature: [field]
+
+[center]Stamp below if Approved[/center][hr]

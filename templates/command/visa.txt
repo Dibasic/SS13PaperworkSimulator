@@ -1,0 +1,22 @@
+[center][Solcrest]
+Issuing Form SCG-03b[/center]
+
+Work Visa Issuing Form
+Date: [date]
+
+Recipient of Work Visa:
+[field]
+
+Rank and Position of Recipient:
+[field]
+
+Species of Recipient:
+[field]
+
+Issuer of Work Visa Signature:
+[field]
+
+Recipient of Work Visa Signature:
+[field]
+
+Stamp Below:
