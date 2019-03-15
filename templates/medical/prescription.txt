@@ -1,0 +1,17 @@
+[hr][logo]
+[u][center]Prescription[/center][/u]
+
+[b]Reagent name[/b]: [field]
+[b]Treatment period[/b]: [field] - [field]
+[b]Dose[/b]: [field]
+[b]Intake instructions[/b]: [field]
+
+Do not exceed prescribed dose.
+Do not cease treatment prematurely.
+Side effects may occur; consult physician if severe.
+
+[hr][b]Prescribing doctor[/b]: [field]
+[b]Signature[/b]: [field]
+[b]Date[/b]: [field]
+
+[hr]

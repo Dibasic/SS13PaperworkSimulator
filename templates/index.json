@@ -51,7 +51,8 @@
     },
     "Medical": {
         "Autopsy Report": "medical/autopsy.txt",
-        "Cyborgification Waiver": "medical/cyborgification.txt"
+        "Cyborgification Waiver": "medical/cyborgification.txt",
+        "Prescription": "medical/prescription.txt"
     },
     "Research": {
         "Anomaly Report": "research/anomaly.txt",
