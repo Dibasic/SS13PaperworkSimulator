@@ -1,4 +1,5 @@
-/* jshint browser: true, jquery: true, devel: true */
+/* jshint browser: true, devel: true, jquery: true, unused: false */
+/* global run */
 'use strict';
 
 $(document).ready(function() {

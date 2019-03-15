@@ -1,4 +1,5 @@
 /* jshint browser: true, jquery: true, devel: true */
+/* global loadFile, updateFields */
 'use strict';
 
 var yearmod = 288;

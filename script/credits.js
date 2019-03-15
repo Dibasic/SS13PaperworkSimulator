@@ -1,3 +1,6 @@
+/* jshint jquery: true */
+'use strict';
+
 $(function() {
     $("#credits-dialog").dialog({
         autoOpen: false
