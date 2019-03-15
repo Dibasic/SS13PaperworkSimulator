@@ -1,4 +1,5 @@
-[![License: CC BY-NC-SA 3.0](https://licensebuttons.net/l/by-nc-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode)
+[![License: CC BY-NC-SA 3.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode)
+[![codebeat badge](https://codebeat.co/badges/84dbf211-3be0-4d21-a76a-3b340dade910)](https://codebeat.co/projects/github-com-dibasic-ss13paperworksimulator-master)
 
 # SS13PaperworkSimulator
 Renders SS13 (Baystation12) pencode into HTML.
