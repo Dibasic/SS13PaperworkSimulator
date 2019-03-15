@@ -1,7 +1,5 @@
 [center][solcrest][u][large]Welcome to the SEV Torch![/large][/u][eclogo][/center]
 [hr]
-Whether from shore, cryogenic storage, or by other means, you've now found yourself on the SEV Torch.
-
 The Torch is a Mako-class exploratory corvette. The vessel is the result of a deep space exploration project overseen by the Sol Central Government (SCG) and multiple corporate investors, primarily the Expeditionary Corps Organisation (EXO) and certain Skrellian organizations.
 
 For your familiarization with the ship, and the departments becoming aware of your presence, you're required to fill the following form:
