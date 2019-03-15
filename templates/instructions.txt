@@ -85,7 +85,7 @@ time
 sign - be careful, if you want a place on your form for someone to sign, you probably want to use a field instead
 [sign]
 
-field - [b]critical[/b] for forms
+field - used for forms, a user will be able to write wherever you put this tag. click the gear icon at the top to configure how fields are displayed
 [field]
 
 images:
