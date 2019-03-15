@@ -22,6 +22,7 @@
     "Command": {
         "Access Modification": "command/access_mod.txt",
         "Crew Job Transfer": "command/crew_transfer.txt",
+        "New Arrival": "command/arrival.txt",
         "Departmental Audit": "command/department_audit.txt",
         "Incident Report": "command/incident.txt",
         "SITREP": "command/sitrep.txt",
