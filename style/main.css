@@ -193,11 +193,11 @@ body {
 }
 
 .small-text {
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .large-text {
-    font-size: 19px;
+    font-size: 1.2rem;
 }
 
 #credits, .credits-section, .credits-row {
