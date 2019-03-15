@@ -1,4 +1,4 @@
-[center][b]Blood Donation Application Form[/b][/center]
+[center][b]Blood Donation Informed Consent Form[/b][/center]
 [hr]
 Have you donated blood before? [field] [small](yes/no)[/small][br]
 [hr]
