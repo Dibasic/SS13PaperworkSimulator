@@ -17,7 +17,7 @@ function updateFields() {
         innerHtml += '<span class="sample-text">Lorem ipsum dolor sit amet</span>';
     }
     if ($('#pen-checkbox').is(':checked')) {
-        var html = '<span class="write-prompt" title="Players in-game will click this to write on the paper">write...</span>';
+        var html = '<span class="write-prompt" title="Players in-game will click this to write on the paper">write</span>';
         innerHtml += html;
         $('.output-end').html(html);
         $('.write-prompt').tooltip();

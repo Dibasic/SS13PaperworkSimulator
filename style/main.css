@@ -183,8 +183,7 @@ body {
 }
 
 .write-prompt {
-    color: blue;
-    font-style: italic;
+    color: #0066cc;
     text-decoration: underline;
     cursor: not-allowed;
 }
