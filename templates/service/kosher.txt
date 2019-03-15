@@ -1,0 +1,24 @@
+[hr][center]
+[small]With gods help
+[table][row][cell]Kosher Department[cell][solcrest][cell]Sector Rabbinate[/table][/small]
+[large][b]Kosher Certificate[/b][/large]
+[/center]
+
+Type of Kosher: [b][field][/b]
+We hereby certify the following: [b][field][/b]
+Which is owned by: [b][field][/b]
+Located at: [b][field][/b]
+From stardate [b][date][/b] to stardate [b][field][/b]
+[small]
+[center][u]Note the expiry date[/u][/center]
+Do noy copy this certificate.
+[list][*]Certificate will expire at the stardate stated above.
+[*]This certificate is the sole property of the sector rabbinate, and it's in the power to revoke it at its discretion.
+[*]All products sold from various sources are certified by local rabbinates.
+[*]Unsigned certificates are expired.[/list]
+The public is requested to report any violations to [b][field][/b].
+[/small]
+
+Kosher supervisor: [b][field][/b]
+Signature: [b][field][/b]
+[hr]
