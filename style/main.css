@@ -192,6 +192,14 @@ body {
     font-style: italic;
 }
 
+.small-text {
+    font-size: 13px;
+}
+
+.large-text {
+    font-size: 19px;
+}
+
 #credits, .credits-section, .credits-row {
     display: flex;
     justify-content: space-between;
