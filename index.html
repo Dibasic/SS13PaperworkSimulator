@@ -9,6 +9,7 @@
     <script src="script/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
     <script type="text/javascript" src="script/pen.js"></script>
     <script type="text/javascript" src="script/settings.js"></script>
+    <script type="text/javascript" src="script/credits.js"></script>
     <script type="text/javascript" src="script/templates.js"></script>
     <link rel="stylesheet" type="text/css" href="script/jquery-ui-1.12.1.custom/jquery-ui.min.css"/>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
@@ -16,7 +17,7 @@
 </head>
 <body>
     <div id="menu">
-        <legend>PAPERWORK SIMULATOR <span id="year">23XX</span> <span class="optionalContent">(by Persona E & Climax708)</span></legend>
+        <legend>PAPERWORK SIMULATOR <span id="year">23XX</span></legend>
         <div class="controlgroup">
             <ul id="template"></ul>
             <button
@@ -112,13 +113,20 @@
                 </span>
             </button>
         </div>
-        <div class="controlgroup settings-container">
+        <div class="controlgroup dialog-container">
             <button
                 id='settings-btn'
                 class="control has-tooltip"
                 title="Preview Customization"
             >
                 <i class="fa fa-cog"></i>
+            </button>
+            <button
+                id='credits-btn'
+                class="control has-tooltip"
+                title="Contributors"
+            >
+                <i class="fa fa-book-open"></i>
             </button>
         </div>
     </div>
@@ -141,6 +149,132 @@
             <input id="filled-checkbox" type="checkbox"/>
             <label for="filled-checkbox">Filled fields?</label>
             <i class="fa fa-question-circle has-tooltip" title="shows sample text in all [field]s"></i>
+        </div>
+    </div>
+    <div id="credits-dialog" title="Contributors">
+        <div id="credits">
+            <div class="credits-section">
+                <div class="credits-header">
+                    Development and Design
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        Persona E
+                    </div>
+                    <div class="credits-cell">
+                        <a href="https://github.com/Dibasic/" target="_blank">
+                            <i class="fab fa-lg fa-github-square"></i>
+                        </a>
+                    </div>
+                    <div class="credits-cell">
+
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        Climax708
+                    </div>
+                    <div class="credits-cell">
+                        <a href="https://github.com/soryy708/" target="_blank">
+                            <i class="fab fa-lg fa-github-square"></i>
+                        </a>
+                    </div>
+                    <div class="credits-cell">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="credits-section">
+                <div class="credits-header">
+                    Template Design and Writing
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        Persona E
+                    </div>
+                    <div class="credits-cell">
+                        SierraKomodo
+                    </div>
+                    <div class="credits-cell">
+                        Boznar
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        Cakey
+                    </div>
+                    <div class="credits-cell">
+                        Piccione
+                    </div>
+                    <div class="credits-cell">
+                        masterrbc
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        sabiram
+                    </div>
+                    <div class="credits-cell">
+                        CrimsonShrike
+                    </div>
+                    <div class="credits-cell">
+                        Legodude9
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        Eonoc
+                    </div>
+                    <div class="credits-cell">
+                        ThatOneGuy
+                    </div>
+                    <div class="credits-cell">
+                        dryerlint
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        Atseuki
+                    </div>
+                    <div class="credits-cell">
+                        DisreputableSquid
+                    </div>
+                    <div class="credits-cell">
+                        Novus Luna
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        Kyos
+                    </div>
+                    <div class="credits-cell">
+                        Eckles_Fire
+                    </div>
+                    <div class="credits-cell">
+                        Randall Hynes
+                    </div>
+                </div>
+            </div>
+            <div class="credits-section">
+                <div class="credits-header">
+                    Other Thanks
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        The many players and lore staff who have contributed to the Baystation12 setting and story
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        The many players and developers who have contributed to Baystation12 on GitHub
+                    </div>
+                </div>
+                <div class="credits-row">
+                    <div class="credits-cell">
+                        The many people who have contributed to the Baystation 12 Wiki
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

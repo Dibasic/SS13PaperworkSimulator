@@ -191,3 +191,42 @@ body {
 .sample-text {
     font-style: italic;
 }
+
+#credits, .credits-section, .credits-row {
+    display: flex;
+    justify-content: space-between;
+}
+#credits, .credits-section {
+    flex-direction: column;
+}
+
+.credits-header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.credits-section {
+    margin: 20px 10px;
+}
+.credits-row {
+    margin: 5px;
+}
+
+/* Give equal width to credits cells */
+.credits-section, .credits-row, .credits-cell {
+    flex-grow: 1;
+}
+.credits-cell {
+    flex-basis: 0;
+}
+
+/* Align text in credits cells */
+.credits-row > .credits-cell {
+    text-align: center;
+}
+.credits-row > .credits-cell:last-child {
+    text-align: right;
+}
+.credits-row > .credits-cell:first-child {
+    text-align: left;
+}
