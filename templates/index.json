@@ -52,7 +52,8 @@
     "Medical": {
         "Autopsy Report": "medical/autopsy.txt",
         "Cyborgification Waiver": "medical/cyborgification.txt",
-        "Blood Donation": "medical/blood_donation.txt"
+        "Blood Donation": "medical/blood_donation.txt",
+        "Prescription": "medical/prescription.txt"
     },
     "Research": {
         "Anomaly Report": "research/anomaly.txt",

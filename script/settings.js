@@ -1,3 +1,6 @@
+/* jshint jquery: true */
+'use strict';
+
 $(function() {
     $("#settings-dialog").dialog({
         autoOpen: false

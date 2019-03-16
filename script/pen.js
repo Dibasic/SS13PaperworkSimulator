@@ -1,4 +1,5 @@
 /* jshint browser: true, jquery: true, devel: true */
+/* global loadFile, updateFields */
 'use strict';
 
 var yearmod = 288;
@@ -109,10 +110,10 @@ function processText(str) {
         .replaceAll('[date]', getDateString())
         .replaceAll('[sign]', '<span class="sig">John Doe</span>')
 
-        .replaceAll('[large]', '<big>')
-        .replaceAll('[/large]', '</big>')
-        .replaceAll('[small]', '<small>')
-        .replaceAll('[/small]', '</small>')
+        .replaceAll('[large]', '<span class="large-text">')
+        .replaceAll('[/large]', '</span>')
+        .replaceAll('[small]', '<span class="small-text">')
+        .replaceAll('[/small]', '</span>')
 
         .replaceAll('[field]', '<span class="paper_field"></span>')
         .replaceAll('[h1]', '<H1>')
