@@ -1,0 +1,41 @@
+[hr]
+[center][solcrest]
+[large][b]SCG MEDICAL SERVICES[/large]
+AUTOPSY REPORT[/b][/center]
+[hr]
+[center]PATIENT INFORMATION[/center]
+Name: [field]
+Organization: [field]
+Rank: [field]
+[hr]
+[center]INVESTIGATIVE FINDINGS:[/center]
+Date of Death: [field]
+Time of Death: [field]
+Known/Estimated: [field]
+
+Cause of Death: [field]
+Attended or Unattended Death: [field]
+
+Narrative:
+
+[field]
+[hr]
+[center]POST-MORTEM REQUESTS:[/center]
+Narrative:
+
+[field]
+[hr]
+[center]REVIEW INFORMATION:[/center]
+Vessel/Station Performed: [field]
+
+[small][i]I hereby declare that after receiving notice of the death described herein, I took charge of the body and made inquiries regarding the cause of death in accordance with local laws and standing orders, and that the information contained herein regarding said death is true and correct to the best of my knowledge and belief.[/i]
+[/small]
+Name: [field]
+Signature: [field]
+Organization: [field]
+Rank: [field]
+
+Chief Medical Officer on Shift: [field]
+Organization: [field]
+Rank: [field]
+[hr]
