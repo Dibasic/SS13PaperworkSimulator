@@ -30,7 +30,7 @@
         "Visa Issuing Form": "command/visa.txt",
         "Command (EXO)": {
             "Complaint (EXO Personnel)": "command/exo/complaint_exo.txt",
-            "Complaint (Non-EXO Personnel)": "command/exo/complaint_next.txt",
+            "Complaint (Non-EXO Personnel)": "command/exo/complaint_nexo.txt",
             "Memo (Internal)": "command/exo/memo.txt",
             "Memo (Inter-department)": "command/exo/memo_ext.txt",
             "Payable on Death": "command/exo/pod.txt",
