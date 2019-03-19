@@ -12,6 +12,14 @@ $(function() {
 
     $('#pen-checkbox').click(updateFields);
     $('#filled-checkbox').click(updateFields);
+
+    $('#dark-theme-checkbox').click(function() {
+        if ($('#dark-theme-checkbox').is(':checked')) {
+            $('body').addClass('dark-theme');
+        } else {
+            $('body').removeClass('dark-theme');
+        }
+    });
 });
 
 function updateFields() {

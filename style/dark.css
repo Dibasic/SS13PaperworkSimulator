@@ -1,0 +1,55 @@
+.dark-theme {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-theme #menu {
+    background-color: #1f1f1f;
+    border-color: #3f3f3f;
+}
+
+.dark-theme #template, .dark-theme .ui-menu-item-wrapper {
+    background-color: black;
+    color: white;
+}
+.dark-theme .ui-menu-item-wrapper:hover {
+    background-color: #3f3f3f;
+}
+
+.dark-theme #input, .dark-theme #output {
+    background-color: black;
+    color: white;
+    border-color: #3f3f3f;
+    box-shadow: -6px -6px 16px #1f1f1f inset;
+}
+
+.dark-theme #menu > legend {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.dark-theme .control, .dark-theme .control:focus {
+    background-color: #1f1f1f;
+    color: white;
+}
+.dark-theme .control:hover {
+    background-color: #3f3f3f;
+}
+
+.dark-theme .ui-dialog {
+    background-color: #1f1f1f;
+    color: white;
+}
+.dark-theme .ui-dialog-titlebar, .dark-theme .ui-dialog-titlebar-close {
+    background-color: #3f3f3f;
+    color: white;
+    border: none;
+}
+
+.dark-theme .input-field {
+    color: white;
+}
+
+.dark-theme #credits, .dark-theme .ui-widget-content a {
+    color: white;
+}
