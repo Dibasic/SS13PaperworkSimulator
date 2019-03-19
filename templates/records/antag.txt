@@ -1,0 +1,21 @@
+[b]MASKING UPLINK SIGNAL[/b]
+[b]PAYMENT RECEIVED...[/b]
+[b]INITIATING DATA TRANSFER...[/b]
+[b]....[/b]
+[b]....COMPLETE[/b]
+[b]DISPLAYING INFORMATION:[/b]
+[hr]
+[b]Name:[/b] Last, First Middle
+[b]Age:[/b] [age]-[b]SOL[/b]
+[b]Sex:[/b] 
+[b]Species:[/b] 
+[b]Subtype/Race:[/b] 
+[b]Coloration:[/b] 
+[b]Place of Residence:[/b]  house number/etc, street/etc, City, Planet Region (SYSTEM)
+[hr]
+[b]Close Kin and Associates:[/b] [list][*]Surname, Forname | Relation, age | job | house number/etc, street/etc, City, Planet Region (SYSTEM)
+[/list][hr]
+[large][b]ADDITIONAL INFORMATION[/b][/large]
+[i]INFO  - INFO BROKER NAME[/i]
+
+[b]...[/b]

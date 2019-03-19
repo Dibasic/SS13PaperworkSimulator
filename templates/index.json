@@ -9,6 +9,7 @@
         "Employment (Fleet)": "records/employment_fleet.txt",
         "Medical": "records/medical.txt",
         "Security": "records/security.txt",
+        "Exploitable": "records/antag.txt",
         "Records (SierraKomodo)": {
             "Public/Header (Contractor)": "records/sierrakomodo/public_contractor.txt",
             "Public/Header (Military)": "records/sierrakomodo/public_military.txt",
