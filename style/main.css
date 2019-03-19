@@ -182,6 +182,11 @@ body {
     }
 }
 
+/* [sign] */
+span.sig {
+    font-family: Times New Roman, serif;
+}
+
 /* [field] has-pen option */
 .write-prompt {
     color: #0066cc;
