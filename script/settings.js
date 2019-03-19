@@ -12,6 +12,9 @@ $(function() {
 
     $('#pen-checkbox').click(updateFields);
     $('#filled-checkbox').click(updateFields);
+
+    $('#pen-style-select option').click(updateFonts);
+    $('#pen-color-select option').click(updateFonts);
 });
 
 function updateFields() {
@@ -28,4 +31,9 @@ function updateFields() {
         $('.output-end').html('');
     }
     $('.paper_field').html(innerHtml);
+}
+
+function updateFonts(e) {
+    $('#output').css('font-family', $('#pen-style-select').val());
+    $('#output').css('color', $('#pen-color-select').val());
 }
