@@ -182,24 +182,27 @@ body {
     }
 }
 
+/* [field] has-pen option */
 .write-prompt {
     color: #0066cc;
     text-decoration: underline;
     cursor: not-allowed;
 }
-
+/* [field] sample text option */
 .sample-text {
     font-style: italic;
 }
 
+/* [small] */
 .small-text {
     font-size: 0.8rem;
 }
-
+/* [large] */
 .large-text {
     font-size: 1.2rem;
 }
 
+/* flexbox formatting for credits */
 #credits, .credits-section, .credits-row {
     display: flex;
     justify-content: space-between;
@@ -207,17 +210,18 @@ body {
 #credits, .credits-section {
     flex-direction: column;
 }
-
-.credits-header {
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
 .credits-section {
     margin: 20px 10px;
 }
 .credits-row {
     margin: 5px;
+}
+
+/* Credits header formatting */
+.credits-header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
 /* Give equal width to credits cells */
