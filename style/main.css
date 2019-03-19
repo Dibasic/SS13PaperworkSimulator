@@ -238,3 +238,8 @@ body {
 .credits-row > .credits-cell:first-child {
     text-align: left;
 }
+
+/* Align credit icons to center to make spacing look a bit better */
+#credits > .credits-section:first-child > .credits-row > .credits-cell:last-child {
+    text-align: center !important;
+}

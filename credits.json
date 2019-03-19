@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Development and Design",
+        "columns": 1,
+        "credits": [
+            {
+                "_name": "Persona E",
+                "fab fa-github": "https://github.com/Dibasic/",
+                "fas fa-toolbox": "https://forums.baystation12.net/members/persona-e.4702/"
+            },
+            {
+                "_name": "Climax708",
+                "fab fa-github": "https://github.com/soryy708/",
+                "fas fa-toolbox": "https://forums.baystation12.net/members/climax708.7963/"
+            }
+        ]
+    },
+    {
+        "title": "Template Design and Writing",
+        "columns": 3,
+        "credits": [
+            "AlabasterTempest",
+            "Atseuki",
+            "Boznar",
+            "Cakey",
+            "Climax708",
+            "CrimsonShrike",
+            "DisreputableSquid",
+            "dryerlint",
+            "Eonoc",
+            "Kyos",
+            "Legodude9",
+            "masterrbc",
+            "Novus Luna",
+            "Persona E",
+            "Piccione",
+            "Randall Hynes",
+            "sabiram",
+            "SierraKomodo",
+            "ThatOneGuy",
+            "YourDaddy117",
+            "Za_Redman"
+        ]
+    },
+    {
+        "title": "Other Thanks",
+        "columns": 1,
+        "credits": [
+            "The many players and lore staff who have contributed to the Baystation12 setting and story",
+            "The many players and developers who have contributed to Baystation12 on GitHub",
+            "The many people who have contributed to the Baystation 12 Wiki",
+            "The many developers of /tg/station, /vg/station, GoonStation and the original Space Station 13",
+            "The past and present maintainers of BYOND"
+        ]
+    }
+]
