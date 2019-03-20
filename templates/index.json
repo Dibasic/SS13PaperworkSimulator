@@ -75,5 +75,8 @@
     "Supply": {
         "Docked Vessel": "supply/docked_vessel.txt",
         "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
+    },
+    "Service": {
+        "Kosher Certificate": "service/kosher.txt"
     }
 }

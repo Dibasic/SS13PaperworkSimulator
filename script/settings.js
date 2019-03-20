@@ -1,4 +1,5 @@
 /* jshint jquery: true */
+/* global checkFieldCount */
 'use strict';
 
 $(function() {
@@ -31,6 +32,8 @@ function updateFields() {
         $('.output-end').html('');
     }
     $('.paper_field').html(innerHtml);
+
+    checkFieldCount();
 }
 
 function updateFonts(e) {
