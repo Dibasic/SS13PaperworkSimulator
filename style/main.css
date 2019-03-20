@@ -142,7 +142,7 @@ body {
     display: flex;
 }
 
-#settings-dialog .input-field label {
+#settings-dialog .input-field label, #settings-dialog .input-field select {
     flex-grow: 1;
 }
 
