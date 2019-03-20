@@ -17,11 +17,11 @@ $(function() {
         var target = $(e.target);
         var targetSelect = target.parent();
 
-        $('.controlgroup .control').css('-webkit-transition', 'none');
-        $('.controlgroup .control').css('-moz-transition', 'none');
-        $('.controlgroup .control').css('-ms-transition', 'none');
-        $('.controlgroup .control').css('-o-transition', 'none');
-        $('.controlgroup .control').css('transition', 'none');
+        $('*').css('-webkit-transition', 'background-color 0.5s, color 0.5s');
+        $('*').css('-moz-transition', 'background-color 0.5s, color 0.5s');
+        $('*').css('-ms-transition', 'background-color 0.5s, color 0.5s');
+        $('*').css('-o-transition', 'background-color 0.5s, color 0.5s');
+        $('*').css('transition', 'background-color 0.5s, color 0.5s');
 
         for (var i = 0; i < $('#theme-select option').length; ++i) {
             var option = $('#theme-select option')[i];
@@ -30,11 +30,11 @@ $(function() {
         $('body').addClass(targetSelect.val());
 
         setTimeout(function() {
-            $('.controlgroup .control').css('-webkit-transition', '');
-            $('.controlgroup .control').css('-moz-transition', '');
-            $('.controlgroup .control').css('-ms-transition', '');
-            $('.controlgroup .control').css('-o-transition', '');
-            $('.controlgroup .control').css('transition', '');
+            $('*').css('-webkit-transition', '');
+            $('*').css('-moz-transition', '');
+            $('*').css('-ms-transition', '');
+            $('*').css('-o-transition', '');
+            $('*').css('transition', '');
         }, 300);
     });
 });
