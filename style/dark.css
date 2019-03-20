@@ -8,7 +8,7 @@
     border-color: #3f3f3f;
 }
 
-.dark-theme #template, .dark-theme .ui-menu-item-wrapper {
+.dark-theme #template, .dark-theme .ui-menu-item-wrapper, .dark-theme select {
     background-color: black;
     color: white;
 }

@@ -13,12 +13,15 @@ $(function() {
     $('#pen-checkbox').click(updateFields);
     $('#filled-checkbox').click(updateFields);
 
-    $('#dark-theme-checkbox').click(function() {
-        if ($('#dark-theme-checkbox').is(':checked')) {
-            $('body').addClass('dark-theme');
-        } else {
-            $('body').removeClass('dark-theme');
+    $('#theme-select option').click(function(e) {
+        var target = $(e.target);
+        var targetSelect = target.parent();
+
+        for (var i = 0; i < $('#theme-select option').length; ++i) {
+            var option = $('#theme-select option')[i];
+            $('body').removeClass($(option).val());
         }
+        $('body').addClass(targetSelect.val());
     });
 });
 
