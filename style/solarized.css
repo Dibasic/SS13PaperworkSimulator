@@ -62,3 +62,9 @@
 .solarized-theme b, .solarized-theme h1, .solarized-theme h2, .solarized-theme h3, .solarized-theme h4, .solarized-theme h5 {
     color: #93a1a1;
 }
+
+.solarized-theme .ui-state-highlight, .solarized-theme .ui-state-highlight b {
+    color: #586e75;
+    background-color: #b58900;
+    border-color: #b58900;
+}
