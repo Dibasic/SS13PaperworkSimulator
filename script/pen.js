@@ -149,6 +149,7 @@ function processText(str) {
         .replaceAll('[eclogo]', '<img src = ./img/eclogo.png>')
         .replaceAll('[daislogo]', '<img src = ./img/daislogo.png>')
         .replaceAll('[xynlogo]', '<img src = ./img/xynlogo.png>')
+        .replaceAll('[ocielogo]', '<img src = ./img/ocielogo.png>')
 
         .replaceAll('[editorbr]', '')
     );
