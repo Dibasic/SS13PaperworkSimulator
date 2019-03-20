@@ -13,6 +13,8 @@
     <script type="text/javascript" src="script/templates.js"></script>
     <link rel="stylesheet" type="text/css" href="script/jquery-ui-1.12.1.custom/jquery-ui.min.css"/>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
+    <link rel="stylesheet" type="text/css" href="style/dark.css"/>
+    <link rel="stylesheet" type="text/css" href="style/solarized.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
@@ -183,6 +185,14 @@
                 <option value="#1c1713">Fancy</option>
             </select>
             <i class="fa fa-question-circle has-tooltip" title="affects text color"></i>
+        </div>
+        <div class="input-field">
+            <label for="dark-theme-checkbox">UI theme</label>
+            <select id="theme-select">
+                <option value="" selected>Default (light)</option>
+                <option value="solarized-theme" selected>Solarized (dark)</option>
+                <option value="dark-theme" selected>Black (high contrast)</option>
+            </select>
         </div>
     </div>
     <div id="credits-dialog" title="Contributors">
