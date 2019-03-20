@@ -1,0 +1,64 @@
+.solarized-theme {
+    background-color: #05262e;
+    color: #839496;
+}
+
+.solarized-theme #menu {
+    background-color: #073642;
+    border-color: #93a1a1;
+}
+
+.solarized-theme #template, .solarized-theme .ui-menu-item-wrapper, .solarized-theme select {
+    background-color: #073642;
+    color: #839496;
+}
+.solarized-theme .ui-menu-item-wrapper:hover {
+    background-color: #0b4d5e;
+}
+
+.solarized-theme #input, .solarized-theme #output {
+    background-color: #002b36;
+    color: #839496;
+    border-color: #93a1a1;
+    box-shadow: -6px -6px 16px #1f1f1f inset;
+}
+
+.solarized-theme #menu > legend {
+    background-color: #073642;
+    color: #839496;
+}
+
+.solarized-theme .control, .solarized-theme .control:focus {
+    background-color: #073642;
+    color: #839496;
+}
+.solarized-theme .control:hover {
+    background-color: #0b4d5e;
+}
+
+.solarized-theme .ui-dialog {
+    background-color: #05262e;
+    color: #839496;
+    box-shadow: 3px 3px 8px black;
+}
+.solarized-theme .ui-dialog-titlebar, .solarized-theme .ui-dialog-titlebar-close {
+    background-color: #073642;
+    color: #839496;
+    border: none;
+}
+
+.solarized-theme .input-field {
+    color: #839496;
+}
+
+.solarized-theme #credits, .solarized-theme .ui-widget-content a {
+    color: #839496;
+}
+
+.solarized-theme i {
+    color: #586e75;
+}
+
+.solarized-theme b, .solarized-theme h1, .solarized-theme h2, .solarized-theme h3, .solarized-theme h4, .solarized-theme h5 {
+    color: #93a1a1;
+}
