@@ -5,6 +5,8 @@
 var yearmod = 288;
 
 $(document).ready(function () {
+
+    hideWarning();
     $('#year').html(getYear());
 
     $('#input').bind('input change', run);
@@ -19,6 +21,10 @@ $(document).ready(function () {
 
     $('.has-tooltip').tooltip();
 
+    setKeyBindings();
+});
+
+function setKeyBindings() {
     var justAdded = false;
     $(document).keyup(function(e) {
         if (e.ctrlKey) {
@@ -70,7 +76,7 @@ $(document).ready(function () {
             }
         }
     });
-});
+}
 
 function run() {
     $('#output').html(processText($('#input').val()));
@@ -86,6 +92,7 @@ String.prototype.replaceAll = function(strReplace, strWith) {
 };
 
 function processText(str) {
+
     str = (
         str
         .replaceAll('&', '&amp;') // Has to happen before other escaping, else it messes them up
@@ -145,6 +152,7 @@ function processText(str) {
 
         .replaceAll('[editorbr]', '')
     );
+
     str += '<span class="output-end"></span>';
 
     return str;
@@ -243,4 +251,30 @@ function addBlock(type) {
             console.warn('Could not setCaretToPos, unsupported browser!');
         }
     }
+}
+
+function checkFieldCount() {
+    var fieldCount = $('span.paper_field').length;
+    var fieldWarningShown = $('#warning').is(':visible');
+
+    var showFieldWarning = (fieldCount > 50);
+
+    if (showFieldWarning) {
+        showWarning('Your document has <b>' + fieldCount + '</b> fields. Only <b>50</b> fields are allowed. You may need to remove fields or format for multiple pages.')
+    }
+    else if (fieldWarningShown) {
+        hideWarning();
+    }
+}
+
+function showWarning(html) {
+    $('#warningText').html(html);
+    $('#wrapper').css('height', 'calc(100vh - 9em)');
+    $('#warning').show();
+}
+
+function hideWarning() {
+    $('#warningText').html('');
+    $('#wrapper').css('height', 'calc(100vh - 7em)');
+    $('#warning').hide();
 }

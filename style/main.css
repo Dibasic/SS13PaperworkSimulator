@@ -207,6 +207,16 @@ span.sig {
     font-size: 1.2rem;
 }
 
+/* warning and error styling */
+#warning {
+    padding: 4px;
+    margin: 4px 0 2px 0;
+    border-radius: 3px;
+}
+#warningText {
+    padding-left: 6px;
+}
+
 /* flexbox formatting for credits */
 #credits, .credits-section, .credits-row {
     display: flex;
