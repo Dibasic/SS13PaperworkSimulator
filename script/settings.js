@@ -34,6 +34,31 @@ function updateFields() {
 }
 
 function updateFonts(e) {
+    var target = $(e.target); // The clicked <option>
+    var targetSelect = target.parent(); // The <select> of the target
+    var otherSelect = findOther(); // The other <select>
+
+    if (target.text() === 'Fancy') { // We're switching to a Fancy pen or color
+        // Switch both to Fancy
+        $('#pen-style-select').val('Segoe Script, sans-serif');
+        $('#pen-color-select').val('#1c1713');
+
+    } else if(otherSelect.find('option:selected').text() === 'Fancy') { // Switching away from Fancy
+        // Make the other not Fancy
+        otherSelect[0].selectedIndex = 0;
+    }
+
+    // Apply the new styling to the output
     $('#output').css('font-family', $('#pen-style-select').val());
     $('#output').css('color', $('#pen-color-select').val());
+
+    function findOther() {
+        if ($('#pen-style-select')[0] === targetSelect[0]) {
+            return $('#pen-color-select');
+        }
+        if ($('#pen-color-select')[0] === targetSelect[0]) {
+            return $('#pen-style-select');
+        }
+        console.error('Could not deduce `other` in updateFonts');
+    }
 }
