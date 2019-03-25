@@ -33,7 +33,7 @@ Vessel/Station Performed: [field]
 Name: [field]
 Signature: [field]
 Organization: [field]
-Rank: [field]
+Rank (If Applicable): [field]
 
 Chief Medical Officer on Shift: [field]
 Organization: [field]
