@@ -1,4 +1,3 @@
-/* jshint browser: true, jquery: true, devel: true */
 /* exported checkFieldCount */
 /* global loadFile, updateFields */
 'use strict';
