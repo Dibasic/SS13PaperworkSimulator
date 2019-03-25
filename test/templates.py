@@ -1,5 +1,10 @@
 import json, os
 
+# Make sure we're in the expected directory
+# Ubuntu and Windows act differently here
+if os.getcwd().upper().endswith('SS13PAPERWORKSIMULATOR'):
+    os.chdir('test')
+
 DATA = {}
 
 with open('../templates/index.json') as json_data:

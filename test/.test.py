@@ -2,9 +2,9 @@ import os, subprocess
 
 FAILED = False
 
-cwd = os.getcwd()
-
-if cwd.upper().endswith('SS13PAPERWORKSIMULATOR'):
+# Make sure we're in the expected directory
+# Ubuntu and Windows act differently here
+if os.getcwd().upper().endswith('SS13PAPERWORKSIMULATOR'):
     os.chdir('test')
 
 print(os.listdir())
