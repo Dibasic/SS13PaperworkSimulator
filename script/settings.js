@@ -40,6 +40,9 @@ $(function() {
             $('.controlgroup .control').css('-o-transition', '');
             $('.controlgroup .control').css('transition', '');
         }, 300);
+
+        // Update fonts the easy way - simulate selecting the current color
+        $('#pen-color-select option:selected').click();
     });
 });
 
@@ -71,14 +74,19 @@ function updateFonts(e) {
         $('#pen-style-select').val('Segoe Script, sans-serif');
         $('#pen-color-select').val('#1c1713');
 
-    } else if(otherSelect.find('option:selected').text() === 'Fancy') { // Switching away from Fancy
+    }
+    else if (otherSelect.find('option:selected').text() === 'Fancy') { // Switching away from Fancy
         // Make the other not Fancy
         otherSelect[0].selectedIndex = 0;
     }
 
-    // Apply the new styling to the output
-    $('#output').css('font-family', $('#pen-style-select').val());
-    $('#output').css('color', $('#pen-color-select').val());
+    if ($('#pen-color-select option:selected').text() === 'Invisible') { // We're switching to invisible ink
+        let newColor = $('#output').css('background-color');
+        setStyle($('#pen-style-select').val(), newColor);
+    }
+    else {
+        setStyle($('#pen-style-select').val(), $('#pen-color-select').val());
+    }
 
     function findOther() {
         if ($('#pen-style-select')[0] === targetSelect[0]) {
@@ -88,5 +96,11 @@ function updateFonts(e) {
             return $('#pen-style-select');
         }
         console.error('Could not deduce `other` in updateFonts');
+    }
+
+    // Apply the new styling to the output
+    function setStyle(style, color) {
+        $('#output').find('*').css('font-family', style);
+        $('#output').find('*').css('color', color);
     }
 }
