@@ -1,5 +1,6 @@
 {
     "browser": true,
     "devel": true,
+    "globalstrict": true,
     "jquery": true
 }
