@@ -15,7 +15,6 @@ def is_valid(obj):
         return file_exists(obj)
         
 def file_exists(path):
-    print(path, os.path.isfile(f'../templates/{path}'))
     return os.path.isfile(f'../templates/{path}')
 
 exit_code = 0
