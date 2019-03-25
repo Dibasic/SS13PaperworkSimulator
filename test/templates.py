@@ -18,7 +18,7 @@ def is_valid(obj):
         return valid
     elif isinstance(obj, str):
         result = file_exists(obj)
-        print(f'> {obj} : {result}')
+        print(f'> {obj} exists : {result}')
         return result
         
 def file_exists(path):

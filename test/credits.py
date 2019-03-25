@@ -14,63 +14,77 @@ def is_valid(obj):
     valid = True
     check = isinstance(DATA[0], dict)
     valid = valid and check
-    print(f'> credits[0], dict : {check}')
+    print(f'> credits[0] exists and is type dict : {check}')
+
     check = isinstance(DATA[0]['title'], str)
     valid = valid and check
-    print(f'> credits[0]["title"], str : {check}')
+    print(f'> credits[0]["title"] exists and is type str : {check}')
+
     check = isinstance(DATA[0]['columns'], int)
     valid = valid and check
-    print(f'> credits[0]["columns"], int : {check}')
+    print(f'> credits[0]["columns"] exists and is type int : {check}')
+
     check = isinstance(DATA[0]['credits'], list)
     valid = valid and check
-    print(f'> credits[0]["credits"], list : {check}')
+    print(f'> credits[0]["credits"] exists and is type list : {check}')
+
     for credit in DATA[0]['credits']:
         check = valid_credit(credit)
         valid = valid and check
+
         print(f'> credit : {check}')
     check = isinstance(DATA[1], dict)
     valid = valid and check
-    print(f'> credits[1], dict : {check}')
+    print(f'> credits[1] exists and is type dict : {check}')
+
     check = isinstance(DATA[1]['title'], str)
     valid = valid and check
-    print(f'> credits[1]["title"], str : {check}')
+    print(f'> credits[1]["title"] exists and is type str : {check}')
+
     check = isinstance(DATA[1]['columns'], int)
     valid = valid and check
-    print(f'> credits[1]["columns"], int : {check}')
+    print(f'> credits[1]["columns"] exists and is type int : {check}')
+
     check = isinstance(DATA[1]['credits'], list)
     valid = valid and check
-    print(f'> credits[1]["credits"], list : {check}')
+    print(f'> credits[1]["credits"] exists and is type list : {check}')
+
     for credit in DATA[1]['credits']:
         check = isinstance(credit, str)
         valid = valid and check
-        print(f'> credit, str : {check}')
+        print(f'> > {credit} is type str : {check}')
+
     check = isinstance(DATA[2], dict)
     valid = valid and check
-    print(f'> credits[2], dict : {check}')
+    print(f'> credits[2] exists and is type dict : {check}')
+
     check = isinstance(DATA[2]['title'], str)
     valid = valid and check
-    print(f'> credits[2]["title"], str : {check}')
+    print(f'> credits[2]["title"] exists and is type str : {check}')
+
     check = isinstance(DATA[2]['columns'], int)
     valid = valid and check
-    print(f'> credits[2]["columns"], int : {check}')
+    print(f'> credits[2]["columns"] exists and is type int : {check}')
+
     check = isinstance(DATA[2]['credits'], list)
     valid = valid and check
-    print(f'> credits[2]["credits"], list : {check}')
+    print(f'> credits[2]["credits"] exists and is type list : {check}')
+
     for credit in DATA[2]['credits']:
         check = isinstance(credit, str)
         valid = valid and check
-        print(f'> credit, str : {check}')
+        print(f'> > credit exists and is type str : {check}')
     return valid
 
 def valid_credit(obj):
     valid = True
     check = isinstance(obj['_name'], str)
     valid = valid and check
-    print(f'> obj["_name"], str : {check}')
-    for key in [key for key in obj.keys() if key is not '_name']:
+    print(f'> > _name exists and is type str : {check}')
+    for key in [key for key in obj.keys() if not key.startswith('_')]:
         check = isinstance(obj[key], str)
         valid = valid and check
-        print(f'> obj[key], str : {check}')
+        print(f'> > {obj["_name"]}[{key}] is type str : {check}')
     return valid
 exit_code = 0
 
