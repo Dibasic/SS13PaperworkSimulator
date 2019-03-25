@@ -63,14 +63,14 @@
     },
     "Security": {
         "Arrest Report": "security/arrest_report.txt",
-		"Hot Sheet": "security/hot_sheet.txt",
-		"Incident Report": "security/incident_report.txt",
+        "Hot Sheet": "security/hot_sheet.txt",
+        "Incident Report": "security/incident_report.txt",
         "Patrol Assignment": "security/patrol_assignment.txt",
-		"Patrol Assignment (Alternate)": "security/patrol_assignment2.txt",
+        "Patrol Assignment (Alternate)": "security/patrol_assignment2.txt",
         "POI Watchlist": "security/personnel_watchlist.txt",
-		"POI Watchlist (Alternate)": "security/personnel_watchlist2.txt",
-		"SECARM Inventory": "security/secarm_inventory.txt",
-		"Shift Report": "security/shift_report.txt"
+        "POI Watchlist (Alternate)": "security/personnel_watchlist2.txt",
+        "SECARM Inventory": "security/secarm_inventory.txt",
+        "Shift Report": "security/shift_report.txt"
     },
     "Supply": {
         "Docked Vessel": "supply/docked_vessel.txt",
