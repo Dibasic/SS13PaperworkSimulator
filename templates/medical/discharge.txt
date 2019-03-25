@@ -1,0 +1,12 @@
+[logo]
+[u][center]Discharge from Medical Bay[/center][/u]
+
+The discharged: [field]
+Was treated in the medical bay for: [field]
+Discharge date: [date]
+Discharge reason: [field]
+
+[hr][b]Treating Doctor[/b]: [field]
+[b]Signature[/b]: [field]
+[b]Date[/b]: [field]
+[hr]
