@@ -53,6 +53,7 @@
     },
     "Medical": {
         "Autopsy Report": "medical/autopsy.txt",
+        "Autopsy Report (Alternate)": "medical/autopsy2.txt",
         "Cyborgification Waiver": "medical/cyborgification.txt",
         "Blood Donation": "medical/blood_donation.txt",
         "Prescription": "medical/prescription.txt",
