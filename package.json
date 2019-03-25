@@ -3,6 +3,6 @@
         "jshint": "^2.6.0"
     },
     "scripts": {
-        "test": "./node_modules/jshint/bin/jshint js"
+        "test": "jshint **.js"
     }
 }
