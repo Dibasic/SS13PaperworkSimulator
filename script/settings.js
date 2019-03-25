@@ -98,6 +98,8 @@ function updateFonts(e) {
 
     // Apply the new styling to the output
     function setStyle(style, color) {
+        $('#output').css('font-family', style);
+        $('#output').css('color', color);
         $('#output').find('*').css('font-family', style);
         $('#output').find('*').css('color', color);
     }
