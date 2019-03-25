@@ -24,12 +24,12 @@ if len(images) < 4:
 else:
     for i in images:
         exists = os.path.isfile(i)
-        print(f'{i} exists : {exists}')
+        print(f'> {i} exists : {exists}')
         FAILED = FAILED or not exists
 
 exit_code = 0
 
 if FAILED:
     exit_code = 1
-    
+
 exit(exit_code)
