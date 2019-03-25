@@ -2,6 +2,8 @@ import os, subprocess
 
 FAILED = False
 
+print(os.listdir())
+
 tests = [t for t in os.listdir() if t.endswith('.py') and not t.startswith('.')]
 
 for test in tests:
