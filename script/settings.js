@@ -1,4 +1,3 @@
-/* jshint jquery: true */
 /* global checkFieldCount */
 'use strict';
 
@@ -81,8 +80,7 @@ function updateFonts(e) {
     }
 
     if ($('#pen-color-select option:selected').text() === 'Invisible') { // We're switching to invisible ink
-        let newColor = $('#output').css('background-color');
-        setStyle($('#pen-style-select').val(), newColor);
+        setStyle($('#pen-style-select').val(), $('#output').css('background-color'));
     }
     else {
         setStyle($('#pen-style-select').val(), $('#pen-color-select').val());

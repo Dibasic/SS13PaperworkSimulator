@@ -1,4 +1,4 @@
-/* jshint browser: true, devel: true, jquery: true, unused: false */
+/* exported loadFile */
 /* global run */
 'use strict';
 

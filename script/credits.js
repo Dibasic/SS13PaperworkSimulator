@@ -1,4 +1,3 @@
-/* jshint browser: true, jquery: true */
 'use strict';
 
 var CREDITS_TAGS;
