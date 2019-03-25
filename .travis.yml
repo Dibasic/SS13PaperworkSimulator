@@ -7,4 +7,4 @@ matrix:
       python:
         - 3.6
       script:
-        - python test/meta.py
+        - python test/.test.py
