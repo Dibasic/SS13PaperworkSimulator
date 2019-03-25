@@ -1,11 +1,11 @@
 /* jshint browser: true, jquery: true, devel: true */
+/* exported checkFieldCount */
 /* global loadFile, updateFields */
 'use strict';
 
 var yearmod = 288;
 
 $(document).ready(function () {
-
     hideWarning();
     $('#year').html(getYear());
 
@@ -261,7 +261,7 @@ function checkFieldCount() {
     var showFieldWarning = (fieldCount > 50);
 
     if (showFieldWarning) {
-        showWarning('Your document has <b>' + fieldCount + '</b> fields. Only <b>50</b> fields are allowed. You may need to remove fields or format for multiple pages.')
+        showWarning('Your document has <b>' + fieldCount + '</b> fields. Only <b>50</b> fields are allowed. You may need to remove fields or format for multiple pages.');
     }
     else if (fieldWarningShown) {
         hideWarning();

@@ -1,4 +1,4 @@
-/* jshint jquery: true */
+/* jshint jquery: true, devel: true */
 /* global checkFieldCount */
 'use strict';
 
