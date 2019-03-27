@@ -17,4 +17,4 @@ Request Issuer's Signature: [field]
 Recipient's Signature: [field]
 Issuing Authority's Signature: [field]
 
-[center]Stamp below if Approved[/center][hr]
+[center]Stamp below if Approved[/center][hr][/small]

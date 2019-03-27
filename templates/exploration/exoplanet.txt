@@ -16,6 +16,6 @@
 [u]Items Retrieved:[/u] [field][/table]
 [table][cell][u]Observations:[/u] [field][/table][/center]
 [/table]
-[table][cell][i]Reporting Personnel Signature: [field][/table][/center]
+[table][cell][i]Reporting Personnel Signature: [field][/i][/table][/center]
 [hr]
 [center][i][small]On completion of this form and form approval, the Research Director should fax the form to both the NanoTrasen Liaison and the Commanding Officer, as well as keep a carbon copy on file in their Office.[/small][/i][/center][/table][/center]

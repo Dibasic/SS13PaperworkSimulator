@@ -16,7 +16,7 @@
 [row][cell][b][field][/b][cell][field][cell][field][cell][field]
 [row][cell][b][field][/b][cell][field][cell][field][cell][field]
 [row][cell][b][field][/b][cell][field][cell][field][cell][field]
-[/table][/i][/small][br][br][hr][h3]Booking Checklist[/h3]
+[/table][br][br][hr][h3]Booking Checklist[/h3]
 [b]Booking Officer: [/b][field][br]
 [table][row][cell][b]Escape Risk[/b][cell][field]
 [row][cell][b]Suicide Risk[/b][cell][field]

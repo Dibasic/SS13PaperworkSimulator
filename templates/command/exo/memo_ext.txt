@@ -14,4 +14,4 @@ Body:
 Authorizing Signature:
 [field]
 
-[center]Stamp below if Approved[/center][hr]
+[center]Stamp below if Approved[/center][hr][/small]

@@ -13,4 +13,4 @@
 [hr]
 [b]Additional Comments: [/b][field]
 
-[b]Signed: [/b][field]
+[b]Signed: [/b][field][/small]

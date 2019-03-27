@@ -20,4 +20,4 @@ To be shipped and delivered directly to the employee's next of kin without delay
 [hr]
 Signature: [field]
 
-[center]Stamp below if Approved[/center][hr]
+[center]Stamp below if Approved[/center][hr][/small]

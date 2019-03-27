@@ -31,4 +31,4 @@ Name: [field]
 Position: [field]
 Signature: [field]
 
-[center]Stamp below if Approved[/center][hr]
+[center]Stamp below if Approved[/center][hr][/small]

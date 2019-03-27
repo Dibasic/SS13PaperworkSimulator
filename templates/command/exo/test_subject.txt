@@ -27,4 +27,4 @@ Corporate Representative's Signature:
 Volunteer's Signature:
 [field]
 
-[center]Stamp below if Approved[/center][hr]
+[center]Stamp below if Approved[/center][hr][/small]
