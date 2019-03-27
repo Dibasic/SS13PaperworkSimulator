@@ -12,80 +12,47 @@ with open('../credits.json') as json_data:
 
 def is_valid(obj):
     valid = True
-    check = isinstance(DATA[0], dict)
-    valid = valid and check
-    print(f'> credits[0] exists and is type dict : {check}')
 
-    check = isinstance(DATA[0]['title'], str)
-    valid = valid and check
-    print(f'> credits[0]["title"] exists and is type str : {check}')
-
-    check = isinstance(DATA[0]['columns'], int)
-    valid = valid and check
-    print(f'> credits[0]["columns"] exists and is type int : {check}')
-
-    check = isinstance(DATA[0]['credits'], list)
-    valid = valid and check
-    print(f'> credits[0]["credits"] exists and is type list : {check}')
+    valid = valid and check(DATA[0], 'credits[0]', dict)
+    valid = valid and check(DATA[0]['title'], 'credits[0]["title"]', str)
+    valid = valid and check(DATA[0]['columns'], 'credits[0]["columns"]', int)
+    valid = valid and check(DATA[0]['credits'], 'credits[0]["credits"]', list)
 
     for credit in DATA[0]['credits']:
-        check = valid_credit(credit)
-        valid = valid and check
+        valid = valid and check(credit, 'dev credit', dict, indents=2)
+        is_valid = valid_credit(credit)
+        valid = valid and is_valid
+        print(f'> > > dev credit is properly formed : {is_valid}')
 
-        print(f'> credit : {check}')
-    check = isinstance(DATA[1], dict)
-    valid = valid and check
-    print(f'> credits[1] exists and is type dict : {check}')
-
-    check = isinstance(DATA[1]['title'], str)
-    valid = valid and check
-    print(f'> credits[1]["title"] exists and is type str : {check}')
-
-    check = isinstance(DATA[1]['columns'], int)
-    valid = valid and check
-    print(f'> credits[1]["columns"] exists and is type int : {check}')
-
-    check = isinstance(DATA[1]['credits'], list)
-    valid = valid and check
-    print(f'> credits[1]["credits"] exists and is type list : {check}')
+    valid = valid and check(DATA[1], 'credits[1]', dict)
+    valid = valid and check(DATA[1]['title'], 'credits[1]["title"]', str)
+    valid = valid and check(DATA[1]['columns'], 'credits[1]["columns"]', int)
+    valid = valid and check(DATA[1]['credits'], 'credits[1]["credits"]', list)
 
     for credit in DATA[1]['credits']:
-        check = isinstance(credit, str)
-        valid = valid and check
-        print(f'> > {credit} is type str : {check}')
+        valid = valid and check(credit, '{:24}'.format(str(credit)), str, indents=2)
 
-    check = isinstance(DATA[2], dict)
-    valid = valid and check
-    print(f'> credits[2] exists and is type dict : {check}')
-
-    check = isinstance(DATA[2]['title'], str)
-    valid = valid and check
-    print(f'> credits[2]["title"] exists and is type str : {check}')
-
-    check = isinstance(DATA[2]['columns'], int)
-    valid = valid and check
-    print(f'> credits[2]["columns"] exists and is type int : {check}')
-
-    check = isinstance(DATA[2]['credits'], list)
-    valid = valid and check
-    print(f'> credits[2]["credits"] exists and is type list : {check}')
+    valid = valid and check(DATA[2], 'credits[2]', dict)
+    valid = valid and check(DATA[2]['title'], 'credits[2]["title"]', str)
+    valid = valid and check(DATA[2]['columns'], 'credits[2]["columns"]', int)
+    valid = valid and check(DATA[2]['credits'], 'credits[2]["credits"]', list)
 
     for credit in DATA[2]['credits']:
-        check = isinstance(credit, str)
-        valid = valid and check
-        print(f'> > credit exists and is type str : {check}')
+        valid = valid and check(credit, f'credit "{str(credit)[:24]}..."', str, indents=2)
     return valid
 
 def valid_credit(obj):
     valid = True
-    check = isinstance(obj['_name'], str)
-    valid = valid and check
-    print(f'> > _name exists and is type str : {check}')
+    valid = valid and check(obj['_name'], '_name', str, indents=2)
     for key in [key for key in obj.keys() if not key.startswith('_')]:
-        check = isinstance(obj[key], str)
-        valid = valid and check
-        print(f'> > {obj["_name"]}[{key}] is type str : {check}')
+        valid = valid and check(obj[key], f'{obj["_name"]}["{key}""]', str, indents=3)
     return valid
+
+def check(obj, name, t, indents = 1):
+    check = isinstance(obj, t)
+    print(f'{"> "*indents}{name} exists and is type {t.__name__}: {check}')
+    return check
+
 exit_code = 0
 
 if not is_valid(DATA):
