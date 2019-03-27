@@ -1,21 +1,28 @@
-[center][solcrest]
-[small][i]SEV Torch Expeditions[/i][/small]
-[table][cell]
-[center][table][cell][center][large][b]Exoplanet Report: [field][/b][/large][/center]
+[center][eclogo]
+
+[large][b]SEV Torch
+
+Exoplanet Report: [field]
+[/b][/large][/center]
 [hr]
-[small][center][i]The following is to be filled out by members of a Expedition team after an Expedition to an uncharted Exoplanet.[/center][/i][/small]
-[/table][table][cell]
-[center][table][cell][u]Location:[/u] [field][cell][u]Date:[/u] [date]
-[cell][u]Personnel Involved:[/u] [field][/table]
-[table][cell][u]Atmospheric Information:[/u] [field]
+[small][i]The following is to be filled out by members of a Expedition team after an Expedition to an uncharted Exoplanet.[/i][/small]
+
+[u]Location:[/u] [field]
+[u]Date:[/u] [date]
+[cell][u]Personnel Involved:[/u] [field]
+
+[u]Atmospheric Information:[/u] [field]
 [u]Terrain Information:[/u] [field]
-[u]Habitable:[/u] [field][/table]
-[table][cell][u]Existence of Fauna[/u] [field]
-[u]Existence of Flora[/u] [field][/table]
-[table][cell][u]Materials/Tools Used:[/u] [field]
-[u]Items Retrieved:[/u] [field][/table]
-[table][cell][u]Observations:[/u] [field][/table][/center]
-[/table]
-[table][cell][i]Reporting Personnel Signature: [field][/i][/table][/center]
+[u]Habitable:[/u] [field]
+
+[u]Existence of Fauna[/u] [field]
+[u]Existence of Flora[/u] [field]
+
+[u]Materials/Tools Used:[/u] [field]
+[u]Items Retrieved:[/u] [field]
+
+[u]Observations:[/u] [field]
+
+[u]Reporting Personnel Signature: [field][/u]
 [hr]
-[center][i][small]On completion of this form and form approval, the Research Director should fax the form to both the NanoTrasen Liaison and the Commanding Officer, as well as keep a carbon copy on file in their Office.[/small][/i][/center][/table][/center]
+[i][small]On completion of this form and form approval, the Research Director should fax the form to both the corporate liason and the commanding officer and should keep a carbon copy on file.[/small][/i]

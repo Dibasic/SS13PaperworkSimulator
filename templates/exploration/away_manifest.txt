@@ -1,12 +1,13 @@
-[center][solcrest]
-[small][i]SEV Torch Expeditions[/i][/small]
-[table][cell]
-[center][table][cell][center][large][b]Away Mission Manifest [field][/b][/large][/center]
+[center][eclogo]
+
+[large][b]SEV Torch
+
+Away Mission Manifest: [field]
+[/b][/large][/center]
 [hr]
-[small][center][i]The following is to be filled out by members of a Expedition team in order to keep an accurate count of members for record keeping purposes[/center][/i][/small]
-[/table][table][cell]
-[center]
-[table][cell][u]Expeditionary Team Leader:[/u] [field]
+[small][i]The following is to be completed by members of an expedition team in order to keep an accurate crew manifest for record keeping purposes.[/i][/small]
+
+[u]Expeditionary Team Leader:[/u] [field]
 [u]Expeditionary Deputy Leader:[/u] [field]
 [u]Member:[/u] [field]
 [u]Member:[/u] [field]
