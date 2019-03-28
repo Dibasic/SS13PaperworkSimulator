@@ -1,5 +1,4 @@
-
-import json, io, os, regex
+import colors, datetime, json, io, os, regex
 
 PEN_TAGS = 'b', 'i', 'u', 'h1', 'h2', 'h3', 'large', 'small', 'list', 'table', 'grid', 'center'
 
@@ -21,19 +20,23 @@ def all_file_paths(obj):
 
 # Returns the contents of each file as a single line
 def file_content(filename):
-    with open(filename, 'r') as file:
+    with open('../templates/' + filename, 'r') as file:
         return '[br]'.join([line.strip('\n') for line in file.readlines()])
 
 def all_files_are_valid(files):
     valid = True
     for f in files:
-        print(f'> checking {f}')
+        print(f'>     checking {f} ...')
         content = file_content(f)
         if all_tag_counts_match(content):
+            print('> >   Tag counts look good. Beginning recursive search...')
+            start = datetime.datetime.now()
             for t in all_matching_tags(file_content(f)):
                 value = valid and all_tag_counts_match(t)
+            end = datetime.datetime.now()
+            print(f'> >   Recursive search completed for {f} in {(end - start).total_seconds()}s')
         else:
-            print('> > Not continuing with recursive search.')
+            print('> >   Not continuing with recursive search.')
 
 def all_tag_counts_match(text):
     # This function should just substring_is_valid on the whole string and on each matching tag pair.
@@ -58,7 +61,7 @@ def all_tag_counts_match(text):
 #       [b]and bold[/b]
 #
 def all_matching_tags(pencode):
-    print('> > checking', '{:60}'.format(pencode[:60]), '...')
+    # print('> > checking', '{:60}'.format(pencode[:60]), '...')
     result = []
     # https://stackoverflow.com/q/55400898/11015366
     for match in REGEX_OUTER_TAGS.finditer(pencode):
@@ -84,7 +87,7 @@ def tag_counts_match(text, tag):
     closing = text.count(f'[/{tag}]')
     check = opening == closing
     if not check:
-        print(f'> > > This pencode has {opening} [{tag}] and {closing} [/{tag}]: {text}')
+        print(f'{colors.color("! ! ! ", fg="red")}This pencode has {opening} [{tag}] and {closing} [/{tag}]: {text}')
     return check
 
 def main():
@@ -97,7 +100,7 @@ def main():
     with open('../templates/index.json') as json_data:
         data = json.load(json_data)
 
-    files = ['../templates/' + path for path in all_file_paths(data)]
+    files = all_file_paths(data)
 
     return 0 if all_files_are_valid(files) else 1
 

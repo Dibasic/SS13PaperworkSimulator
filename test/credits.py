@@ -1,4 +1,4 @@
-import json, os
+import colors, json, os
 
 # Make sure we're in the expected directory
 # Ubuntu and Windows act differently here
@@ -13,6 +13,8 @@ with open('../credits.json') as json_data:
 def is_valid(obj):
     valid = True
 
+    print('> Checking first section of credits, devs')
+
     valid = valid and check(DATA[0], 'credits[0]', dict)
     valid = valid and check(DATA[0]['title'], 'credits[0]["title"]', str)
     valid = valid and check(DATA[0]['columns'], 'credits[0]["columns"]', int)
@@ -21,8 +23,11 @@ def is_valid(obj):
     for credit in DATA[0]['credits']:
         valid = valid and check(credit, 'dev credit', dict, indents=2)
         is_valid = valid_credit(credit)
+        if not is_valid:
+            print(f'{colors.color("! ! ! ", fg="red")}dev credit is not properly formed: {credit["_name"]}')
         valid = valid and is_valid
-        print(f'> > > dev credit is properly formed : {is_valid}')
+
+    print('> Checking second section of credits, template contributors')
 
     valid = valid and check(DATA[1], 'credits[1]', dict)
     valid = valid and check(DATA[1]['title'], 'credits[1]["title"]', str)
@@ -30,7 +35,9 @@ def is_valid(obj):
     valid = valid and check(DATA[1]['credits'], 'credits[1]["credits"]', list)
 
     for credit in DATA[1]['credits']:
-        valid = valid and check(credit, '{:24}'.format(str(credit)), str, indents=2)
+        valid = valid and check(credit, str(credit), str, indents=2)
+
+    print('> Checking third section of credits, other')
 
     valid = valid and check(DATA[2], 'credits[2]', dict)
     valid = valid and check(DATA[2]['title'], 'credits[2]["title"]', str)
@@ -50,7 +57,8 @@ def valid_credit(obj):
 
 def check(obj, name, t, indents = 1):
     check = isinstance(obj, t)
-    print(f'{"> "*indents}{name} exists and is type {t.__name__}: {check}')
+    if not check:
+        print(f'{colors.color("! "*indents, fg="red")}{name} exists and is type {t.__name__}: {check}')
     return check
 
 exit_code = 0
