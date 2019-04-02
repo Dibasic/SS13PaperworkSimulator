@@ -1,4 +1,4 @@
-[b]Autopsy Report[/b][/center]
+[b]Autopsy Report[/b]
 [b]Name of Deceased:[/b] [field]
 [b]Time of Death:[/b] [date] [field]
 [b]Time of Retrieval:[/b] [field]

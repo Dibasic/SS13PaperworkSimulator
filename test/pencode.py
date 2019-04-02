@@ -1,6 +1,7 @@
 import json, io, os
 
-PEN_TAGS = 'b', 'i', 'u', 'h1', 'h2', 'h3', 'large', 'small', 'list', 'table', 'grid'
+MATCHING_TAGS = 'b', 'i', 'u', 'h1', 'h2', 'h3', 'large', 'small', 'list', 'table', 'grid'
+PATTERN_RECURSIVE_PAIRS = r'\[(' + '|'.join(MATCHING_TAGS) + r')\](?:((?!\[\/\1\]).)*?|(?R))*\[\/\1\]' # \[(b|i|u|h1|h2|h3|large|small|list|table|grid)\](?:((?!\[\/\1\]).)*?|(?R))*\[\/\1\]
 
 def child_values(obj):
     if isinstance(obj, dict):
@@ -20,10 +21,11 @@ def is_valid(items):
     for file in items:
         print(f'> checking {file}')
         value = valid and text_is_valid(items[file])
+    return valid
 
 def text_is_valid(text):
     valid = True
-    for tag in PEN_TAGS:
+    for tag in MATCHING_TAGS:
         check = is_matching(text, tag)
         valid = valid and check
         if not check:

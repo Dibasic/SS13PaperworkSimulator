@@ -1,4 +1,4 @@
-[center][eclogo][/center][hr][hr][h3]SCGEC FORM UF301a: PREFLIGHT CHECKLIST - SINGLE-SEAT CRAFT, SMALL SPACECRAFT OR OTHER BOAT[/h3][/center][hr][hr][grid][row][cell][b]DATE[/b][cell]: [date]
+[center][eclogo][/center][hr][hr][h3]SCGEC FORM UF301a: PREFLIGHT CHECKLIST - SINGLE-SEAT CRAFT, SMALL SPACECRAFT OR OTHER BOAT[/h3][hr][hr][grid][row][cell][b]DATE[/b][cell]: [date]
 [row][cell][b]LOCAL TIME[/b][cell]: [time] 
 [row][cell][b]CRAFT[/b][cell]: [field]
 [row][cell][b]SHIP[/b][cell]: SEV TORCH
