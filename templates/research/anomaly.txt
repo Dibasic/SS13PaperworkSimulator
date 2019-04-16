@@ -1,12 +1,12 @@
-[i][b][center] Anomalistic Object Report [/i][/b][/center]
+[center][i][b] Anomalistic Object Report [/b][/i][/center]
 
 [center][logo][/center]
 
 [center][b] AO Codename:[/b][field][/center]
 
-[center][b] Reporting Scientist: [field] [/center][/b]
-[br]
-[center][b] Overviewing Research Director: [field] [/center][/b]
+[center][b] Reporting Scientist:[/b] [field] [/center]
+
+[center][b] Overviewing Research Director:[/b] [field] [/center]
 
 [center][b]Containment Procedures[/b][/center]
 
