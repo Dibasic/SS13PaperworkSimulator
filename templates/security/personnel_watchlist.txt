@@ -8,3 +8,4 @@
 [hr][h3]Instructions Regarding Crew POIs[/h3][small][i]For interactions with POIs[/i][/small]
 Increase priority in monitoring the listed crew due to the nature of their interest, avoiding the possibility of them becoming aware of the hightened surveillance. [b]Under no circumstance must the POI become aware of their surveillance status.[/b]
 [sign]
+[/center]

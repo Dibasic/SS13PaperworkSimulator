@@ -1,4 +1,4 @@
-[center][solcrest][h1]Arrest Report[/h1][field]
+[center][solcrest][h1]Arrest Report[/h1][field][/center]
 [i]Revision [date] - [time][/i]
 [b]Offense/Incident Type: [/b][field]
 [b]Location: [/b][field]

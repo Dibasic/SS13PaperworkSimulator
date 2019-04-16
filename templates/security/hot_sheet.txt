@@ -3,7 +3,7 @@ NOT FOR PUBLIC DISSEMINATION[/i][/small][hr][solcrest][b]
 SEV Torch Security Department
 [large]Hot Sheet[/large][/b]
 [i]Revision [date] - [time][/i]
-[hr][center][small][b]Persons Requiring Special Attention:[/b][/small][table]
+[hr][small][b]Persons Requiring Special Attention:[/b][/small][table]
 [row][cell][b]Name[/b][cell][b]Rank[/b][cell][b]Job[/b][cell][b]Details[/b]
 [row][cell][field][cell][b][field][/b][cell][field][cell][field]
 [row][cell][field][cell][b][field][/b][cell][field][cell][field]
@@ -23,4 +23,4 @@ SEV Torch Security Department
 [row][cell][field][cell][field]
 [row][cell][field][cell][field]
 [row][cell][field][cell][field][/table][hr][small][i]LEO/S - LAW ENFORCEMENT USE ONLY
-NOT FOR PUBLIC DISSEMINATION[/i][/small][hr]
+NOT FOR PUBLIC DISSEMINATION[/i][/small][hr][/center]
