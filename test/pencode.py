@@ -28,7 +28,9 @@ def all_files_are_valid(files):
     for f in files:
         print(f'>     checking {f} ...')
         content = file_content(f)
-        if all_tag_counts_match(content):
+        check = all_tag_counts_match(content)
+        valid = valid and check
+        if check:
             print('> >   Tag counts look good. Beginning recursive search...')
             start = datetime.datetime.now()
             for t in all_matching_tags(file_content(f)):
