@@ -37,6 +37,7 @@ def all_files_are_valid(files):
             print(f'> >   Recursive search completed for {f} in {(end - start).total_seconds()}s')
         else:
             print('> >   Not continuing with recursive search.')
+    return valid
 
 def all_tag_counts_match(text):
     # This function should just substring_is_valid on the whole string and on each matching tag pair.
