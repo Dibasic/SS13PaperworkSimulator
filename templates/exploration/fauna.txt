@@ -1,20 +1,28 @@
-[center][solcrest]
-[small][i]SEV Torch Expeditions[/i][/small]
-[table][cell]
-[center][table][cell][center][large][b]Alien Fauna Report: [field][/b][/large][/center]
-[hr]
-[small][center][i]The following is to be filled out by members of a Expedition team after discovery and study of new Alien Life[/center][/i][/small]
-[/table][table][cell]
-[center][table][cell][u]Location:[/u] [field][cell][u]Date:[/u] [date]
-[cell][u]Personnel Involved:[/u] [field][/table]
-[table][cell][u]Anatomy/Appearance:[/u] [field]
-[u]Locomotion:[/u] [field]
-[u]Diet:[/u] [field][/table]
-[table][cell][u]Habitat:[/u] [field]
-[u]Homeworld:[/u] [field][/table]
-[table][cell][u]Behavior:[/u] [field]
-[u]Defense/Offense:[/u] [field][/table]
-[table][cell][u]Special Characteristic(s):[/u] [field]
-[u]Classification:[/u] [field][/table]
+[center][eclogo]
 
-[center][i][small]On completion of this form and form approval, the Research Director should fax the form to both the Corporate Liaison and the Commanding Officer, as well as keep a carbon copy on file in their Office alongside the relevant Exoplanet File[/small][/i][/center][/table][/center]
+[large][b]SEV Torch
+
+Alien Fauna Report: [field]
+[/b][/large][/center]
+[hr]
+[small][i]The following is to be filled out by members of a Expedition team after discovery and study of new alien life.[/i][/small]
+
+[u]Location:[/u] [field]
+[u]Date:[/u] [date]
+
+[u]Personnel Involved:[/u] [field]
+
+[u]Anatomy/Appearance:[/u] [field]
+[u]Locomotion:[/u] [field]
+
+[u]Diet:[/u] [field]
+[u]Habitat:[/u] [field]
+[u]Homeworld:[/u] [field]
+
+[u]Behavior:[/u] [field]
+[u]Defense/Offense:[/u] [field]
+[u]Special Characteristics:[/u] [field]
+
+[u]Classification:[/u] [field]
+
+[i][small]On completion of this form and form approval, the Research Director should fax the form to both the corporate liaison and the commanding officer and should keep a carbon copy on file alongside any relevant exoplanet file.[/small][/i]

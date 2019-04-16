@@ -1,7 +1,7 @@
 [center][solcrest][logo][/center]
-[large][i][center]SEV Torch - Office of the Executive Officer[/i][/center][br]
+[large][i][center]SEV Torch - Office of the Executive Officer[/center][/i][br]
 [small][center]YOUR RANK YOUR NAME[/center][/small]
-[center][b][i]Crew Access Modification Application - AMA-SGF02[/b][/i][/center][/large]
+[center][b][i]Crew Access Modification Application - AMA-SGF02[/i][/b][/center][/large]
 [hr][br]
 
 [small]Print your full ID name, and rank and branch, if applicable.[/small][br]

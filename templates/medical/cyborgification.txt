@@ -1,7 +1,7 @@
 [center][b]Cyborgification Contract[/b][br]
 Name: [field][br]
 Rank: [field][br]
-[b][i]SolGov Expeditionary Corps - SEV Torch[/b][/i][/center][hr]
+[b][i]SolGov Expeditionary Corps - SEV Torch[/i][/b][/center][hr]
 I, undersigned, hereby agree to willingly undergo a Regulation Lobotimization with intention of cyborgification or AI assimilation, and I am aware of all the consequences of such act. I also understand that this operation may be irreversible, and that my employment contract will be terminated.[hr]
 Signature of Subject: [field][br][br]
 Signature of Captain or Commanding Officer: [field][br][br]

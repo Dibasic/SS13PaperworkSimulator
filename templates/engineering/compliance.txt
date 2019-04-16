@@ -8,34 +8,34 @@ This is a certificate of compliance for the [field] department/area/deck/ of the
 [b]Department inspected: [/b] [field]
 
 [b]Department essentials checked:[/b]
-[i][small]This field is for any essential equipment inside the department/area, this includes APC’s, Fire Alarms, Intercoms and anything else deemed essential.[/i][/small]
+[i][small]This field is for any essential equipment inside the department/area, this includes APC’s, Fire Alarms, Intercoms and anything else deemed essential.[/small][/i]
 [field]
 [br]Notes:
 [field]
 
 [b]Department machinery checked:[/b]
-[i][small]This field is for any machinery used by the department/area, such as an autolathe.[/i][/small]
+[i][small]This field is for any machinery used by the department/area, such as an autolathe.[/small][/i]
 [field]
 [br]Notes:
 [field]
 
 [b]Department modular computers checked: [/b]
-[i][small]This field is for any modular computers in the department/area, this does not include any department specific computers[/i][/small]
+[i][small]This field is for any modular computers in the department/area, this does not include any department specific computers[/small][/i]
 [field] 
 [br]Notes:
 [field]
 
 [b]Department vendors checked: [/b]
-[i][small] This field is for anything in the department/area that vends items.[/i][/small]
+[i][small] This field is for anything in the department/area that vends items.[/small][/i]
 [field]
 [br] Notes:
 [field]
 
 [hr]
 Inspection conducted by[small] see below[/small]  with the time of completion being [field]. 
-[i][small] Your Signature Here:[/i][/small] [field]
-[i][small] Your Rank Here:[/i][/small] [field]
-[i][small] Your Rating Here:[/i][/small] [field]
+[i][small] Your Signature Here:[/small][/i] [field]
+[i][small] Your Rank Here:[/small][/i] [field]
+[i][small] Your Rating Here:[/small][/i] [field]
 
 [hr]
 [large] Inspection Result:[/large] [field]

@@ -1,6 +1,6 @@
 [center][logo]
 [small]SEV Torch - Expeditionary Corps Organisation[br]
-Corporate Sales Contract and Receipt HR-ECOCO-04[/center]
+Corporate Sales Contract and Receipt HR-ECOCO-04[/small][/center]
 [hr]
 [b]Product Information[/b]
 

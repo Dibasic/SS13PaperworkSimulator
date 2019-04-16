@@ -20,4 +20,4 @@ Reason for Rejection:
 [[field]] Project Cancellation
 [[field]] Other
 
-[center]Stamp below if Approved[/center][hr]
+[center]Stamp below if Approved[/center][hr][/small]

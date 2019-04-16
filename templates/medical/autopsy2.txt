@@ -1,6 +1,6 @@
 [hr]
 [center][solcrest]
-[large][b]SCG MEDICAL SERVICES[/large]
+[b][large]SCG MEDICAL SERVICES[/large]
 AUTOPSY REPORT[/b][/center]
 [hr]
 [center]PATIENT INFORMATION[/center]

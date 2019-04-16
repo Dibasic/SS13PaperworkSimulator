@@ -1,5 +1,5 @@
 [center][logo]
-[b][large]Xenoflora Genetics Report[/large][b][/center][hr]
+[b][large]Xenoflora Genetics Report[/large][/b][/center][hr]
 
 The following table contains the Genetic Identifier and purpose of the Xenofloral genes as identified by [u][field][/u] in the Xenobotanical Labratory aboard the SEV Torch on [u][date][/u].
 

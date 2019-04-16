@@ -1,5 +1,5 @@
-[b]Autopsy Report[/b][/center]
-[small][b]Name of Deceased:[/b] [field]
+[b]Autopsy Report[/b]
+[b]Name of Deceased:[/b] [field]
 [b]Time of Death:[/b] [date] [field]
 [b]Time of Retrieval:[/b] [field]
 [hr][i][small]Do not leave any section blank. For any section that does not apply, fill in N/A.[/small][/i]
