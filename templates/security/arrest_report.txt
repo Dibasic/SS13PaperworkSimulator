@@ -26,5 +26,7 @@
 [row][cell][b]Advised of Rights[/b][cell][field]
 [row][cell][b]Prisoner Searched[/b][cell][field]
 [row][cell][b]Provided an Opportunity for Statement[/b][cell][field]
+[/table]
 [hr][small]BRIG OFFICER MUST STAMP OR SIGN THIS DOCUMENT
-ATTACH ALL RELEVANT DOCUMENTS TO THIS ARREST REPORT[/small][hr]
+ATTACH ALL RELEVANT DOCUMENTS TO THIS ARREST REPORT[/small]
+[hr]
