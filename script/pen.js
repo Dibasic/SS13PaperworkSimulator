@@ -146,6 +146,7 @@ function processText(str) {
         .replaceAll('[iccgseal]', '<img src = ./img/terralogo.png>')
         .replaceAll('[logo]', '<img src = ./img/torchltd.png>')
         .replaceAll('[eclogo]', '<img src = ./img/eclogo.png>')
+        .replaceAll('[fleetlogo]', '<img src = ./img/fleetlogo.png>')
         .replaceAll('[daislogo]', '<img src = ./img/daislogo.png>')
         .replaceAll('[xynlogo]', '<img src = ./img/xynlogo.png>')
         .replaceAll('[ocielogo]', '<img src = ./img/ocielogo.png>')
