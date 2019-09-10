@@ -208,6 +208,21 @@ span.sig {
     font-size: 1.2rem;
 }
 
+/* [fontred] */
+mark.fontred {
+    color: red;
+}
+
+/* [fontgreen] */
+mark.fontgreen {
+    color: green;
+}
+
+/* [fontblue] */
+mark.fontblue {
+    color: blue;
+}
+
 /* warning and error styling */
 #warning {
     padding: 4px;

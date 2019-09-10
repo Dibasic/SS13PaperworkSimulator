@@ -98,7 +98,15 @@ function processText(str) {
         .replaceAll('<', '&lt;')
         .replaceAll('>', '&gt;')
         .replaceAll('\n', '<BR>')
-        
+
+        // Digital tags
+        .replaceAll('[pre]', '<pre>')
+        .replaceAll('[/pre]', '</pre>')
+        .replaceAll('[fontred]', '<mark class="fontred">')
+        .replaceAll('[fontgreen]', '<mark class="fontgreen">')
+        .replaceAll('[fontblue]', '<mark class="fontblue">')
+        .replaceAll('[/font]', '</mark>')
+
         .replaceAll('[center]', '<center>')
         .replaceAll('[/center]', '</center>')
 
