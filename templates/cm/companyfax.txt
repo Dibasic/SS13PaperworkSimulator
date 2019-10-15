@@ -1,7 +1,7 @@
 [center][wy]
-[small][b]Corporate. Special Services Division[/b][/center]
+[small][b]Corporate. Special Services Division[/b][/small][/center]
 
-Form 435
+[small]Form 435
 Liaison Operations Report[hr]Facility: USS Almayer
 Index: [field]
 Date: [field]
