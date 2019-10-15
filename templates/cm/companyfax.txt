@@ -1,8 +1,8 @@
-[center][logo]
+[center][uscm]
 [small][b]Corporate. Special Services Division[/b][/center]
 
 Form 435
-Liaison Operations Report[/center][hr]Facility: USS Almayer
+Liaison Operations Report[hr]Facility: USS Almayer
 Index: [field]
 Date: [field]
 
