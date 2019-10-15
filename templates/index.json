@@ -80,5 +80,9 @@
     },
     "Service": {
         "Kosher Certificate": "service/kosher.txt"
+    },
+    "CM-SS13": {
+        "W-Y Company Fax": "cm/companyfax.txt",
+        "High Command Fax": "cm/commandfax.txt"
     }
 }
