@@ -1,4 +1,5 @@
-[small][center][b]United States Colonial Marine Corps.[/b]
+[center][uscm]
+[small][b]United States Colonial Marine Corps.[/b]
 
 
 Form X342
@@ -14,4 +15,4 @@ To: USCMC High Command - Missions Director
 
 Subject: [field][list][field][/list][hr]
 
-Signature: [field][/small]
+Signature: [field][/small][/center]
