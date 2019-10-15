@@ -1,7 +1,6 @@
 content:
   - templates/**/*
 meta:
-  - ./.*
   - ./.github/**/*
 tests:
   - test/**/*
