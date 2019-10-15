@@ -15,4 +15,4 @@ To: USCMC High Command - Missions Director
 
 Subject: [field][list][field][/list][hr]
 
-Signature: [field][/small][/center]
+Signature: [field][/small]
