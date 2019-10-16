@@ -4,9 +4,9 @@
 
 Form X342
 
-Situation Report[/center][hr]
+Situation Report[/small][/center][hr]
 
-Facility: USS Almayer
+[small]Facility: USS Almayer
 
 Date: [field]
 
