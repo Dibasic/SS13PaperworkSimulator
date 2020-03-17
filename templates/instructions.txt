@@ -115,8 +115,8 @@ xynlogo
 iccgseal
 [iccgseal]
 
-ocielogo
-[ocielogo]
+sfplogo
+[sfplogo]
 
 wy
 [wy]

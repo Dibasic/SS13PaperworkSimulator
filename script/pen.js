@@ -157,7 +157,7 @@ function processText(str) {
         .replaceAll('[fleetlogo]', '<img src = ./img/fleetlogo.png>')
         .replaceAll('[daislogo]', '<img src = ./img/daislogo.png>')
         .replaceAll('[xynlogo]', '<img src = ./img/xynlogo.png>')
-        .replaceAll('[ocielogo]', '<img src = ./img/ocielogo.png>')
+        .replaceAll('[sfplogo]', '<img src = ./img/sfplogo.png>')
         .replaceAll('[uscm]', '<img src = ./img/uscmlogo.png>')
         .replaceAll('[wy]', '<img src = ./img/wylogo.png>')
 

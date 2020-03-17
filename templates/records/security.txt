@@ -30,9 +30,9 @@ Hostile/Covert Actions Against the Crew
 Threat Level: Very Low
 Agent Notes: [i]See above.[/i]
  
-[i]The point of contact for this matter will be Supervisory Agent First Last at the OCIE Territory Support Division headquarters in Alpha Centauri.[/i]
+[i]The point of contact for this matter will be Supervisory Agent First Last at the SFP Territory Support Division headquarters in Alpha Centauri.[/i]
  
-[b]FROM:[/b] Supervisory Agent First Last, OCIE-TSD Alpha Centauri
+[b]FROM:[/b] Supervisory Agent First Last, SFP-TSD Alpha Centauri
 [b]DATE:[/b] YYYY-MM-DD
 
 [hr]
