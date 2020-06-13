@@ -3,15 +3,15 @@
 
 [hr]
 [B][table][row][cell]BOOKING OFFICER [CELL]  ITEM NAME [CELL]REFERENCE NUMBER [CELL] LABELED WITH REFERENCE [CELL]LOCKER NUMBER
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO  [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO  [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO  [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO  [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO  [CELL]
-[ROW] [CELL] [CELL] [CELL] [CELL]YES/NO  [CELL] [/table] [/b]
+[ROW] [CELL] [field][CELL][field] [CELL] [field][CELL][field] [CELL][field]
+[ROW] [CELL][field] [CELL][field] [CELL][field] [CELL][field]  [CELL][field]
+[ROW] [CELL][field] [CELL][field] [CELL][field] [CELL][field] [CELL][field]
+[ROW] [CELL][field] [CELL] [field][CELL] [field][CELL][field] [CELL][field]
+[ROW] [CELL][field] [CELL][field] [CELL][field] [CELL][field]  [CELL] [field]
+[ROW] [CELL] [field][CELL][field] [CELL] [field][CELL][field] [CELL] [field]
+[ROW] [CELL] [field][CELL][field] [CELL] [field][CELL][field]  [CELL] [field]
+[ROW] [CELL] [field][CELL][field] [CELL] [field][CELL][field]  [CELL] [field]
+[ROW] [CELL] [field][CELL] [field][CELL] [field][CELL][field] [CELL][field]
+[ROW] [CELL] [field][CELL] [field][CELL] [field][CELL][field]  [CELL] [field][/table] [/b]
 [small] [i] A reminder that: in the event you must cross something out, please remember to use only a single straight line struck through the centre of the word
 
