@@ -81,6 +81,10 @@
     "Service": {
         "Kosher Certificate": "service/kosher.txt"
     },
+    "Admin": {
+        "EXCOM Automated Reply": "admin/excom_autoreply.txt",
+        "EXO Automated Reply": "admin/exo_autoreply.txt"
+    },
     "CM-SS13": {
         "W-Y Company Fax": "cm/companyfax.txt",
         "High Command Fax": "cm/commandfax.txt"
