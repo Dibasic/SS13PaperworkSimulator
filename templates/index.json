@@ -75,6 +75,7 @@
         "Shift Report": "security/shift_report.txt"
     },
     "Supply": {
+	"Supply Requisition Form": "supply/supply_requisition_form.txt",
         "Docked Vessel": "supply/docked_vessel.txt",
         "Special Requisition/Command Supply": "supply/uf102b_requisition_special.txt"
     },
